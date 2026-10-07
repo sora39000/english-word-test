@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#246653">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="ことばのノート">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="description" content="英単語を、少しずつ確かな力に。記述式テストと苦手問題の復習ができる学習ノート。">
+  <title>ことばのノート | 英単語テスト</title>
+  <link rel="icon" href="./icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="./apple-touch-icon.png">
+  <link rel="manifest" href="./manifest.webmanifest">
+  <link rel="stylesheet" href="./styles.css">
+  <script type="module" src="./app.js"></script>
+</head>
+<body>
+  <header class="site-header">
+    <a href="#" class="brand" id="brand"><span class="brand-icon" aria-hidden="true">N<span>•</span></span><span>ことばのノート<small>ENGLISH PRACTICE</small></span></a>
+    <nav aria-label="メインメニュー"><button id="nav-start" class="nav-button active" aria-current="page">テスト</button><button id="nav-stats" class="nav-button">学習状況</button></nav>
+  </header>
+  <main>
+    <p id="storage-warning" class="notice" role="status" hidden></p>
+    <p id="load-error" class="notice error" role="alert" hidden></p>
+    <section id="start-screen" aria-labelledby="start-title">
+      <div class="hero"><p class="eyebrow">A LITTLE PRACTICE, EVERY DAY</p><h1 id="start-title">ひとつずつ、<br>使える<span>ことば</span>に。</h1><p class="lede">思い出して、書いて、覚える。<br class="mobile-break">今日の英単語をはじめましょう。</p></div>
+      <div class="overview"><div><span>収録問題</span><strong id="total-words">—</strong><small>問</small></div><div><span>学習した問題</span><strong id="studied-words">—</strong><small>問</small></div><div><span>累計正答率</span><strong id="overall-rate">—</strong><small>%</small></div></div>
+      <div class="start-grid"><section class="card settings" aria-labelledby="settings-title"><div class="section-heading"><span class="step-number">01</span><h2 id="settings-title">今日のテスト</h2><span class="badge">記述式</span></div>
+        <label for="range">出題範囲</label><select id="range" disabled><option value="all">全範囲</option></select>
+        <p id="range-note" class="hint">CSVを読み込んでいます…</p>
+        <fieldset><legend>問題数</legend><div class="count-options" id="count-options"><label><input type="radio" name="count" value="10" checked><span>10問</span></label><label><input type="radio" name="count" value="20"><span>20問</span></label><label><input type="radio" name="count" value="30"><span>30問</span></label><label><input type="radio" name="count" value="50"><span>50問</span></label><label><input type="radio" name="count" value="all"><span>全問題</span></label></div></fieldset>
+        <button id="start-normal" class="primary wide" disabled>通常テストをはじめる <span aria-hidden="true">→</span></button>
+        <button id="start-weak" class="secondary wide" disabled>苦手問題を練習する</button><p id="weak-note" class="hint center">学習すると、苦手問題を復習できます。</p>
+      </section><aside class="study-note"><p class="eyebrow">MAKE IT A HABIT</p><h2>覚えるまで、<br>何度でも。</h2><ol><li><span>01</span><div><strong>英単語を思い出す</strong><p>英文と日本語をヒントに、<br>空欄に入る単語を入力。</p></div></li><li><span>02</span><div><strong>その場で答え合わせ</strong><p>採点後はEnterでも次へ。<br>間違えても、それが学びに。</p></div></li><li><span>03</span><div><strong>苦手を少しずつ減らす</strong><p>記録に合わせて復習。<br>昨日より確かな一語を。</p></div></li></ol><div class="note-bottom">YOUR OWN PACE, YOUR OWN PROGRESS.</div></aside></div>
+    </section>
+    <section id="test-screen" hidden aria-labelledby="test-title">
+      <div class="screen-heading"><div><p class="eyebrow" id="test-mode">PRACTICE</p><h1 id="test-title" tabindex="-1">今日のテスト</h1></div><button id="quit-test" class="text-button">中断する</button></div>
+      <div class="test-meta"><strong id="position"></strong><span id="live-score"></span></div><progress id="progress" value="0" max="10" aria-label="採点済みの問題数"></progress>
+      <section class="card question-card"><p class="eyebrow" id="question-index"></p><h2 id="question" class="question-text"></h2>
+        <form id="answer-form"><label for="answer">空欄に入る英単語</label><input id="answer" type="text" placeholder="英単語を入力" autocomplete="off" autocapitalize="none" autocorrect="off" spellcheck="false" inputmode="text" enterkeyhint="done" aria-describedby="answer-hint feedback"><p id="answer-hint" class="hint">大文字・小文字、前後の空白は区別しません。</p>
+        <div id="feedback" class="feedback" role="status" aria-live="polite" hidden></div><div class="test-actions"><button id="grade" type="submit" class="primary">採点する</button><button id="next" type="button" class="secondary" disabled>次へ →</button></div></form>
+      </section><p class="hint center">Enterで採点 → もう一度Enterで次へ。空欄で採点すると不正解になります。</p>
+    </section>
+    <section id="result-screen" hidden aria-labelledby="result-title"><p class="eyebrow">PRACTICE COMPLETE</p><h1 id="result-title" tabindex="-1">おつかれさまでした。</h1><p class="lede" id="result-message"></p><div class="card result-card"><div><p class="hint">今回の得点</p><p class="score"><strong id="result-score"></strong><span id="result-total"></span></p></div><div class="result-numbers"><p>正答率 <strong id="result-rate"></strong></p><p>同じ問題数の最高点 <strong id="result-best"></strong></p></div></div><div class="result-actions"><button id="retry-wrong" class="primary">間違えた問題だけ再テスト</button><button id="retry" class="secondary">もう一度</button><button id="new-test" class="text-button">新しいテスト</button></div><h2 class="list-title">間違えた問題 <span id="wrong-count" class="badge"></span></h2><div id="wrong-list" class="review-list"></div><details class="correct-review"><summary id="correct-summary">正解した問題</summary><div id="correct-list" class="review-list"></div></details></section>
+    <section id="stats-screen" hidden aria-labelledby="stats-title"><p class="eyebrow">YOUR PROGRESS</p><h1 id="stats-title" tabindex="-1">積み重ねが、力になる。</h1><p class="lede">この端末での学習記録</p><div id="stats-grid" class="stats-grid"></div><section class="card"><h2>テストの最高点</h2><p class="hint">完了したテストを、実際に出題した問題数ごとに集計。範囲・モードは共通です。</p><div id="best-list" class="best-list"></div></section><h2 class="list-title">苦手単語 <span id="weak-count" class="badge"></span></h2><p class="hint">回答済み・正答率80%未満の単語を、正答率の低い順に表示します。</p><div id="weak-list" class="review-list"></div><details class="correct-review"><summary>すべての単語の記録</summary><div id="all-records" class="review-list"></div></details><p class="storage-note">記録はこの端末・ブラウザに保存されます。PCとiPhone間の同期はありません。ブラウザのデータを削除すると記録も消えます。</p></section>
+    <noscript><p class="notice">このアプリを使うにはJavaScriptを有効にしてください。</p></noscript>
+  </main><footer><span>ことばのノート</span><span>小さな積み重ねを、毎日に。</span></footer>
+  <div id="quit-dialog" class="dialog-backdrop" hidden><section class="card quit-dialog" role="dialog" aria-modal="true" aria-labelledby="quit-title" aria-describedby="quit-description"><h2 id="quit-title">テストを中断しますか？</h2><p id="quit-description" class="hint">採点済みの単語の記録は残りますが、このテストの最高点は記録されません。</p><div class="test-actions"><button id="cancel-quit" class="primary">テストを続ける</button><button id="confirm-quit" class="secondary">中断する</button></div></section></div>
+</body></html>
