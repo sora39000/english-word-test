@@ -1,5 +1,9 @@
 # ことばのノート — 英単語テスト
 
+**スマホで使う：[英単語テストを開く](https://sora39000.github.io/english-word-test/)**
+
+iPhoneのSafariで上のリンクを開けば使えます。PCやPowerShellを起動しておく必要はありません。共有メニューの「ホーム画面に追加」で、次回からアイコンを押して開けます。
+
 大学の英単語学習用の、記述式Webアプリです。HTML・CSS・JavaScriptだけで動き、無料のGitHub Pagesに置けます。データベース、APIキー、ログイン、npmパッケージのインストールは不要です。PCでCSVを更新し、公開URLをiPhoneのSafariから開いて使います。
 
 ## 1. ファイルを確認する
@@ -124,7 +128,7 @@ word-practice/
 6. Settings → Pagesに公開URLが表示されます。通常は `https://あなたのユーザー名.github.io/english-word-test/` の形です。
 7. そのURLをiPhoneのSafariで開きます。
 
-URLの例は実際の公開URLではありません。この納品物は公開できる状態のファイル一式で、GitHubアカウント上への公開操作はまだ行っていません。
+このアプリはGitHub Pagesへ公開済みです。実際の公開URLは https://sora39000.github.io/english-word-test/ です。上の手順は、別のリポジトリへ配置する場合の説明です。
 
 公式手順：[GitHub Pagesの公開元を設定する](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site)
 
@@ -177,3 +181,4 @@ Safariで公開URLを開き、共有メニューから「ホーム画面に追�
 | PCの記録がiPhoneに出ない | 端末間同期はないため正常。同じスマホ・ブラウザで継続する |
 
 自動検証を実行する場合は、フォルダー内で `node --test tests/core.test.mjs` を実行します。現在のCSVの整合性チェックに加え、100〜200問へ増えたときの出題ロジックなども検証できます。問題追加後も、テストやアプリのコードを変更する必要はありません。
+
