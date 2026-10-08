@@ -4,6 +4,10 @@ const $ = id => document.getElementById(id);
 const key = `kotoba-note:v1:${location.pathname.replace(/index\.html$/, '').replace(/\/$/, '')}`;
 let words = [], hasIndex = false, progress = freshProgress(), canSave = true;
 let session = null, screen = 'start', pendingNavigation = null, quitTrigger = null;
+const testName = first => {
+  const number = Math.floor((first - 1) / 50) + 1;
+  return `英単語テスト${number <= 20 ? String.fromCodePoint(0x2460 + number - 1) : `（${number}）`}`;
+};
 const percent = n => n === null ? '—' : String(Math.round(n * 100));
 const warnStorage = message => { $('storage-warning').textContent = message; $('storage-warning').hidden = false; };
 try { progress = readProgress(localStorage.getItem(key)); }
@@ -74,7 +78,7 @@ function start(mode, options = {}) {
   if (!chosen.length) { show('start'); return; }
   session = { config, questions: chosen, cursor: 0, answers: [], graded: false, finished: false };
   const blocks = [...new Set(chosen.map(word => Math.floor((word.index - 1) / 50) * 50 + 1))];
-  $('test-title').textContent = blocks.length === 1 ? `${blocks[0]}〜${blocks[0] + 49}のテスト` : '全範囲のテスト';
+  $('test-title').textContent = blocks.length === 1 ? testName(blocks[0]) : '全範囲のテスト';
   $('test-mode').textContent = config.fixed ? 'REVIEW / 間違えた問題の復習' : config.mode === 'weak' ? 'FOCUS / 苦手問題テスト' : 'PRACTICE / 通常テスト';
   show('test', false); renderQuestion();
 }
@@ -205,9 +209,9 @@ async function init() {
     catch { throw new Error('CSVをUTF-8で読み込めません。Excelなどで「CSV UTF-8」として保存してください。'); }
     ({ words, hasIndex } = loadWords(text));
     const latest = latestRangeStart(words);
-    const ranges = [['latest', `最新の範囲：${latest}〜${latest + 49}`]];
+    const ranges = [['latest', `${testName(latest)}（最新）`]];
     const buckets = [...new Set(words.map(w => Math.floor((w.index - 1) / 50) * 50 + 1))].sort((a, b) => a - b);
-    ranges.push(...buckets.map(n => [String(n), `${n}〜${n + 49}（${words.filter(w => w.index >= n && w.index < n + 50).length}問）`]));
+    ranges.push(...buckets.map(n => [String(n), `${testName(n)}（${words.filter(w => w.index >= n && w.index < n + 50).length}問）`]));
     ranges.push(['all', '全範囲を混ぜる'], ['wrong', '全範囲の間違えた問題のみ（直近が不正解）']);
     $('range').replaceChildren(...ranges.map(([value, text]) => { const option = element('option', '', text); option.value = value; return option; }));
     $('range').value = 'latest';
