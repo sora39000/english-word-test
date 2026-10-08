@@ -1,4 +1,4 @@
-# ことばのノート — 英単語テスト
+# WORD UP — 英単語テスト
 
 **スマホで使う：[英単語テストを開く](https://sora39000.github.io/english-word-test/)**
 
@@ -18,7 +18,7 @@ word-practice/
 ├── core.js                 CSV解析・採点・出題ロジック
 ├── words.csv               ★ 更新する問題データ（添付の文.csvのコピー）
 ├── icon.svg                ブラウザ用アイコン
-├── apple-touch-icon.png    iPhoneのホーム画面用アイコン
+├── word-up-icon.png    iPhoneのホーム画面用アイコン
 ├── manifest.webmanifest    ホーム画面表示の設定
 ├── .nojekyll               静的ファイルとして公開する設定
 ├── serve.mjs               PC確認用の簡易サーバー
