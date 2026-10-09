@@ -17,6 +17,21 @@ function save() {
   try { localStorage.setItem(key, JSON.stringify(progress)); }
   catch { canSave = false; warnStorage('学習記録を保存できません。このページを閉じると今回の記録は失われます。ブラウザの保存設定や空き容量を確認してください。'); }
 }
+// Store the concrete bucket so adding a new CSV batch never moves the selection.
+const rangeKey = `${key}:selected-range`;
+function rememberRange() {
+  const selected = $('range').value;
+  const value = selected === 'latest' ? String(latestRangeStart(words)) : selected;
+  try { localStorage.setItem(rangeKey, value); }
+  catch { warnStorage('出題範囲を保存できません。ブラウザの保存設定や空き容量を確認してください。'); }
+}
+function restoreRange(buckets) {
+  let saved = null;
+  try { saved = localStorage.getItem(rangeKey); } catch {}
+  const valid = saved === 'all' || saved === 'wrong' || buckets.some(n => String(n) === saved);
+  $('range').value = valid ? saved : String(buckets[0]);
+  rememberRange();
+}
 function element(tag, className, text) {
   const el = document.createElement(tag);
   if (className) el.className = className;
@@ -166,7 +181,7 @@ function renderStats() {
   if (!weak.length) empty($('weak-list'), studied ? '今のところ苦手問題はありません。この調子で続けましょう。' : 'まずはテストを受けてみましょう。回答すると記録がたまります。');
   $('all-records').replaceChildren(...[...words].sort((a, b) => a.index - b.index).map(w => reviewCard(w)));
 }
-$('range').addEventListener('change', updateSettings);
+$('range').addEventListener('change', () => { rememberRange(); updateSettings(); });
 $('count-options').addEventListener('change', updateSettings);
 $('start-normal').addEventListener('click', () => start('normal'));
 $('start-weak').addEventListener('click', () => start('weak'));
@@ -214,7 +229,7 @@ async function init() {
     ranges.push(...buckets.map(n => [String(n), `${testName(n)}（${words.filter(w => w.index >= n && w.index < n + 50).length}問）`]));
     ranges.push(['all', '全範囲を混ぜる'], ['wrong', '全範囲の間違えた問題のみ（直近が不正解）']);
     $('range').replaceChildren(...ranges.map(([value, text]) => { const option = element('option', '', text); option.value = value; return option; }));
-    $('range').value = 'latest';
+    restoreRange(buckets);
     $('range').disabled = false;
     $('range').title = hasIndex ? 'CSVのindexで範囲を分けています。' : 'index列がないため、CSVのデータの行順で番号を付けています。';
     updateOverview(); updateSettings();
