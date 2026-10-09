@@ -299,3 +299,303 @@
 "100","50","Please keep the (  ) exit clear.
 非常口をふさがないようにしてください。
 ヒント：eで始まる9文字","emergency"
+"101","51","We need to (  ) the results before making a decision.
+決定する前に結果を分析する必要があります。
+ヒント：頭文字 a","analyze"
+"102","51","The software can (  ) large amounts of data quickly.
+そのソフトウェアは大量のデータを素早く分析できます。
+ヒント：頭文字 a","analyze"
+"103","52","The job requires considerable (  ) strength.
+その仕事にはかなりの体力が必要です。
+ヒント：頭文字 p","physical"
+"104","52","Keep a (  ) copy of the contract in a safe place.
+契約書の紙の現物を安全な場所に保管してください。
+ヒント：頭文字 p","physical"
+"105","53","The manager took time to (  ) the team for its hard work.
+マネージャーはチームの懸命な努力をほめるために時間を取りました。
+ヒント：頭文字 p","praise"
+"106","53","Teachers should (  ) students when they make progress.
+教師は生徒が進歩したときにほめるべきです。
+ヒント：頭文字 p","praise"
+"107","54","Visitors can (  ) the artists at work.
+来場者は制作中の芸術家たちを観察できます。
+ヒント：頭文字 o","observe"
+"108","54","Please (  ) the birds from a safe distance.
+安全な距離から鳥を観察してください。
+ヒント：頭文字 o","observe"
+"109","55","The restaurant has a (  ) for excellent service.
+そのレストランは優れたサービスで評判です。
+ヒント：頭文字 r","reputation"
+"110","55","One careless mistake can damage a company's (  ).
+一つの不注意なミスが会社の評判を傷つけることがあります。
+ヒント：頭文字 r","reputation"
+"111","56","Cost is only one (  ) of the decision.
+費用はその決定の一つの側面にすぎません。
+ヒント：頭文字 a","aspect"
+"112","56","The training covers every (  ) of customer service.
+その研修は顧客サービスのあらゆる側面を扱います。
+ヒント：頭文字 a","aspect"
+"113","57","Fresh paint improved the (  ) of the building.
+新しく塗装したことで建物の外観が良くなりました。
+ヒント：頭文字 a","appearance"
+"114","57","Employees should maintain a professional (  ).
+従業員は仕事にふさわしい身なりを保つべきです。
+ヒント：頭文字 a","appearance"
+"115","58","A guide will (  ) you during the factory tour.
+工場見学中はガイドが同行します。
+ヒント：頭文字 a","accompany"
+"116","58","Please ask someone to (  ) you to the appointment.
+予約の場所まで誰かに付き添ってもらってください。
+ヒント：頭文字 a","accompany"
+"117","59","The company offers a (  ) vacation allowance.
+その会社は手厚い休暇制度を設けています。
+ヒント：頭文字 g","generous"
+"118","59","Our host was very (  ) with her time.
+私たちを迎えてくれた女性は時間を惜しまず対応してくれました。
+ヒント：頭文字 g","generous"
+"119","60","The project requires a great deal of manual (  ).
+その事業には多くの手作業の労働が必要です。
+ヒント：頭文字 l","labor"
+"120","60","A shortage of skilled (  ) delayed construction.
+熟練労働者の不足で工事が遅れました。
+ヒント：頭文字 l","labor"
+"121","61","The workshop gave us (  ) advice.
+その講習会は私たちに貴重な助言を与えてくれました。
+ヒント：頭文字 v","valuable"
+"122","61","Keep your (  ) belongings in the hotel safe.
+貴重な所持品はホテルの金庫に保管してください。
+ヒント：頭文字 v","valuable"
+"123","62","The staff were (  ) helpful during our visit.
+私たちが訪問した際、職員は非常に親切に対応してくれました。
+ヒント：頭文字 e","extremely"
+"124","62","It is (  ) important to follow the safety rules.
+安全規則に従うことは極めて重要です。
+ヒント：頭文字 e","extremely"
+"125","63","The farmer tested the (  ) before planting.
+農家の人は植え付け前に土壌を検査しました。
+ヒント：頭文字 s","soil"
+"126","63","These plants grow well in moist (  ).
+これらの植物は湿った土壌でよく育ちます。
+ヒント：頭文字 s","soil"
+"127","64","The instructions are (  ) easy to follow.
+その説明は比較的簡単に理解して実行できます。
+ヒント：頭文字 r","relatively"
+"128","64","The station is (  ) close to our office.
+駅は私たちのオフィスから比較的近い場所にあります。
+ヒント：頭文字 r","relatively"
+"129","65","The new design should (  ) to younger customers.
+その新しいデザインは若い顧客の心を引きつけるはずです。
+ヒント：頭文字 a","appeal"
+"130","65","Flexible hours (  ) to many job applicants.
+柔軟な勤務時間は多くの求職者にとって魅力的です。
+ヒント：頭文字 a","appeal"
+"131","66","The students are (  ) to visit the laboratory.
+学生たちはその研究室を訪問することを熱望しています。
+ヒント：頭文字 e","eager"
+"132","66","She is (  ) for a chance to lead the project.
+彼女はその事業を率いる機会を強く望んでいます。
+ヒント：頭文字 e","eager"
+"133","67","The airport closed because of a severe (  ).
+激しい嵐のため空港は閉鎖されました。
+ヒント：頭文字 s","storm"
+"134","67","Several trees fell during the (  ).
+嵐の間に木が何本か倒れました。
+ヒント：頭文字 s","storm"
+"135","68","The meeting was canceled due to a (  ) of interest.
+関心が集まらなかったため、その会合は中止されました。
+ヒント：頭文字 l","lack"
+"136","68","A (  ) of space makes this office uncomfortable.
+スペース不足のため、このオフィスは居心地が良くありません。
+ヒント：頭文字 l","lack"
+"137","69","Clean water is (  ) for good health.
+清潔な水は健康に不可欠です。
+ヒント：頭文字 e","essential"
+"138","69","Previous experience is helpful but not (  ).
+経験があると役立ちますが、必須ではありません。
+ヒント：頭文字 e","essential"
+"139","70","The final price will (  ) the cost of shipping.
+最終価格には送料が反映されます。
+ヒント：頭文字 r","reflect"
+"140","70","These results (  ) the effort of the entire team.
+これらの結果はチーム全体の努力を反映しています。
+ヒント：頭文字 r","reflect"
+"141","71","Tall trees (  ) the small lake.
+高い木々がその小さな湖を囲んでいます。
+ヒント：頭文字 s","surround"
+"142","71","Security guards will (  ) the stage during the event.
+行事の間は警備員がステージを取り囲みます。
+ヒント：頭文字 s","surround"
+"143","72","We attended the lecture and had lunch (  ).
+私たちは講義に出席し、その後で昼食を取りました。
+ヒント：頭文字 a","afterward(s)"
+"144","72","Finish the form now; you can review it (  ).
+今用紙を記入してください。後で見直すことができます。
+ヒント：頭文字 a","afterward(s)"
+"145","73","Listen (  ) to the instructions before starting.
+始める前に説明を注意深く聞いてください。
+ヒント：頭文字 c","closely"
+"146","73","The two departments work (  ) together.
+その二つの部署は緊密に連携しています。
+ヒント：頭文字 c","closely"
+"147","74","She is looking for a (  ) position.
+彼女は常勤の職を探しています。
+ヒント：頭文字 p","permanent"
+"148","74","The museum has found a (  ) home for the collection.
+博物館はそのコレクションを常設する場所を見つけました。
+ヒント：頭文字 p","permanent"
+"149","75","You (  ) a break after all that hard work.
+あれだけ懸命に働いたのだから、あなたには休憩を取るだけの資格があります。
+ヒント：頭文字 d","deserve"
+"150","75","Employees (  ) fair treatment.
+従業員は公平な待遇を受けるに値します。
+ヒント：頭文字 d","deserve"
+"151","76","The update will not affect your (  ) files.
+その更新は既存のファイルに影響しません。
+ヒント：頭文字 e","existing"
+"152","76","We plan to expand the (  ) building.
+私たちは既存の建物を拡張する計画です。
+ヒント：頭文字 e","existing"
+"153","77","We (  ) any inconvenience caused by the closure.
+閉鎖によりご不便をおかけすることを申し訳なく思います。
+ヒント：頭文字 r","regret"
+"154","77","I (  ) missing the chance to speak with her.
+私は彼女と話す機会を逃したことを後悔しています。
+ヒント：頭文字 r","regret"
+"155","78","The patient responded well to the (  ).
+その患者は治療に良い反応を示しました。
+ヒント：頭文字 t","treatment"
+"156","78","All customers should receive equal (  ).
+すべての顧客は平等な扱いを受けるべきです。
+ヒント：頭文字 t","treatment"
+"157","79","Please buy a (  ) eggs on your way home.
+帰宅途中に卵を12個買ってください。
+ヒント：頭文字 d","dozen"
+"158","79","About two (  ) people attended the workshop.
+約24人がその講習会に参加しました。
+ヒント：頭文字 d","dozen"
+"159","80","Passengers should (  ) to gate twelve.
+乗客の皆さまは12番ゲートへお進みください。
+ヒント：頭文字 p","proceed"
+"160","80","We cannot (  ) without your approval.
+あなたの承認なしには先に進めません。
+ヒント：頭文字 p","proceed"
+"161","81","Check the cable if you lose your internet (  ).
+インターネット接続が切れたらケーブルを確認してください。
+ヒント：頭文字 c","connection"
+"162","81","There is a direct train (  ) between the two cities.
+その二つの都市間には直通列車の連絡があります。
+ヒント：頭文字 c","connection"
+"163","82","There is no need to (  ); we have plenty of time.
+急ぐ必要はありません。時間は十分あります。
+ヒント：頭文字 r","rush"
+"164","82","Please do not (  ) through the safety checks.
+安全確認を慌てて済ませないでください。
+ヒント：頭文字 r","rush"
+"165","83","The town hopes to (  ) its historic buildings.
+その町は歴史的建造物を保存したいと考えています。
+ヒント：頭文字 p","preserve"
+"166","83","This method helps (  ) the flavor of the fruit.
+この方法は果物の風味を保つのに役立ちます。
+ヒント：頭文字 p","preserve"
+"167","84","Heavy rain damaged this year's wheat (  ).
+大雨が今年の小麦の収穫物に被害を与えました。
+ヒント：頭文字 c","crop"
+"168","84","Rice is the main (  ) grown in this area.
+この地域で栽培される主な作物は米です。
+ヒント：頭文字 c","crop"
+"169","85","We (  ) to reduce waste by twenty percent.
+私たちは廃棄物を20パーセント減らすことを目指しています。
+ヒント：頭文字 a","aim"
+"170","85","The main (  ) of the course is to improve speaking skills.
+そのコースの主な目的は会話力の向上です。
+ヒント：頭文字 a","aim"
+"171","86","The store (  ) opens at nine in the morning.
+その店は通常、朝9時に開店します。
+ヒント：頭文字 n","normally"
+"172","86","I (  ) take the bus to work.
+私は普段バスで通勤します。
+ヒント：頭文字 n","normally"
+"173","87","She succeeded on her first (  ).
+彼女は最初の試みで成功しました。
+ヒント：頭文字 a","attempt"
+"174","87","We will make another (  ) to contact the supplier.
+私たちは納入業者への連絡をもう一度試みます。
+ヒント：頭文字 a","attempt"
+"175","88","Price is an important (  ) when choosing a hotel.
+ホテルを選ぶ際、価格は重要な要素です。
+ヒント：頭文字 f","factor"
+"176","88","Weather was a major (  ) in the delay.
+天候が遅延の大きな要因でした。
+ヒント：頭文字 f","factor"
+"177","89","The results of the (  ) will be announced tonight.
+選挙の結果は今夜発表されます。
+ヒント：頭文字 e","election"
+"178","89","The next (  ) will take place in November.
+次の選挙は11月に行われます。
+ヒント：頭文字 e","election"
+"179","90","The new treatment has shown (  ) results.
+その新しい治療法は有望な結果を示しています。
+ヒント：頭文字 p","promising"
+"180","90","She is one of our most (  ) young researchers.
+彼女は私たちの最も有望な若手研究者の一人です。
+ヒント：頭文字 p","promising"
+"181","91","Please make sure your contact details are (  ).
+連絡先の情報が正確であることを確認してください。
+ヒント：頭文字 a","accurate"
+"182","91","The device provides (  ) measurements.
+その装置は正確な測定値を提供します。
+ヒント：頭文字 a","accurate"
+"183","92","The team presented its (  ) at the conference.
+そのチームは会議で調査結果を発表しました。
+ヒント：頭文字 f","findings"
+"184","92","Our (  ) suggest that the new method is effective.
+私たちの調査結果は新しい方法が有効であることを示唆しています。
+ヒント：頭文字 f","findings"
+"185","93","The new model is (  ) smaller than the old one.
+新しいモデルは古いものよりわずかに小さいです。
+ヒント：頭文字 s","slightly"
+"186","93","Please turn the handle (  ) to the left.
+ハンドルを少し左に回してください。
+ヒント：頭文字 s","slightly"
+"187","94","The garden contains many (  ) plants.
+その庭には多くの在来種の植物があります。
+ヒント：頭文字 n","native"
+"188","94","Spanish is her (  ) language.
+スペイン語は彼女の母語です。
+ヒント：頭文字 n","native"
+"189","95","The report examines the (  ) effects of tourism.
+その報告書は観光の経済的な影響を検討しています。
+ヒント：頭文字 e","economic"
+"190","95","The region is facing serious (  ) difficulties.
+その地域は深刻な経済的困難に直面しています。
+ヒント：頭文字 e","economic"
+"191","96","It may take time to (  ) into your new home.
+新しい家に慣れるまで時間がかかるかもしれません。
+ヒント：頭文字 s","settle"
+"192","96","We hope to (  ) the disagreement through discussion.
+私たちは話し合いで意見の対立を解決したいと考えています。
+ヒント：頭文字 s","settle"
+"193","97","The course offers (  ) advice for new managers.
+そのコースは新任マネージャーに実用的な助言を提供します。
+ヒント：頭文字 p","practical"
+"194","97","We need a (  ) solution to this problem.
+私たちにはこの問題に対する現実的で実行可能な解決策が必要です。
+ヒント：頭文字 p","practical"
+"195","98","She received a (  ) to study engineering.
+彼女は工学を学ぶための奨学金を受けました。
+ヒント：頭文字 s","scholarship"
+"196","98","The (  ) covers tuition and living expenses.
+その奨学金は授業料と生活費を賄います。
+ヒント：頭文字 s","scholarship"
+"197","99","The company plans to (  ) coffee from Brazil.
+その会社はブラジルからコーヒーを輸入する計画です。
+ヒント：頭文字 i","import"
+"198","99","We (  ) most of our raw materials.
+私たちは原材料の大部分を輸入しています。
+ヒント：頭文字 i","import"
+"199","100","Soft lighting creates a relaxing (  ).
+柔らかな照明はくつろげる雰囲気を生み出します。
+ヒント：頭文字 a","atmosphere"
+"200","100","The cafe has a friendly (  ).
+そのカフェには親しみやすい雰囲気があります。
+ヒント：頭文字 a","atmosphere"

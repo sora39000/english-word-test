@@ -13,7 +13,7 @@
   <link rel="apple-touch-icon" href="./word-up-icon.png">
   <link rel="manifest" href="./manifest.webmanifest?v=word-up">
   <link rel="stylesheet" href="./styles.css?v=20261009-similar">
-  <script type="module" src="./app.js?v=20261009-one-per-word"></script>
+  <script type="module" src="./app.js?v=20261009-batch2"></script>
 </head>
 <body data-practice="similar">
   <header class="site-header">
@@ -21,11 +21,11 @@
     <nav aria-label="メインメニュー"><button id="nav-start" class="nav-button active" aria-current="page">テスト</button><button id="nav-stats" class="nav-button">学習状況</button></nav>
   </header>
   <main>
-    <p class="notice">類題モード：記録は例文ごとに保存します。現在はテスト①のみ対応。<br><a href="./index.html">← 元のテストに戻る</a></p>
+    <p class="notice">類題モード：記録は例文ごとに保存します。テスト①・②に対応。<br><a href="./index.html">← 元のテストに戻る</a></p>
     <p id="storage-warning" class="notice" role="status" hidden></p>
     <p id="load-error" class="notice error" role="alert" hidden></p>
     <section id="start-screen" aria-labelledby="start-title">
-      <div class="hero"><p class="eyebrow">A LITTLE PRACTICE, EVERY DAY</p><h1 id="start-title">同じ単語を、<br>別の<span>文</span>で。</h1><p class="lede">英単語テスト① · 50単語を1問ずつ。<br>各単語の例文2種類からランダムに出題。<br>ヒントは頭文字だけ。</p></div>
+      <div class="hero"><p class="eyebrow">A LITTLE PRACTICE, EVERY DAY</p><h1 id="start-title">同じ単語を、<br>別の<span>文</span>で。</h1><p class="lede">英単語テスト①・② · 各50単語を1問ずつ。<br>各単語の例文2種類からランダムに出題。<br>ヒントは頭文字だけ。</p></div>
       <div class="overview"><div><span>収録単語</span><strong id="total-words">—</strong><small>問</small></div><div><span>学習した単語</span><strong id="studied-words">—</strong><small>問</small></div><div><span>累計正答率</span><strong id="overall-rate">—</strong><small>%</small></div></div>
       <div class="start-grid"><section class="card settings" aria-labelledby="settings-title"><div class="section-heading"><span class="step-number">01</span><h2 id="settings-title">類題で練習</h2><span class="badge">記述式</span></div>
         <label for="range">出題範囲</label><select id="range" disabled><option value="all">全範囲</option></select>

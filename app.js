@@ -4,7 +4,7 @@ const $ = id => document.getElementById(id);
 const isSimilar = document.body.dataset.practice === 'similar';
 const key = `${isSimilar ? 'word-up:similar:v1' : 'kotoba-note:v1'}:${location.pathname.replace(/index\.html$/, '').replace(/\/$/, '')}`;
 let words = [], hasIndex = false, progress = freshProgress(), canSave = true;
-let chooseSimilarQuestions;
+let chooseSimilarQuestions, gradeSimilarAnswer;
 const questionCount = pool => isSimilar ? new Set(pool.map(word => word.index)).size : pool.length;
 let session = null, screen = 'start', pendingNavigation = null, quitTrigger = null;
 const testName = first => {
@@ -120,7 +120,7 @@ function renderQuestion() {
 function grade() {
   if (!session || session.graded || session.finished) return;
   const word = session.questions[session.cursor], input = $('answer').value;
-  const correct = isCorrect(input, word.answer);
+  const correct = (isSimilar ? gradeSimilarAnswer : isCorrect)(input, word.answer);
   session.graded = true;
   session.answers.push({ word, input, correct });
   recordAnswer(progress.records, word.id, correct); save();
@@ -230,9 +230,10 @@ async function init() {
     catch { throw new Error('CSVをUTF-8で読み込めません。Excelなどで「CSV UTF-8」として保存してください。'); }
     ({ words, hasIndex } = loadWords(text));
     if (isSimilar) {
-      const similarModule = await import('./similar-core.js?v=2');
+      const similarModule = await import('./similar-core.js?v=3');
       const { loadSimilar } = similarModule;
       chooseSimilarQuestions = similarModule.chooseSimilarQuestions;
+      gradeSimilarAnswer = similarModule.gradeSimilarAnswer;
       const variants = await fetch('./similar.csv', { cache: 'no-store' });
       if (!variants.ok) throw new Error(`類題CSVを取得できません（HTTP ${variants.status}）。`);
       const variantText = new TextDecoder('utf-8', { fatal: true }).decode(await variants.arrayBuffer());
