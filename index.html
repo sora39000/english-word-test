@@ -13,7 +13,7 @@
   <link rel="apple-touch-icon" href="./word-up-icon.png">
   <link rel="manifest" href="./manifest.webmanifest?v=word-up">
   <link rel="stylesheet" href="./styles.css?v=20261009-similar">
-  <script type="module" src="./app.js?v=20261009-similar"></script>
+  <script type="module" src="./app.js?v=20261009-one-per-word"></script>
 </head>
 <body>
   <header class="site-header">
@@ -31,7 +31,7 @@
         <p id="range-note" class="hint">CSVを読み込んでいます…</p>
         <fieldset><legend>問題数</legend><div class="count-options" id="count-options"><label><input type="radio" name="count" value="10" checked><span>10問</span></label><label><input type="radio" name="count" value="20"><span>20問</span></label><label><input type="radio" name="count" value="30"><span>30問</span></label><label><input type="radio" name="count" value="50"><span>50問</span></label><label><input type="radio" name="count" value="all"><span>全問題</span></label></div></fieldset>
         <button id="start-normal" class="primary wide" disabled>通常テストをはじめる <span aria-hidden="true">→</span></button>
-        <button id="start-weak" class="secondary wide" disabled>苦手問題を練習する</button><p id="weak-note" class="hint center">学習すると、苦手問題を復習できます。</p><p class="hint center"><a class="mode-link" href="./similar.html">類題で練習 →</a><br>テスト①：別の例文100問・記録は別保存</p>
+        <button id="start-weak" class="secondary wide" disabled>苦手問題を練習する</button><p id="weak-note" class="hint center">学習すると、苦手問題を復習できます。</p><p class="hint center"><a class="mode-link" href="./similar.html">類題で練習 →</a><br>テスト①：50単語を別の文で・記録は別保存</p>
       </section><aside class="study-note"><p class="eyebrow">MAKE IT A HABIT</p><h2>覚えるまで、<br>何度でも。</h2><ol><li><span>01</span><div><strong>英単語を思い出す</strong><p>英文と日本語をヒントに、<br>空欄に入る単語を入力。</p></div></li><li><span>02</span><div><strong>その場で答え合わせ</strong><p>採点後はEnterでも次へ。<br>間違えても、それが学びに。</p></div></li><li><span>03</span><div><strong>苦手を少しずつ減らす</strong><p>記録に合わせて復習。<br>昨日より確かな一語を。</p></div></li></ol><div class="note-bottom">YOUR OWN PACE, YOUR OWN PROGRESS.</div></aside></div>
     </section>
     <section id="test-screen" hidden aria-labelledby="test-title">

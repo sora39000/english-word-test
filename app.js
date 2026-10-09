@@ -4,6 +4,8 @@ const $ = id => document.getElementById(id);
 const isSimilar = document.body.dataset.practice === 'similar';
 const key = `${isSimilar ? 'word-up:similar:v1' : 'kotoba-note:v1'}:${location.pathname.replace(/index\.html$/, '').replace(/\/$/, '')}`;
 let words = [], hasIndex = false, progress = freshProgress(), canSave = true;
+let chooseSimilarQuestions;
+const questionCount = pool => isSimilar ? new Set(pool.map(word => word.index)).size : pool.length;
 let session = null, screen = 'start', pendingNavigation = null, quitTrigger = null;
 const testName = first => {
   const number = Math.floor((first - 1) / 50) + 1;
@@ -44,22 +46,25 @@ function selectedCount() { return document.querySelector('input[name="count"]:ch
 function poolFor(range = $('range').value) { return rangeWords(words, range, progress.records); }
 function updateOverview() {
   let correct = 0, incorrect = 0, studied = 0;
+  const studiedIndexes = new Set();
   for (const word of words) {
     const record = progress.records[word.id];
-    if (record) { correct += record.correct; incorrect += record.incorrect; if (record.correct + record.incorrect) studied++; }
+    if (record) { correct += record.correct; incorrect += record.incorrect; if (record.correct + record.incorrect) { studied++; studiedIndexes.add(word.index); } }
   }
-  $('total-words').textContent = words.length;
+  if (isSimilar) studied = studiedIndexes.size;
+  $('total-words').textContent = questionCount(words);
   $('studied-words').textContent = studied;
   $('overall-rate').textContent = percent(correct + incorrect ? correct / (correct + incorrect) : null);
   return { correct, incorrect, studied };
 }
 function updateSettings() {
   const pool = poolFor(), weak = weakWords(pool, progress.records);
-  const count = selectedCount(), actual = count === 'all' ? pool.length : Math.min(Number(count), pool.length);
+  const total = questionCount(pool), weakTotal = questionCount(weak);
+  const count = selectedCount(), actual = count === 'all' ? total : Math.min(Number(count), total);
   $('start-normal').disabled = pool.length === 0;
   $('start-weak').disabled = weak.length === 0;
-  $('range-note').textContent = `${pool.length}問が対象 · 今回は${actual}問出題${pool.length && count !== 'all' && pool.length < Number(count) ? '（対象数に合わせて調整）' : ''}`;
-  $('weak-note').textContent = weak.length ? `苦手問題 ${weak.length}問 · 正答率の低い問題から優先` : 'この範囲に苦手問題はまだありません。まずは通常テストへ。';
+  $('range-note').textContent = `${total}問が対象 · 今回は${actual}問出題${total && count !== 'all' && total < Number(count) ? '（対象数に合わせて調整）' : ''}`;
+  $('weak-note').textContent = weak.length ? `苦手問題 ${weakTotal}問 · 正答率の低い問題から優先` : 'この範囲に苦手問題はまだありません。まずは通常テストへ。';
 }
 function show(name, focus = true) {
   screen = name;
@@ -90,7 +95,7 @@ function closeQuit(confirmed) {
 function start(mode, options = {}) {
   const config = options.config || { mode, range: $('range').value, count: selectedCount(), fixed: null };
   const pool = config.fixed || poolFor(config.range);
-  const chosen = chooseQuestions(pool, config.count, config.mode, progress.records, options.previous || []);
+  const chosen = (isSimilar ? chooseSimilarQuestions : chooseQuestions)(pool, config.count, config.mode, progress.records, options.previous || []);
   if (!chosen.length) { show('start'); return; }
   session = { config, questions: chosen, cursor: 0, answers: [], graded: false, finished: false };
   const blocks = [...new Set(chosen.map(word => Math.floor((word.index - 1) / 50) * 50 + 1))];
@@ -171,7 +176,7 @@ function finish() {
 }
 function renderStats() {
   const { correct, incorrect, studied } = updateOverview();
-  const stats = [['収録問題', `${words.length}問`], ['学習した問題', `${studied}問`], ['正解数（累計）', `${correct}回`], ['不正解数（累計）', `${incorrect}回`], ['累計正答率', `${percent(correct + incorrect ? correct / (correct + incorrect) : null)}%`], ['完了したテスト', `${progress.completed}回`]];
+  const stats = [['収録問題', `${questionCount(words)}問`], ['学習した問題', `${studied}問`], ['正解数（累計）', `${correct}回`], ['不正解数（累計）', `${incorrect}回`], ['累計正答率', `${percent(correct + incorrect ? correct / (correct + incorrect) : null)}%`], ['完了したテスト', `${progress.completed}回`]];
   $('stats-grid').replaceChildren(...stats.map(([label, value]) => { const div = element('div', 'stat'); div.append(element('span', '', label), element('strong', '', value)); return div; }));
   const best = Object.entries(progress.best).sort(([a], [b]) => Number(a) - Number(b));
   $('best-list').replaceChildren(...best.map(([total, score]) => element('div', 'best-chip', `${total}問テスト：${score} / ${total}問`)));
@@ -225,7 +230,9 @@ async function init() {
     catch { throw new Error('CSVをUTF-8で読み込めません。Excelなどで「CSV UTF-8」として保存してください。'); }
     ({ words, hasIndex } = loadWords(text));
     if (isSimilar) {
-      const { loadSimilar } = await import('./similar-core.js?v=1');
+      const similarModule = await import('./similar-core.js?v=2');
+      const { loadSimilar } = similarModule;
+      chooseSimilarQuestions = similarModule.chooseSimilarQuestions;
       const variants = await fetch('./similar.csv', { cache: 'no-store' });
       if (!variants.ok) throw new Error(`類題CSVを取得できません（HTTP ${variants.status}）。`);
       const variantText = new TextDecoder('utf-8', { fatal: true }).decode(await variants.arrayBuffer());
@@ -235,7 +242,7 @@ async function init() {
     const latest = latestRangeStart(words);
     const ranges = [['latest', `${testName(latest)}（最新）`]];
     const buckets = [...new Set(words.map(w => Math.floor((w.index - 1) / 50) * 50 + 1))].sort((a, b) => a - b);
-    ranges.push(...buckets.map(n => [String(n), `${testName(n)}（${words.filter(w => w.index >= n && w.index < n + 50).length}問）`]));
+    ranges.push(...buckets.map(n => [String(n), `${testName(n)}（${questionCount(words.filter(w => w.index >= n && w.index < n + 50))}問）`]));
     ranges.push(['all', '全範囲を混ぜる'], ['wrong', '全範囲の間違えた問題のみ（直近が不正解）']);
     $('range').replaceChildren(...ranges.map(([value, text]) => { const option = element('option', '', text); option.value = value; return option; }));
     restoreRange(buckets);

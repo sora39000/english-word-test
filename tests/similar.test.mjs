@@ -2,7 +2,7 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import { readFileSync } from 'node:fs';
 import { loadWords, rangeWords, chooseQuestions, freshProgress, recordAnswer, weakWords } from '../core.js';
-import { loadSimilar } from '../similar-core.js';
+import { loadSimilar, chooseSimilarQuestions } from '../similar-core.js';
 const csv = readFileSync(new URL('../similar.csv', import.meta.url), 'utf8');
 const originals = loadWords(readFileSync(new URL('../words.csv', import.meta.url), 'utf8')).words;
 const variants = loadSimilar(csv, originals);
@@ -55,4 +55,35 @@ test('reject missing source, mismatched answer, duplicate or unchanged examples'
   const original = originals[0];
   const escape = s => '"' + s.replaceAll('"', '""') + '"';
   assert.throws(() => loadSimilar('index,SourceIndex,FrontText,BackText\n1,1,' + escape(original.question) + ',' + escape(original.answer), originals));
+});
+
+test('each test samples one variant per word and exposes only the first-letter hint', () => {
+  for (const count of ['10', '20', '30', '50', 'all']) {
+    for (let run = 0; run < 10; run++) {
+      const sample = chooseSimilarQuestions(variants, count, 'normal', {});
+      assert.equal(sample.length, count === 'all' ? 50 : Number(count));
+      assert.equal(new Set(sample.map(w => w.index)).size, sample.length);
+      assert.ok(sample.every(w => !/\\d+文字/.test(w.question)));
+      assert.ok(sample.every(w => w.question.endsWith('ヒント：頭文字 ' + w.answer[0])));
+    }
+  }
+  const old = loadWords(csv).words;
+  assert.deepEqual(variants.map(w => w.id), old.map(w => w.id));
+  const random = Math.random;
+  try {
+    Math.random = () => .99999;
+    const first = chooseSimilarQuestions(variants, 'all', 'normal', {});
+    Math.random = () => 0;
+    const second = chooseSimilarQuestions(variants, 'all', 'normal', {});
+    assert.ok(first.some(w => second.find(v => v.index === w.index).id !== w.id));
+  } finally { Math.random = random; }
+});
+test('weak and wrong-only practice cannot repeat a vocabulary item', () => {
+  const records = {};
+  for (const w of variants) recordAnswer(records, w.id, false);
+  for (const mode of ['normal', 'weak']) {
+    const sample = chooseSimilarQuestions(rangeWords(variants, 'wrong', records), 'all', mode, records);
+    assert.equal(sample.length, 50);
+    assert.equal(new Set(sample.map(w => w.index)).size, 50);
+  }
 });

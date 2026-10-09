@@ -2,7 +2,7 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import { readFileSync } from 'node:fs';
 import * as core from '../core.js';
-import { loadSimilar } from '../similar-core.js';
+import { loadSimilar, chooseSimilarQuestions } from '../similar-core.js';
 
 const source = readFileSync(new URL('../app.js', import.meta.url), 'utf8');
 const baseCSV = readFileSync(new URL('../words.csv', import.meta.url), 'utf8');
@@ -30,9 +30,9 @@ async function openApp(similar, storage) {
   const fetch = async path => ({ ok: true, arrayBuffer: async () => new TextEncoder().encode(path.includes('similar.csv') ? similarCSV : baseCSV).buffer });
   const window = { addEventListener() {}, scrollTo() {} };
   const code = source.replace(/^import .*;\n/, '')
-    .replace("await import('./similar-core.js?v=1')", 'similarModule')
+    .replace("await import('./similar-core.js?v=2')", 'injectedSimilarModule')
     .replace(/init\(\);\s*$/, 'return { init, start, grade, next, renderStats, getSession: () => session };');
-  const app = new Function(...Object.keys(core), 'similarModule', 'document', 'location', 'localStorage', 'fetch', 'window', code)(...Object.values(core), { loadSimilar }, document, location, localStorage, fetch, window);
+  const app = new Function(...Object.keys(core), 'injectedSimilarModule', 'document', 'location', 'localStorage', 'fetch', 'window', code)(...Object.values(core), { loadSimilar, chooseSimilarQuestions }, document, location, localStorage, fetch, window);
   await app.init();
   assert.equal(get('load-error').textContent, '');
   return { ...app, get };
@@ -50,7 +50,7 @@ test('original app and variants grade, finish, retry and persist in separate sto
   const originalRecord = storage.get(originalKey);
   assert.equal(Object.values(JSON.parse(originalRecord).records)[0].correct, 1);
   const variants = await openApp(true, storage);
-  assert.equal(variants.get('total-words').textContent, 100);
+  assert.equal(variants.get('total-words').textContent, 50);
   variants.start('normal');
   assert.ok(variants.getSession().questions.every(w => w.index >= 1 && w.index <= 50));
   for (let i = 0; i < 10; i++) {
