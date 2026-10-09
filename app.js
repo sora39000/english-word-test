@@ -1,7 +1,8 @@
 import { loadWords, rangeWords, latestRangeStart, weakWords, chooseQuestions, isCorrect, recordAnswer, rate, freshProgress, readProgress } from './core.js';
 
 const $ = id => document.getElementById(id);
-const key = `kotoba-note:v1:${location.pathname.replace(/index\.html$/, '').replace(/\/$/, '')}`;
+const isSimilar = document.body.dataset.practice === 'similar';
+const key = `${isSimilar ? 'word-up:similar:v1' : 'kotoba-note:v1'}:${location.pathname.replace(/index\.html$/, '').replace(/\/$/, '')}`;
 let words = [], hasIndex = false, progress = freshProgress(), canSave = true;
 let session = null, screen = 'start', pendingNavigation = null, quitTrigger = null;
 const testName = first => {
@@ -94,7 +95,7 @@ function start(mode, options = {}) {
   session = { config, questions: chosen, cursor: 0, answers: [], graded: false, finished: false };
   const blocks = [...new Set(chosen.map(word => Math.floor((word.index - 1) / 50) * 50 + 1))];
   $('test-title').textContent = blocks.length === 1 ? testName(blocks[0]) : '全範囲のテスト';
-  $('test-mode').textContent = config.fixed ? 'REVIEW / 間違えた問題の復習' : config.mode === 'weak' ? 'FOCUS / 苦手問題テスト' : 'PRACTICE / 通常テスト';
+  $('test-mode').textContent = config.fixed ? 'REVIEW / 間違えた問題の復習' : config.mode === 'weak' ? 'FOCUS / 苦手問題テスト' : isSimilar ? 'VARIATIONS / 類題で練習' : 'PRACTICE / 通常テスト';
   show('test', false); renderQuestion();
 }
 function renderQuestion() {
@@ -103,7 +104,7 @@ function renderQuestion() {
   $('position').textContent = `${session.cursor + 1} / ${session.questions.length} 問`;
   $('live-score').textContent = `正解 ${session.answers.filter(a => a.correct).length}問`;
   $('progress').max = session.questions.length; $('progress').value = session.answers.length;
-  $('question-index').textContent = `WORD ${String(word.index).padStart(3, '0')}`;
+  $('question-index').textContent = `WORD ${String(word.index).padStart(3, '0')}${isSimilar ? ` · 類題 ${word.variantIndex}` : ''}`;
   $('question').textContent = word.question;
   $('answer').value = ''; $('answer').readOnly = false; $('answer').removeAttribute('aria-invalid');
   $('feedback').hidden = true; $('feedback').replaceChildren();
@@ -223,6 +224,14 @@ async function init() {
     try { text = new TextDecoder('utf-8', { fatal: true }).decode(await response.arrayBuffer()); }
     catch { throw new Error('CSVをUTF-8で読み込めません。Excelなどで「CSV UTF-8」として保存してください。'); }
     ({ words, hasIndex } = loadWords(text));
+    if (isSimilar) {
+      const { loadSimilar } = await import('./similar-core.js?v=1');
+      const variants = await fetch('./similar.csv', { cache: 'no-store' });
+      if (!variants.ok) throw new Error(`類題CSVを取得できません（HTTP ${variants.status}）。`);
+      const variantText = new TextDecoder('utf-8', { fatal: true }).decode(await variants.arrayBuffer());
+      words = loadSimilar(variantText, words);
+      hasIndex = true;
+    }
     const latest = latestRangeStart(words);
     const ranges = [['latest', `${testName(latest)}（最新）`]];
     const buckets = [...new Set(words.map(w => Math.floor((w.index - 1) / 50) * 50 + 1))].sort((a, b) => a - b);
@@ -235,7 +244,7 @@ async function init() {
     updateOverview(); updateSettings();
     if (screen === 'stats') renderStats();
   } catch (error) {
-    $('load-error').textContent = `${error.message} words.csvを確認してページを再読み込みしてください。ファイルを直接開いている場合は、READMEの方法でローカルサーバーから開いてください。`;
+    $('load-error').textContent = `${error.message} ${isSimilar ? 'similar.csvとwords.csv' : 'words.csv'}を確認してページを再読み込みしてください。ファイルを直接開いている場合は、READMEの方法でローカルサーバーから開いてください。`;
     $('load-error').hidden = false;
     $('range-note').textContent = '問題を読み込めませんでした。';
   }

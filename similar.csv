@@ -1,0 +1,301 @@
+"index","SourceIndex","FrontText","BackText"
+"1","1","This jacket is (  ) for outdoor work.
+この上着は屋外の仕事に適しています。
+ヒント：sで始まる8文字","suitable"
+"2","1","We need a (  ) place for the meeting.
+私たちは会議に適した場所を必要としています。
+ヒント：sで始まる8文字","suitable"
+"3","2","Customer privacy is a high (  ) for our team.
+顧客のプライバシーは私たちのチームにとって優先度の高い事項です。
+ヒント：pで始まる8文字","priority"
+"4","2","Please give (  ) to urgent requests.
+緊急の依頼を優先してください。
+ヒント：pで始まる8文字","priority"
+"5","3","The guide gave a (  ) introduction to the museum.
+ガイドは博物館について短い紹介をしました。
+ヒント：bで始まる5文字","brief"
+"6","3","We took a (  ) break before the next session.
+私たちは次の講習の前に短い休憩を取りました。
+ヒント：bで始まる5文字","brief"
+"7","4","The manager offered a (  ) explanation for the delay.
+マネージャーは遅延について納得のいく説明をしました。
+ヒント：rで始まる10文字","reasonable"
+"8","4","You can rent a bicycle at a (  ) rate.
+手ごろな料金で自転車を借りられます。
+ヒント：rで始まる10文字","reasonable"
+"9","5","Change the brightness (  ) on your screen.
+画面の明るさの設定を変更してください。
+ヒント：sで始まる7文字","setting"
+"10","5","The garden provides a peaceful (  ) for the ceremony.
+その庭は式典に静かな環境を提供します。
+ヒント：sで始まる7文字","setting"
+"11","6","The sales (  ) shows strong growth next year.
+売上予測は来年の大幅な成長を示しています。
+ヒント：fで始まる8文字","forecast"
+"12","6","The latest (  ) predicts heavy snow tonight.
+最新の予報は今夜の大雪を予測しています。
+ヒント：fで始まる8文字","forecast"
+"13","7","The truck stopped because it had run out of (  ).
+そのトラックは燃料が切れたため停車しました。
+ヒント：fで始まる4文字","fuel"
+"14","7","This engine uses less (  ) than the old one.
+このエンジンは古いものより少ない燃料を使います。
+ヒント：fで始まる4文字","fuel"
+"15","8","The university will build a library on its main (  ).
+その大学はメインキャンパスに図書館を建設します。
+ヒント：cで始まる6文字","campus"
+"16","8","Visitors can take a tour of the (  ) on Saturday.
+訪問者は土曜日にキャンパスの見学ができます。
+ヒント：cで始まる6文字","campus"
+"17","9","They plan to (  ) a company that makes medical equipment.
+彼らは医療機器を製造する会社を設立する計画です。
+ヒント：fで始まる5文字","found"
+"18","9","She hopes to (  ) a school in her hometown.
+彼女は故郷に学校を設立したいと考えています。
+ヒント：fで始まる5文字","found"
+"19","10","The region is known for its (  ) land.
+その地域は農業用の土地で知られています。
+ヒント：aで始まる12文字","agricultural"
+"20","10","The exhibition features new (  ) equipment.
+その展示会は新しい農業用機器を取り上げています。
+ヒント：aで始まる12文字","agricultural"
+"21","11","The hospital received a large (  ) from a local business.
+その病院は地元企業から多額の寄付を受けました。
+ヒント：dで始まる8文字","donation"
+"22","11","Your (  ) will help provide meals for families.
+あなたの寄付は家族に食事を提供する助けになります。
+ヒント：dで始まる8文字","donation"
+"23","12","The couple celebrated their wedding (  ) at a restaurant.
+その夫婦はレストランで結婚記念日を祝いました。
+ヒント：aで始まる11文字","anniversary"
+"24","12","This year marks the tenth (  ) of the library's opening.
+今年はその図書館の開館10周年に当たります。
+ヒント：aで始まる11文字","anniversary"
+"25","13","Ask the front desk (  ) for a map of the city.
+フロント係に市内の地図を頼んでください。
+ヒント：cで始まる5文字","clerk"
+"26","13","The (  ) helped me find the right size.
+その店員は私がぴったりのサイズを見つけるのを手伝いました。
+ヒント：cで始まる5文字","clerk"
+"27","14","Are you (  ) of the new parking rules?
+新しい駐車規則を知っていますか。
+ヒント：aで始まる5文字","aware"
+"28","14","All staff should be (  ) of the risks.
+すべての職員はその危険性を認識しているべきです。
+ヒント：aで始まる5文字","aware"
+"29","15","The students made steady (  ) in their studies.
+学生たちは学習で着実な進歩を遂げました。
+ヒント：pで始まる8文字","progress"
+"30","15","Please send me a report on the (  ) of the repairs.
+修理の進捗について報告書を送ってください。
+ヒント：pで始まる8文字","progress"
+"31","16","The survey measures (  ) customer satisfaction.
+その調査は顧客の総合的な満足度を測定します。
+ヒント：oで始まる7文字","overall"
+"32","16","Our (  ) costs were lower than expected.
+私たちの全体的な費用は予想より低かったです。
+ヒント：oで始まる7文字","overall"
+"33","17","We are (  ) to welcome you to our new office.
+私たちはあなたを新しいオフィスに迎えることができて大変うれしく思います。
+ヒント：dで始まる9文字","delighted"
+"34","17","She was (  ) with the service at the hotel.
+彼女はホテルのサービスに大変喜んでいました。
+ヒント：dで始まる9文字","delighted"
+"35","18","The trainer will (  ) the importance of regular practice.
+トレーナーは定期的な練習の重要性を強調します。
+ヒント：eで始まる9文字","emphasize"
+"36","18","Please (  ) the main benefits in your presentation.
+発表では主な利点を強調してください。
+ヒント：eで始まる9文字","emphasize"
+"37","19","Members will (  ) on the proposal tomorrow.
+会員は明日その提案について投票します。
+ヒント：vで始まる4文字","vote"
+"38","19","You must register before you can (  ) in the election.
+選挙で投票するには事前に登録しなければなりません。
+ヒント：vで始まる4文字","vote"
+"39","20","The view from the top is (  ) the long climb.
+頂上からの景色には長い道のりを登るだけの価値があります。
+ヒント：wで始まる5文字","worth"
+"40","20","This museum is (  ) visiting.
+この博物館は訪れる価値があります。
+ヒント：wで始まる5文字","worth"
+"41","21","The project succeeded thanks to close (  ) between the teams.
+チーム間の緊密な協力のおかげでプロジェクトは成功しました。
+ヒント：cで始まる11文字","cooperation"
+"42","21","We ask for your (  ) during the building repairs.
+建物の修理中はご協力をお願いします。
+ヒント：cで始まる11文字","cooperation"
+"43","22","The engineer examined the (  ) of the bridge.
+技師は橋の構造を調べました。
+ヒント：sで始まる9文字","structure"
+"44","22","The report explains the (  ) of the organization.
+その報告書は組織の構造を説明しています。
+ヒント：sで始まる9文字","structure"
+"45","23","You can (  ) these two files into one document.
+これら二つのファイルを一つの文書にまとめられます。
+ヒント：cで始まる7文字","combine"
+"46","23","The course will (  ) online lessons with classroom activities.
+そのコースはオンライン授業と教室での活動を組み合わせます。
+ヒント：cで始まる7文字","combine"
+"47","24","The doors open (  ) when someone approaches.
+誰かが近づくとドアは自動的に開きます。
+ヒント：aで始まる13文字","automatically"
+"48","24","Your work is saved (  ) every five minutes.
+作業内容は5分ごとに自動的に保存されます。
+ヒント：aで始まる13文字","automatically"
+"49","25","Everyone can (  ) to the success of this event.
+誰もがこの行事の成功に貢献できます。
+ヒント：cで始まる10文字","contribute"
+"50","25","Local businesses will (  ) money to the project.
+地元企業はその事業に資金を提供します。
+ヒント：cで始まる10文字","contribute"
+"51","26","He works at a research (  ) near the station.
+彼は駅の近くにある研究機関で働いています。
+ヒント：iで始まる9文字","institute"
+"52","26","The (  ) offers training courses for teachers.
+その専門機関は教員向けの研修コースを提供しています。
+ヒント：iで始まる9文字","institute"
+"53","27","The old building was (  ) renovated last year.
+その古い建物は昨年全面的に改装されました。
+ヒント：cで始まる10文字","completely"
+"54","27","Please read the instructions (  ) before you begin.
+始める前に説明書を最後まで完全に読んでください。
+ヒント：cで始まる10文字","completely"
+"55","28","Our team worked hard to (  ) its goal.
+私たちのチームは目標を達成するために懸命に働きました。
+ヒント：aで始まる7文字","achieve"
+"56","28","Regular practice will help you (  ) better results.
+定期的な練習はより良い結果を達成する助けになります。
+ヒント：aで始まる7文字","achieve"
+"57","29","The machine cannot (  ) without electricity.
+その機械は電気がないと機能しません。
+ヒント：fで始まる8文字","function"
+"58","29","These buttons (  ) as shortcuts to common tasks.
+これらのボタンはよく行う作業へのショートカットとして機能します。
+ヒント：fで始まる8文字","function"
+"59","30","It is your (  ) to keep customer information safe.
+顧客情報を安全に保つことはあなたの職務です。
+ヒント：dで始まる4文字","duty"
+"60","30","The nurse is on (  ) until midnight.
+その看護師は深夜まで勤務中です。
+ヒント：dで始まる4文字","duty"
+"61","31","The bus (  ) includes one free transfer.
+そのバス運賃には1回の無料乗り換えが含まれています。
+ヒント：fで始まる4文字","fare"
+"62","31","Children under five pay a reduced (  ).
+5歳未満の子どもには割引運賃が適用されます。
+ヒント：fで始まる4文字","fare"
+"63","32","Regular maintenance can (  ) costly repairs.
+定期的な整備は費用のかかる修理を防ぐことができます。
+ヒント：pで始まる7文字","prevent"
+"64","32","These barriers help (  ) accidents near the entrance.
+これらの柵は入り口付近での事故を防ぐのに役立ちます。
+ヒント：pで始まる7文字","prevent"
+"65","33","She feels (  ) about giving the presentation.
+彼女は発表をすることに自信を持っています。
+ヒント：cで始まる9文字","confident"
+"66","33","We are (  ) that the repairs will be finished on time.
+私たちは修理が期限どおりに終わると確信しています。
+ヒント：cで始まる9文字","confident"
+"67","34","This pass will (  ) you to enter the building after hours.
+この通行証があれば時間外に建物に入ることができます。
+ヒント：eで始まる6文字","enable"
+"68","34","The new tools (  ) us to complete tasks more quickly.
+新しい道具によって私たちは作業をより速く終えられます。
+ヒント：eで始まる6文字","enable"
+"69","35","The school is building a new (  ) facility.
+その学校は新しい運動施設を建設しています。
+ヒント：aで始まる8文字","athletic"
+"70","35","The store sells (  ) clothing for runners.
+その店はランナー向けの運動用衣類を販売しています。
+ヒント：aで始まる8文字","athletic"
+"71","36","The new road will have a major (  ) on local traffic.
+新しい道路は地元の交通に大きな影響を与えます。
+ヒント：iで始まる6文字","impact"
+"72","36","We studied the (  ) of the policy on small businesses.
+私たちはその政策が中小企業に及ぼす影響を調べました。
+ヒント：iで始まる6文字","impact"
+"73","37","The internship will help you (  ) practical skills.
+そのインターンシップは実践的な技能を身に付ける助けになります。
+ヒント：gで始まる4文字","gain"
+"74","37","It takes time to (  ) the trust of new customers.
+新しい顧客の信頼を得るには時間がかかります。
+ヒント：gで始まる4文字","gain"
+"75","38","Use this map to (  ) the nearest station.
+この地図を使って最寄りの駅の場所を見つけてください。
+ヒント：lで始まる6文字","locate"
+"76","38","The staff will help you (  ) your lost bag.
+職員があなたの紛失したかばんを見つけるお手伝いをします。
+ヒント：lで始まる6文字","locate"
+"77","39","Applicants should have a (  ) in accounting.
+応募者には会計分野の経歴が必要です。
+ヒント：bで始まる10文字","background"
+"78","39","The interviewer asked about my educational (  ).
+面接官は私の学歴について尋ねました。
+ヒント：bで始まる10文字","background"
+"79","40","The train will arrive (  ).
+電車はまもなく到着します。
+ヒント：sで始まる7文字","shortly"
+"80","40","A member of our team will be with you (  ).
+担当者がまもなく伺います。
+ヒント：sで始まる7文字","shortly"
+"81","41","Fresh vegetables are an important part of a healthy (  ).
+新鮮な野菜は健康的な食生活の重要な要素です。
+ヒント：dで始まる4文字","diet"
+"82","41","The doctor advised him to change his (  ).
+医師は彼に食生活を変えるよう勧めました。
+ヒント：dで始まる4文字","diet"
+"83","42","She earns extra (  ) by teaching on weekends.
+彼女は週末に教えることで追加の収入を得ています。
+ヒント：iで始まる6文字","income"
+"84","42","Rental (  ) covers the cost of maintaining the building.
+家賃収入は建物の維持費を賄っています。
+ヒント：iで始まる6文字","income"
+"85","43","Please bring (  ) of your address when you apply.
+申請時に住所の証明を持参してください。
+ヒント：pで始まる5文字","proof"
+"86","43","Keep the receipt as (  ) of purchase.
+購入の証明としてレシートを保管してください。
+ヒント：pで始まる5文字","proof"
+"87","44","We prepared a special meal for the (  ).
+私たちはその特別な行事のために料理を用意しました。
+ヒント：oで始まる8文字","occasion"
+"88","44","The opening ceremony was a memorable (  ).
+その開会式は記憶に残る行事でした。
+ヒント：oで始まる8文字","occasion"
+"89","45","Please (  ) the width of the desk before ordering.
+注文前に机の幅を測ってください。
+ヒント：mで始まる7文字","measure"
+"90","45","This device can (  ) the temperature of the water.
+この装置は水温を測ることができます。
+ヒント：mで始まる7文字","measure"
+"91","46","The equipment is checked on a regular (  ).
+その機器は定期的に点検されます。
+ヒント：bで始まる5文字","basis"
+"92","46","The survey results form the (  ) for our new plan.
+その調査結果が私たちの新しい計画の基礎となっています。
+ヒント：bで始まる5文字","basis"
+"93","47","Delays may (  ) during periods of heavy traffic.
+交通量の多い時間帯には遅延が発生する可能性があります。
+ヒント：oで始まる5文字","occur"
+"94","47","These errors rarely (  ) in the new system.
+新しいシステムではこうしたエラーはめったに発生しません。
+ヒント：oで始まる5文字","occur"
+"95","48","The application process is more (  ) than I expected.
+申請手続きは私が予想したより複雑です。
+ヒント：cで始まる11文字","complicated"
+"96","48","She explained the (  ) rules in simple language.
+彼女は複雑な規則を簡単な言葉で説明しました。
+ヒント：cで始まる11文字","complicated"
+"97","49","The tickets are (  ) free.
+そのチケットは完全に無料です。
+ヒント：aで始まる10文字","absolutely"
+"98","49","You are (  ) right about the schedule.
+日程についてあなたはまったく正しいです。
+ヒント：aで始まる10文字","absolutely"
+"99","50","Call this number in an (  ).
+緊急時にはこの番号に電話してください。
+ヒント：eで始まる9文字","emergency"
+"100","50","Please keep the (  ) exit clear.
+非常口をふさがないようにしてください。
+ヒント：eで始まる9文字","emergency"
