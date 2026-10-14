@@ -30,7 +30,7 @@ async function openApp(similar, storage) {
   const fetch = async path => ({ ok: true, arrayBuffer: async () => new TextEncoder().encode(path.includes('similar.csv') ? similarCSV : baseCSV).buffer });
   const window = { addEventListener() {}, scrollTo() {} };
   const code = source.replace(/^import .*;\n/, '')
-    .replace("await import('./similar-core.js?v=3')", 'injectedSimilarModule')
+    .replace("await import('./similar-core.js?v=4')", 'injectedSimilarModule')
     .replace(/init\(\);\s*$/, 'return { init, start, grade, next, renderStats, getSession: () => session };');
   const app = new Function(...Object.keys(core), 'injectedSimilarModule', 'document', 'location', 'localStorage', 'fetch', 'window', code)(...Object.values(core), { loadSimilar, chooseSimilarQuestions, gradeSimilarAnswer }, document, location, localStorage, fetch, window);
   await app.init();

@@ -101,7 +101,8 @@ test('each named range produces exactly 50 unique vocabulary items with no mixin
   }
 });
 test('optional s is accepted only when designated by the answer', () => {
-  for (const input of ['afterward', 'afterwards', ' AFTERWARDS ', 'afterward(s)']) assert.ok(gradeSimilarAnswer(input, 'afterward(s)'));
+  for (const input of ['afterward', 'afterwards', ' AFTERWARDS ']) assert.ok(gradeSimilarAnswer(input, 'afterward(s)'));
+  assert.ok(!gradeSimilarAnswer('afterward(s)', 'afterward(s)'));
   assert.ok(!gradeSimilarAnswer('afterwardss', 'afterward(s)'));
   assert.ok(!gradeSimilarAnswer('finding', 'findings'));
 });

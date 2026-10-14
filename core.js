@@ -1,6 +1,12 @@
 // Shared pure logic. Vocabulary is loaded exclusively from words.csv.
 export const normalize = value => String(value).trim().toLowerCase();
-export const isCorrect = (input, answer) => normalize(input) === normalize(answer);
+export const displayAnswer = answer => String(answer).trim().replace(/\(s\)$/, 's');
+export const isCorrect = (input, answer) => {
+  const expected = normalize(answer), actual = normalize(input);
+  return expected.endsWith('(s)')
+    ? [expected.slice(0, -3), expected.slice(0, -3) + 's'].includes(actual)
+    : actual === expected;
+};
 export const rate = record => record && record.correct + record.incorrect > 0
   ? record.correct / (record.correct + record.incorrect) : null;
 

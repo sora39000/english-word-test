@@ -210,4 +210,4 @@ UTF-8で保存し、GitHubの同名ファイルを更新します。例えば③
 共通の `app.js`・`core.js`・`styles.css` を使います。ローカル起動方法・GitHub Pagesの設定は同じです。
 検証は `node --test tests/*.test.mjs` で実行できます。
 
-類題では、元CSVの `afterward(s)` に対して `afterward` と `afterwards` のどちらも正解です。元の通常テストの採点方法は変更していません。
+通常テスト・類題ともに、元CSVの `afterward(s)` は `afterward` と `afterwards` のどちらも正解です。正答は `afterwards` と表示します。括弧付きの文字列を入力する必要はありません。学習記録を維持するためCSV内の識別用表記はそのまま保管しています。

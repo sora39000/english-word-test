@@ -1,4 +1,4 @@
-import { loadWords, rangeWords, latestRangeStart, weakWords, chooseQuestions, isCorrect, recordAnswer, rate, freshProgress, readProgress } from './core.js';
+import { displayAnswer, loadWords, rangeWords, latestRangeStart, weakWords, chooseQuestions, isCorrect, recordAnswer, rate, freshProgress, readProgress } from './core.js?v=20261014-answer';
 
 const $ = id => document.getElementById(id);
 const isSimilar = document.body.dataset.practice === 'similar';
@@ -127,7 +127,7 @@ function grade() {
   $('answer').readOnly = true; $('answer').setAttribute('aria-invalid', String(!correct));
   $('feedback').className = `feedback ${correct ? 'correct' : 'wrong'}`;
   $('feedback').replaceChildren(element('strong', '', correct ? '✓ 正解！' : '× 不正解'));
-  $('feedback').append(element('div', '', `正答：${word.answer}`));
+  $('feedback').append(element('div', '', `正答：${displayAnswer(word.answer)}`));
   $('feedback').hidden = false; $('grade').disabled = true; $('next').disabled = false;
   $('progress').value = session.answers.length;
   $('live-score').textContent = `正解 ${session.answers.filter(a => a.correct).length}問`;
@@ -147,7 +147,7 @@ function reviewCard(word, answer) {
   else header.append(element('span', '', `正答率 ${percent(rate(record))}${record ? '%' : ''}`));
   item.append(header, element('p', 'review-question', word.question));
   if (answer && !answer.correct) item.append(element('p', 'review-input', `あなたの回答：${answer.input.trim() || '（未入力）'}`));
-  item.append(element('p', 'review-answer', `正答：${word.answer}`));
+  item.append(element('p', 'review-answer', `正答：${displayAnswer(word.answer)}`));
   if (record) item.append(element('p', 'review-record', `正解 ${record.correct}回 · 不正解 ${record.incorrect}回 · 正答率 ${percent(rate(record))}% · 直近 ${record.last ? '✓ 正解' : '× 不正解'}`));
   else item.append(element('p', 'review-record', '未学習'));
   return item;
@@ -230,7 +230,7 @@ async function init() {
     catch { throw new Error('CSVをUTF-8で読み込めません。Excelなどで「CSV UTF-8」として保存してください。'); }
     ({ words, hasIndex } = loadWords(text));
     if (isSimilar) {
-      const similarModule = await import('./similar-core.js?v=3');
+      const similarModule = await import('./similar-core.js?v=4');
       const { loadSimilar } = similarModule;
       chooseSimilarQuestions = similarModule.chooseSimilarQuestions;
       gradeSimilarAnswer = similarModule.gradeSimilarAnswer;

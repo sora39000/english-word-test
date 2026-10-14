@@ -1,4 +1,4 @@
-import { loadWords, parseCSV, normalize, isCorrect, chooseQuestions, weakWords, shuffle, rate } from './core.js';
+import { loadWords, parseCSV, normalize, isCorrect, chooseQuestions, weakWords, shuffle, rate } from './core.js?v=20261014-answer';
 
 // index identifies a variant; SourceIndex identifies its original vocabulary item.
 export function loadSimilar(source, originals) {
@@ -29,7 +29,5 @@ export function chooseSimilarQuestions(pool, count, mode, records, previous = []
 }
 
 export function gradeSimilarAnswer(input, answer) {
-  if (isCorrect(input, answer)) return true;
-  const expected = normalize(answer);
-  return expected.endsWith('(s)') && [expected.slice(0, -3), expected.slice(0, -3) + 's'].includes(normalize(input));
+  return isCorrect(input, answer);
 }
