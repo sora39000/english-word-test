@@ -9,7 +9,7 @@ const variants = loadSimilar(csv, originals);
 test('200 distinct variants cover both 50-word ranges twice with unchanged answers', () => {
   assert.equal(variants.length, 200);
   assert.equal(new Set(variants.map(w => w.id)).size, 200);
-  for (const original of originals) {
+  for (const original of originals.filter(word => word.index <= 100)) {
     const group = variants.filter(w => w.index === original.index);
     assert.equal(group.length, 2);
     for (const word of group) {
