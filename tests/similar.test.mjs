@@ -6,10 +6,10 @@ import { loadSimilar, chooseSimilarQuestions, gradeSimilarAnswer } from '../simi
 const csv = readFileSync(new URL('../similar.csv', import.meta.url), 'utf8');
 const originals = loadWords(readFileSync(new URL('../words.csv', import.meta.url), 'utf8')).words;
 const variants = loadSimilar(csv, originals);
-test('200 distinct variants cover both 50-word ranges twice with unchanged answers', () => {
-  assert.equal(variants.length, 200);
-  assert.equal(new Set(variants.map(w => w.id)).size, 200);
-  for (const original of originals.filter(word => word.index <= 100)) {
+test('300 distinct variants cover three 50-word ranges twice with unchanged answers', () => {
+  assert.equal(variants.length, 300);
+  assert.equal(new Set(variants.map(w => w.id)).size, 300);
+  for (const original of originals) {
     const group = variants.filter(w => w.index === original.index);
     assert.equal(group.length, 2);
     for (const word of group) {
@@ -19,7 +19,7 @@ test('200 distinct variants cover both 50-word ranges twice with unchanged answe
       assert.ok(!word.question.toLowerCase().includes(word.answer.toLowerCase()));
     }
   }
-  assert.ok(variants.every(w => w.index >= 1 && w.index <= 100));
+  assert.ok(variants.every(w => w.index >= 1 && w.index <= 150));
 });
 test('ranges use source vocabulary numbers, never variant row numbers', () => {
   assert.equal(rangeWords(variants, '1', {}).length, 100);
@@ -29,7 +29,7 @@ test('ranges use source vocabulary numbers, never variant row numbers', () => {
   assert.ok(rangeWords([...variants, ...more], 'latest', {}).every(w => w.index >= 51));
   for (const count of ['10', '20', '30', '50', 'all']) {
     const chosen = chooseQuestions(variants, count, 'normal', {});
-    assert.equal(chosen.length, count === 'all' ? 200 : Number(count));
+    assert.equal(chosen.length, count === 'all' ? 300 : Number(count));
     assert.equal(new Set(chosen.map(w => w.id)).size, chosen.length);
   }
 });
@@ -61,7 +61,7 @@ test('each test samples one variant per word and exposes only the first-letter h
   for (const count of ['10', '20', '30', '50', 'all']) {
     for (let run = 0; run < 10; run++) {
       const sample = chooseSimilarQuestions(variants, count, 'normal', {});
-      assert.equal(sample.length, count === 'all' ? 100 : Number(count));
+      assert.equal(sample.length, count === 'all' ? 150 : Number(count));
       assert.equal(new Set(sample.map(w => w.index)).size, sample.length);
       assert.ok(sample.every(w => !/\d+文字/.test(w.question)));
       assert.ok(sample.every(w => w.question.endsWith('ヒント：頭文字 ' + w.answer[0])));
@@ -83,13 +83,13 @@ test('weak and wrong-only practice cannot repeat a vocabulary item', () => {
   for (const w of variants) recordAnswer(records, w.id, false);
   for (const mode of ['normal', 'weak']) {
     const sample = chooseSimilarQuestions(rangeWords(variants, 'wrong', records), 'all', mode, records);
-    assert.equal(sample.length, 100);
-    assert.equal(new Set(sample.map(w => w.index)).size, 100);
+    assert.equal(sample.length, 150);
+    assert.equal(new Set(sample.map(w => w.index)).size, 150);
   }
 });
 
 test('each named range produces exactly 50 unique vocabulary items with no mixing', () => {
-  for (const first of [1, 51]) {
+  for (const first of [1, 51, 101]) {
     const pool = rangeWords(variants, String(first), {});
     assert.equal(pool.length, 100);
     for (let i = 0; i < 20; i++) {

@@ -599,3 +599,303 @@
 "200","100","The cafe has a friendly (  ).
 そのカフェには親しみやすい雰囲気があります。
 ヒント：頭文字 a","atmosphere"
+"201","101","Ask your (  ) to approve the request.
+上司にその申請を承認してもらってください。
+ヒント：頭文字 s","supervisor"
+"202","101","The shift (  ) checked the equipment.
+そのシフトの監督者が機器を確認しました。
+ヒント：頭文字 s","supervisor"
+"203","102","We need extra (  ) space for these boxes.
+これらの箱のために追加の保管スペースが必要です。
+ヒント：頭文字 s","storage"
+"204","102","Keep the documents in secure (  ).
+書類は安全な保管場所に置いてください。
+ヒント：頭文字 s","storage"
+"205","103","Please attach the (  ) to your payment.
+支払いに請求書を添付してください。
+ヒント：頭文字 i","invoice"
+"206","103","The total amount appears at the bottom of the (  ).
+合計金額は請求書の下部に記載されています。
+ヒント：頭文字 i","invoice"
+"207","104","Many customers (  ) this brand with quality.
+多くの顧客はこのブランドから品質の良さを連想します。
+ヒント：頭文字 a","associate"
+"208","104","People often (  ) the city with its famous castle.
+人々はよくその都市と有名な城を結び付けて考えます。
+ヒント：頭文字 a","associate"
+"209","105","Please (  ) the report before Friday.
+金曜日までに報告書を修正してください。
+ヒント：頭文字 r","revise"
+"210","105","We may need to (  ) our budget.
+予算を見直す必要があるかもしれません。
+ヒント：頭文字 r","revise"
+"211","106","This (  ) uses very little electricity.
+この家電製品は電気をほとんど使いません。
+ヒント：頭文字 a","appliance"
+"212","106","Unplug the (  ) before cleaning it.
+掃除する前にその家電製品のプラグを抜いてください。
+ヒント：頭文字 a","appliance"
+"213","107","Check the address to (  ) timely delivery.
+期限どおりの配達を確実にするため住所を確認してください。
+ヒント：頭文字 e","ensure"
+"214","107","These checks help (  ) the safety of our products.
+これらの点検は製品の安全性を確保するのに役立ちます。
+ヒント：頭文字 e","ensure"
+"215","108","We hired a (  ) company for the reception.
+私たちはレセプションのために仕出し会社を雇いました。
+ヒント：頭文字 c","catering"
+"216","108","The hotel handles (  ) for large events.
+そのホテルは大規模な行事の食事の出張提供を手がけています。
+ヒント：頭文字 c","catering"
+"217","109","The warehouse manager checks (  ) every week.
+倉庫の管理者は毎週在庫を確認します。
+ヒント：頭文字 i","inventory"
+"218","109","The store has too much unsold (  ).
+その店には売れ残りの在庫が多すぎます。
+ヒント：頭文字 i","inventory"
+"219","110","The repair is covered by the (  ).
+その修理は保証の対象です。
+ヒント：頭文字 w","warranty"
+"220","110","Keep this card as proof of your (  ).
+保証の証明としてこのカードを保管してください。
+ヒント：頭文字 w","warranty"
+"221","111","These lawyers (  ) in employment law.
+これらの弁護士は労働法を専門としています。
+ヒント：頭文字 s","specialize"
+"222","111","We (  ) in designing small gardens.
+私たちは小さな庭の設計を専門にしています。
+ヒント：頭文字 s","specialize"
+"223","112","The (  ) price includes sales tax.
+その小売価格には消費税が含まれています。
+ヒント：頭文字 r","retail"
+"224","112","She has ten years of experience in (  ).
+彼女には小売業で10年の経験があります。
+ヒント：頭文字 r","retail"
+"225","113","The team developed a new sales (  ).
+チームは新たな販売戦略を立てました。
+ヒント：頭文字 s","strategy"
+"226","113","Our (  ) is to focus on local customers.
+私たちの戦略は地元の顧客に重点を置くことです。
+ヒント：頭文字 s","strategy"
+"227","114","You should (  ) a doctor before changing your medication.
+薬を変更する前に医師に相談するべきです。
+ヒント：頭文字 c","consult"
+"228","114","Please (  ) the manual for detailed instructions.
+詳しい手順については説明書を参照してください。
+ヒント：頭文字 c","consult"
+"229","115","A hot (  ) is included with your meal.
+お食事には温かい飲み物が付いています。
+ヒント：頭文字 b","beverage"
+"230","115","Please select a (  ) from the menu.
+メニューから飲み物を一つ選んでください。
+ヒント：頭文字 b","beverage"
+"231","116","We will (  ) you when your order is ready.
+ご注文の準備ができましたらお知らせします。
+ヒント：頭文字 n","notify"
+"232","116","Please (  ) the office of any address changes.
+住所の変更があれば事務所に知らせてください。
+ヒント：頭文字 n","notify"
+"233","117","The first item on the (  ) is the budget.
+議題の最初の項目は予算です。
+ヒント：頭文字 a","agenda"
+"234","117","Please send everyone a copy of the (  ).
+全員に議題の写しを送ってください。
+ヒント：頭文字 a","agenda"
+"235","118","Follow the marked (  ) through the forest.
+森の中の標識がある小道を進んでください。
+ヒント：頭文字 t","trail"
+"236","118","The hiking (  ) is closed after heavy rain.
+大雨の後、そのハイキングコースは閉鎖されています。
+ヒント：頭文字 t","trail"
+"237","119","Your magazine (  ) ends next month.
+あなたの雑誌の定期購読は来月終了します。
+ヒント：頭文字 s","subscription"
+"238","119","The monthly (  ) includes access to all lessons.
+月額の定額利用契約には全授業へのアクセスが含まれます。
+ヒント：頭文字 s","subscription"
+"239","120","Contact the (  ) if the equipment arrives damaged.
+機器が破損して届いた場合は販売業者に連絡してください。
+ヒント：頭文字 v","vendor"
+"240","120","We selected a local (  ) to supply office furniture.
+私たちはオフィス家具の納入業者として地元の業者を選びました。
+ヒント：頭文字 v","vendor"
+"241","121","The vehicle passed its annual (  ).
+その車は年次点検に合格しました。
+ヒント：頭文字 i","inspection"
+"242","121","A final (  ) is required before the building opens.
+建物の開業前に最終検査が必要です。
+ヒント：頭文字 i","inspection"
+"243","122","Please put the milk on our (  ) list.
+買い物用の食料品リストに牛乳を加えてください。
+ヒント：頭文字 g","grocery"
+"244","122","She does her (  ) shopping on Saturday.
+彼女は土曜日に食料品の買い物をします。
+ヒント：頭文字 g","grocery"
+"245","123","This (  ) is easy to wash.
+この生地は洗いやすいです。
+ヒント：頭文字 f","fabric"
+"246","123","Choose a light (  ) for summer clothing.
+夏服には軽い生地を選んでください。
+ヒント：頭文字 f","fabric"
+"247","124","The new system reduces unnecessary (  ).
+新しいシステムは不要な書類作業を減らします。
+ヒント：頭文字 p","paperwork"
+"248","124","Please complete the (  ) before your first day.
+初出勤の日までに書類の手続きを済ませてください。
+ヒント：頭文字 p","paperwork"
+"249","125","Only authorized (  ) may enter this room.
+許可された職員だけがこの部屋に入れます。
+ヒント：頭文字 p","personnel"
+"250","125","The company needs additional (  ) during the summer.
+その会社は夏の間、追加の人員を必要としています。
+ヒント：頭文字 p","personnel"
+"251","126","I called to (  ) about room availability.
+私は空室状況について問い合わせるため電話しました。
+ヒント：頭文字 i","inquire"
+"252","126","Please (  ) at the front desk for further details.
+詳細はフロントでお問い合わせください。
+ヒント：頭文字 i","inquire"
+"253","127","We are looking for an (  ) accountant.
+私たちは経験豊富な会計士を探しています。
+ヒント：頭文字 e","experienced"
+"254","127","An (  ) guide will lead the tour.
+経験豊富なガイドがツアーを案内します。
+ヒント：頭文字 e","experienced"
+"255","128","Our office (  ) ends in June.
+私たちのオフィスの賃貸契約は6月に終了します。
+ヒント：頭文字 l","lease"
+"256","128","Read the (  ) carefully before signing it.
+署名する前に賃貸契約書をよく読んでください。
+ヒント：頭文字 l","lease"
+"257","129","The software supports (  ) languages.
+そのソフトウェアは複数の言語に対応しています。
+ヒント：頭文字 m","multiple"
+"258","129","We received (  ) requests for the same service.
+私たちは同じサービスについて複数の依頼を受けました。
+ヒント：頭文字 m","multiple"
+"259","130","The manager will (  ) a mentor to each new employee.
+マネージャーは新入社員一人ひとりに指導役を割り当てます。
+ヒント：頭文字 a","assign"
+"260","130","Please (  ) a number to each package.
+各荷物に番号を割り当ててください。
+ヒント：頭文字 a","assign"
+"261","131","The hospital plans to (  ) more nurses.
+その病院は看護師をさらに採用する計画です。
+ヒント：頭文字 r","recruit"
+"262","131","We hope to (  ) volunteers for the festival.
+私たちは祭りのボランティアを募集したいと考えています。
+ヒント：頭文字 r","recruit"
+"263","132","The hotel can host a (  ) for two hundred guests.
+そのホテルは200名の客を迎える宴会を開催できます。
+ヒント：頭文字 b","banquet"
+"264","132","Dinner will be served in the (  ) hall.
+夕食は宴会場で提供されます。
+ヒント：頭文字 b","banquet"
+"265","133","We need a larger (  ) for the concert.
+そのコンサートにはより大きな会場が必要です。
+ヒント：頭文字 v","venue"
+"266","133","The (  ) is a short walk from the station.
+会場は駅から歩いてすぐです。
+ヒント：頭文字 v","venue"
+"267","134","Hotel guests receive a (  ) newspaper.
+ホテルの宿泊客には無料の新聞が提供されます。
+ヒント：頭文字 c","complimentary"
+"268","134","A (  ) shuttle runs to the airport.
+無料のシャトルバスが空港まで運行しています。
+ヒント：頭文字 c","complimentary"
+"269","135","We can (  ) that the experiment was successful.
+実験は成功だったと結論づけられます。
+ヒント：頭文字 c","conclude"
+"270","135","The speaker will (  ) the session with a short summary.
+講演者は短い要約でその講習を締めくくります。
+ヒント：頭文字 c","conclude"
+"271","136","A bronze (  ) stands in front of the library.
+図書館の前に青銅の彫刻が立っています。
+ヒント：頭文字 s","sculpture"
+"272","136","The artist creates each (  ) by hand.
+その芸術家は一つひとつの彫刻を手作業で制作します。
+ヒント：頭文字 s","sculpture"
+"273","137","The course includes an (  ) workshop.
+そのコースには対面の講習会が含まれています。
+ヒント：頭文字 i","in-person"
+"274","137","We offer both online and (  ) consultations.
+私たちはオンラインと対面の両方の相談を提供しています。
+ヒント：頭文字 i","in-person"
+"275","138","The company will (  ) its warehouse next year.
+その会社は来年、倉庫を移転します。
+ヒント：頭文字 r","relocate"
+"276","138","Would you be willing to (  ) for this job?
+この仕事のために転居する意思はありますか。
+ヒント：頭文字 r","relocate"
+"277","139","Flour is the main (  ) in this recipe.
+小麦粉はこのレシピの主な材料です。
+ヒント：頭文字 i","ingredient"
+"278","139","Check every (  ) for possible allergens.
+アレルギーの原因となり得る物質がないか、すべての食材を確認してください。
+ヒント：頭文字 i","ingredient"
+"279","140","We (  ) strong demand for the new product.
+私たちは新製品に対する強い需要を予想しています。
+ヒント：頭文字 a","anticipate"
+"280","140","Try to (  ) your customers' needs.
+顧客の要望を予測するよう努めてください。
+ヒント：頭文字 a","anticipate"
+"281","141","Dial (  ) 205 to reach the sales department.
+営業部に連絡するには内線205番を回してください。
+ヒント：頭文字 e","extension"
+"282","141","She requested an (  ) of the deadline.
+彼女は締め切りの延長を求めました。
+ヒント：頭文字 e","extension"
+"283","142","The (  ) will begin repairs on Monday.
+その請負業者は月曜日に修理を始めます。
+ヒント：頭文字 c","contractor"
+"284","142","Choose a licensed (  ) for the renovation.
+改修には免許を持つ請負業者を選んでください。
+ヒント：頭文字 c","contractor"
+"285","143","Each participant will receive a (  ) after the course.
+受講者はコース終了後に証明書を受け取ります。
+ヒント：頭文字 c","certificate"
+"286","143","Please attach a copy of your training (  ).
+研修の修了証の写しを添付してください。
+ヒント：頭文字 c","certificate"
+"287","144","Your membership will (  ) at the end of this month.
+あなたの会員資格は今月末に期限が切れます。
+ヒント：頭文字 e","expire"
+"288","144","Check when your passport will (  ).
+パスポートの有効期限がいつ切れるか確認してください。
+ヒント：頭文字 e","expire"
+"289","145","The furniture requires some (  ).
+その家具には多少の組み立てが必要です。
+ヒント：頭文字 a","assembly"
+"290","145","Please read the (  ) instructions carefully.
+組み立て説明書をよく読んでください。
+ヒント：頭文字 a","assembly"
+"291","146","You may be (  ) for a discount.
+あなたは割引の対象となるかもしれません。
+ヒント：頭文字 e","eligible"
+"292","146","Only full-time employees are (  ) to apply.
+応募資格があるのは常勤の従業員だけです。
+ヒント：頭文字 e","eligible"
+"293","147","The technician checked the computer (  ).
+技術者はコンピューターのハードウェアを点検しました。
+ヒント：頭文字 h","hardware"
+"294","147","We need to upgrade our office (  ).
+私たちはオフィスのハードウェアを更新する必要があります。
+ヒント：頭文字 h","hardware"
+"295","148","The travel agent emailed our (  ).
+旅行代理店は私たちの旅程表をメールで送りました。
+ヒント：頭文字 i","itinerary"
+"296","148","The (  ) includes two days in Kyoto.
+その旅程には京都での2日間が含まれています。
+ヒント：頭文字 i","itinerary"
+"297","149","Please (  ) the key points in the report.
+報告書の重要な点を強調してください。
+ヒント：頭文字 h","highlight"
+"298","149","The presentation will (  ) our recent achievements.
+その発表は私たちの最近の成果を強調します。
+ヒント：頭文字 h","highlight"
+"299","150","The finance team processes (  ) every Friday.
+経理チームは毎週金曜日に給与計算を処理します。
+ヒント：頭文字 p","payroll"
+"300","150","Please report any (  ) errors to accounting.
+給与計算の誤りは経理に報告してください。
+ヒント：頭文字 p","payroll"
