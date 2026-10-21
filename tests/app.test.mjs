@@ -50,7 +50,7 @@ test('original app and variants grade, finish, retry and persist in separate sto
   const originalRecord = storage.get(originalKey);
   assert.equal(Object.values(JSON.parse(originalRecord).records)[0].correct, 1);
   const variants = await openApp(true, storage);
-  assert.equal(variants.get('total-words').textContent, 150);
+  assert.equal(variants.get('total-words').textContent, 200);
   variants.start('normal');
   assert.ok(variants.getSession().questions.every(w => w.index >= 1 && w.index <= 50));
   for (let i = 0; i < 10; i++) {

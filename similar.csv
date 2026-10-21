@@ -899,3 +899,303 @@
 "300","150","Please report any (  ) errors to accounting.
 給与計算の誤りは経理に報告してください。
 ヒント：頭文字 p","payroll"
+"301","151","The city needs more (  ) apartments.
+その都市にはもっと手ごろな価格のアパートが必要です。
+ヒント：頭文字 a","affordable"
+"302","151","This restaurant offers (  ) meals.
+このレストランは手ごろな価格の食事を提供しています。
+ヒント：頭文字 a","affordable"
+"303","152","She handles (  ) tasks for the team.
+彼女はチームの管理業務を担当しています。
+ヒント：頭文字 a","administrative"
+"304","152","Please contact the (  ) office.
+管理事務所に連絡してください。
+ヒント：頭文字 a","administrative"
+"305","153","You can (  ) online before the course begins.
+講座が始まる前にオンラインで入会できます。
+ヒント：頭文字 e","enroll"
+"306","153","Parents can (  ) their children in the program.
+保護者は子どもをそのプログラムに入会させることができます。
+ヒント：頭文字 e","enroll"
+"307","154","The team proposed an (  ) solution.
+チームは革新的な解決策を提案しました。
+ヒント：頭文字 i","innovative"
+"308","154","The award recognizes (  ) research.
+その賞は革新的な研究をたたえます。
+ヒント：頭文字 i","innovative"
+"309","155","Do not (  ) the speed limit.
+制限速度を超えないでください。
+ヒント：頭文字 e","exceed"
+"310","155","Total expenses must not (  ) the budget.
+総経費は予算を超えてはいけません。
+ヒント：頭文字 e","exceed"
+"311","156","This ticket is (  ) for one month.
+この切符は1か月間有効です。
+ヒント：頭文字 v","valid"
+"312","156","Please bring a (  ) passport.
+有効なパスポートを持参してください。
+ヒント：頭文字 v","valid"
+"313","157","Guests can enjoy (  ) during the break.
+来場者は休憩中に軽い飲食物を楽しめます。
+ヒント：頭文字 r","refreshments"
+"314","157","The registration fee includes (  ).
+参加登録料には軽い飲食物が含まれています。
+ヒント：頭文字 r","refreshments"
+"315","158","The proposed (  ) requires official approval.
+提案された合併には正式な承認が必要です。
+ヒント：頭文字 m","merger"
+"316","158","Staff received details about the (  ).
+職員は合併についての詳細を受け取りました。
+ヒント：頭文字 m","merger"
+"317","159","She teaches a traditional (  ) at the community center.
+彼女は地域センターで伝統工芸を教えています。
+ヒント：頭文字 c","craft"
+"318","159","Skilled workers (  ) each piece by hand.
+熟練した職人が一つひとつの品を手作業で精巧に作ります。
+ヒント：頭文字 c","craft"
+"319","160","We need an (  ) route to the airport.
+空港へ向かう別の経路が必要です。
+ヒント：頭文字 a","alternative"
+"320","160","Cycling is a healthy (  ) to driving.
+自転車に乗ることは車の運転に代わる健康的な選択肢です。
+ヒント：頭文字 a","alternative"
+"321","161","The town restored its (  ) railway station.
+その町は歴史のある鉄道駅を修復しました。
+ヒント：頭文字 h","historic"
+"322","161","The agreement marked a (  ) moment.
+その合意は歴史上重要な瞬間となりました。
+ヒント：頭文字 h","historic"
+"323","162","We hope to (  ) a better price.
+私たちはより良い価格を交渉したいと考えています。
+ヒント：頭文字 n","negotiate"
+"324","162","The union will (  ) with management tomorrow.
+労働組合は明日経営陣と交渉します。
+ヒント：頭文字 n","negotiate"
+"325","163","Only (  ) technicians may repair this equipment.
+資格のある技術者だけがこの機器を修理できます。
+ヒント：頭文字 q","qualified"
+"326","163","She is well (  ) for the position.
+彼女はその職に十分な資格があります。
+ヒント：頭文字 q","qualified"
+"327","164","The (  ) asked me to wait in the lobby.
+受付係は私にロビーで待つように言いました。
+ヒント：頭文字 r","receptionist"
+"328","164","Our new (  ) starts work on Monday.
+新しい受付係は月曜日に勤務を始めます。
+ヒント：頭文字 r","receptionist"
+"329","165","Your order is ready for (  ).
+ご注文の品は引き取りの準備ができています。
+ヒント：頭文字 p","pickup"
+"330","165","Please arrange a (  ) at the station.
+駅で車に乗せてもらう手配をしてください。
+ヒント：頭文字 p","pickup"
+"331","166","The committee will (  ) each proposal.
+委員会は各提案を評価します。
+ヒント：頭文字 e","evaluate"
+"332","166","We use surveys to (  ) customer satisfaction.
+私たちは顧客満足度を評価するために調査を使います。
+ヒント：頭文字 e","evaluate"
+"333","167","They plan to (  ) the kitchen this winter.
+彼らはこの冬にキッチンを改築する計画です。
+ヒント：頭文字 r","remodel"
+"334","167","We hired a contractor to (  ) the store.
+私たちは店を改装するために請負業者を雇いました。
+ヒント：頭文字 r","remodel"
+"335","168","Every (  ) must present a ticket at the entrance.
+利用者は全員、入り口でチケットを提示しなければなりません。
+ヒント：頭文字 p","patron"
+"336","168","A wealthy (  ) supported the young artist.
+裕福な後援者がその若い芸術家を支援しました。
+ヒント：頭文字 p","patron"
+"337","169","These solar panels (  ) electricity.
+これらのソーラーパネルは電気を生み出します。
+ヒント：頭文字 g","generate"
+"338","169","The new factory will (  ) jobs.
+新しい工場は雇用を生み出します。
+ヒント：頭文字 g","generate"
+"339","170","We stayed (  ) at a hotel near the airport.
+私たちは空港近くのホテルに一泊しました。
+ヒント：頭文字 o","overnight"
+"340","170","The package will arrive by (  ) shipping.
+その荷物は翌日配達便で届きます。
+ヒント：頭文字 o","overnight"
+"341","171","Ticket sales are our main source of (  ).
+チケット販売は私たちの主な収入源です。
+ヒント：頭文字 r","revenue"
+"342","171","Annual (  ) increased by ten percent.
+年間収益は10パーセント増加しました。
+ヒント：頭文字 r","revenue"
+"343","172","Please send a brief (  ) of the meeting.
+会議の簡潔な要約を送ってください。
+ヒント：頭文字 s","summary"
+"344","172","The document begins with a (  ) of the findings.
+その文書は調査結果の要約から始まります。
+ヒント：頭文字 s","summary"
+"345","173","Customers received a short (  ) by email.
+顧客はメールで短いアンケート用紙を受け取りました。
+ヒント：頭文字 q","questionnaire"
+"346","173","Please return the (  ) by Friday.
+金曜日までにアンケート用紙を返送してください。
+ヒント：頭文字 q","questionnaire"
+"347","174","The island depends heavily on (  ).
+その島は観光業に大きく依存しています。
+ヒント：頭文字 t","tourism"
+"348","174","The new airport will help promote (  ).
+新しい空港は観光の振興に役立ちます。
+ヒント：頭文字 t","tourism"
+"349","175","No (  ) experience is necessary.
+事前の経験は必要ありません。
+ヒント：頭文字 p","prior"
+"350","175","Please arrive ten minutes (  ) to departure.
+出発の10分前に到着してください。
+ヒント：頭文字 p","prior"
+"351","176","The survey collects data on (  ) spending.
+その調査は家計支出のデータを集めます。
+ヒント：頭文字 h","household"
+"352","176","Each (  ) will receive one information packet.
+各世帯に案内資料が一組ずつ配布されます。
+ヒント：頭文字 h","household"
+"353","177","The company plans to (  ) a smaller competitor.
+その会社は小規模な競合企業を買収する計画です。
+ヒント：頭文字 a","acquire"
+"354","177","Students can (  ) new skills through practice.
+学生は練習を通じて新しい技能を習得できます。
+ヒント：頭文字 a","acquire"
+"355","178","The (  ) closes at eight tonight.
+その薬局は今夜8時に閉まります。
+ヒント：頭文字 p","pharmacy"
+"356","178","Take this prescription to the (  ).
+この処方箋を薬局に持っていってください。
+ヒント：頭文字 p","pharmacy"
+"357","179","She will (  ) the construction project.
+彼女はその建設事業を監督します。
+ヒント：頭文字 o","oversee"
+"358","179","We need someone to (  ) staff training.
+職員研修を監督する人が必要です。
+ヒント：頭文字 o","oversee"
+"359","180","Please (  ) your main concerns.
+主な懸念事項の概要を説明してください。
+ヒント：頭文字 o","outline"
+"360","180","The teacher gave us an (  ) of the course.
+教師は私たちに講座の概要を示しました。
+ヒント：頭文字 o","outline"
+"361","181","The trip takes (  ) two hours.
+その移動には約2時間かかります。
+ヒント：頭文字 a","approximately"
+"362","181","There were (  ) eighty guests.
+来客はおよそ80人でした。
+ヒント：頭文字 a","approximately"
+"363","182","Better equipment can increase (  ).
+より良い機器は生産性を高めることができます。
+ヒント：頭文字 p","productivity"
+"364","182","The report compares (  ) across departments.
+その報告書は部署間の生産性を比較しています。
+ヒント：頭文字 p","productivity"
+"365","183","She received an award for (  ) service.
+彼女は素晴らしいサービスに対して賞を受けました。
+ヒント：頭文字 o","outstanding"
+"366","183","Please pay the (  ) balance by Monday.
+月曜日までに未払いの残高を支払ってください。
+ヒント：頭文字 o","outstanding"
+"367","184","We will (  ) the new policy next month.
+私たちは来月、新しい方針を実施します。
+ヒント：頭文字 i","implement"
+"368","184","The team needs time to (  ) these changes.
+チームはこれらの変更を実行するための時間を必要としています。
+ヒント：頭文字 i","implement"
+"369","185","The event attracted a lot of (  ).
+その行事は多くの注目を集めました。
+ヒント：頭文字 p","publicity"
+"370","185","The company hired an agency to handle (  ).
+その会社は宣伝を担当する代理店を雇いました。
+ヒント：頭文字 p","publicity"
+"371","186","Please keep the (  ) clear.
+通路をふさがないでください。
+ヒント：頭文字 a","aisle"
+"372","186","The cereal is in the next (  ).
+シリアルは隣の通路にあります。
+ヒント：頭文字 a","aisle"
+"373","187","The lecture will take place in the (  ).
+その講義は講堂で行われます。
+ヒント：頭文字 a","auditorium"
+"374","187","The (  ) was full before the concert began.
+コンサートが始まる前に講堂は満席でした。
+ヒント：頭文字 a","auditorium"
+"375","188","The hall has a seating (  ) of five hundred.
+そのホールの座席収容人数は500人です。
+ヒント：頭文字 c","capacity"
+"376","188","The factory is operating at full (  ).
+その工場は最大の生産能力で稼働しています。
+ヒント：頭文字 c","capacity"
+"377","189","I need to do the (  ) this evening.
+私は今晩洗濯をする必要があります。
+ヒント：頭文字 l","laundry"
+"378","189","Put your dirty (  ) in this basket.
+汚れた洗濯物をこのかごに入れてください。
+ヒント：頭文字 l","laundry"
+"379","190","The charity launched a (  ) campaign.
+その慈善団体は募金活動を開始しました。
+ヒント：頭文字 f","fund-raising"
+"380","190","She is responsible for (  ) at the museum.
+彼女は博物館の資金調達を担当しています。
+ヒント：頭文字 f","fund-raising"
+"381","191","Experts cannot (  ) the exact result.
+専門家でも正確な結果を予測できません。
+ヒント：頭文字 p","predict"
+"382","191","This model helps us (  ) future demand.
+このモデルは将来の需要を予測する助けになります。
+ヒント：頭文字 p","predict"
+"383","192","The museum will (  ) after the renovations.
+博物館は改修後に営業を再開します。
+ヒント：頭文字 r","reopen"
+"384","192","We hope to (  ) the bridge tomorrow.
+私たちは明日その橋の通行を再開したいと考えています。
+ヒント：頭文字 r","reopen"
+"385","193","Only trained staff may operate this (  ).
+訓練を受けた職員だけがこの機械類を操作できます。
+ヒント：頭文字 m","machinery"
+"386","193","The factory invested in modern (  ).
+その工場は最新の機械類に投資しました。
+ヒント：頭文字 m","machinery"
+"387","194","The (  ) offers free vehicle inspections.
+その販売代理店は無料の車両点検を提供しています。
+ヒント：頭文字 d","dealership"
+"388","194","She bought her car from a local (  ).
+彼女は地元の販売代理店で車を購入しました。
+ヒント：頭文字 d","dealership"
+"389","195","The restrooms are at the end of the (  ).
+トイレは廊下の突き当たりにあります。
+ヒント：頭文字 h","hallway"
+"390","195","Please do not leave boxes in the (  ).
+廊下に箱を置かないでください。
+ヒント：頭文字 h","hallway"
+"391","196","The city launched an (  ) to reduce waste.
+市は廃棄物を削減する新たな取り組みを始めました。
+ヒント：頭文字 i","initiative"
+"392","196","We encourage employees to show (  ).
+私たちは従業員が主体性を示すことを奨励しています。
+ヒント：頭文字 i","initiative"
+"393","197","The orchestra is seeking a (  ) violinist.
+そのオーケストラは才能のあるバイオリン奏者を探しています。
+ヒント：頭文字 t","talented"
+"394","197","She leads a team of (  ) designers.
+彼女は才能のあるデザイナーのチームを率いています。
+ヒント：頭文字 t","talented"
+"395","198","We flew to Rome (  ) Paris.
+私たちはパリ経由でローマへ飛びました。
+ヒント：頭文字 v","via"
+"396","198","Tickets are available (  ) our website.
+チケットは私たちのウェブサイトを通じて購入できます。
+ヒント：頭文字 v","via"
+"397","199","We must (  ) this issue before Friday.
+私たちは金曜日までにこの問題を解決しなければなりません。
+ヒント：頭文字 r","resolve"
+"398","199","The two teams met to (  ) their disagreement.
+二つのチームは意見の対立を解決するために会いました。
+ヒント：頭文字 r","resolve"
+"399","200","All new employees (  ) a medical examination.
+新入社員は全員、健康診断を受けます。
+ヒント：頭文字 u","undergo"
+"400","200","The building will (  ) major renovations.
+その建物は大規模な改修を受ける予定です。
+ヒント：頭文字 u","undergo"
