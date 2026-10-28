@@ -44,17 +44,17 @@ test('original app and variants grade, finish, retry and persist in separate sto
   normal.get('range').events.change();
   normal.start('normal');
   assert.ok(normal.getSession().questions.every(w => w.index >= 51 && w.index <= 100));
-  normal.get('answer').value = normal.getSession().questions[0].answer;
+  normal.get('answer').value = core.displayAnswer(normal.getSession().questions[0].answer);
   normal.grade();
   const originalKey = 'kotoba-note:v1:/english-word-test';
   const originalRecord = storage.get(originalKey);
   assert.equal(Object.values(JSON.parse(originalRecord).records)[0].correct, 1);
   const variants = await openApp(true, storage);
-  assert.equal(variants.get('total-words').textContent, 200);
+  assert.equal(variants.get('total-words').textContent, 250);
   variants.start('normal');
   assert.ok(variants.getSession().questions.every(w => w.index >= 1 && w.index <= 50));
   for (let i = 0; i < 10; i++) {
-    variants.get('answer').value = i === 0 ? 'wrong answer' : variants.getSession().questions[i].answer;
+    variants.get('answer').value = i === 0 ? 'wrong answer' : core.displayAnswer(variants.getSession().questions[i].answer);
     variants.grade(); variants.grade(); variants.next();
   }
   assert.equal(variants.get('result-score').textContent, 9);

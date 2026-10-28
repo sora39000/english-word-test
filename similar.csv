@@ -1199,3 +1199,303 @@
 "400","200","The building will (  ) major renovations.
 その建物は大規模な改修を受ける予定です。
 ヒント：頭文字 u","undergo"
+"401","201","Please read the welcome (  ) before your first day.
+初日の前に案内書類一式を読んでください。
+ヒント：頭文字 p","packet"
+"402","201","Each visitor received a (  ) of seeds.
+来場者はそれぞれ種の小さな包みを受け取りました。
+ヒント：頭文字 p","packet"
+"403","202","She is writing a (  ) of a famous scientist.
+彼女は有名な科学者の伝記を書いています。
+ヒント：頭文字 b","biography"
+"404","202","The program includes a short (  ) of each speaker.
+プログラムには各講演者の短い経歴が載っています。
+ヒント：頭文字 b","biography"
+"405","203","Employees can (  ) in volunteer activities.
+従業員はボランティア活動に参加できます。
+ヒント：頭文字 e","engage"
+"406","203","These games help (  ) students in the lesson.
+これらのゲームは生徒を授業に積極的に関わらせるのに役立ちます。
+ヒント：頭文字 e","engage"
+"407","204","Her achievements (  ) young athletes.
+彼女の功績は若い運動選手を鼓舞します。
+ヒント：頭文字 i","inspire"
+"408","204","A visit to the museum may (  ) new ideas.
+博物館への訪問は新しい着想をもたらすかもしれません。
+ヒント：頭文字 i","inspire"
+"409","205","Please attach any (  ) documents.
+関連する書類があれば添付してください。
+ヒント：頭文字 r","relevant"
+"410","205","The training is (  ) to your current role.
+その研修はあなたの現在の役割に関連しています。
+ヒント：頭文字 r","relevant"
+"411","206","The system will (  ) staff to any unusual activity.
+システムは異常な動きがあれば職員に注意を喚起します。
+ヒント：頭文字 a","alert"
+"412","206","We received a weather (  ) on our phones.
+私たちは携帯電話で気象警報を受け取りました。
+ヒント：頭文字 a","alert"
+"413","207","The new (  ) will move in next week.
+新しい賃借人は来週入居します。
+ヒント：頭文字 t","tenant"
+"414","207","Each (  ) has a key to the main entrance.
+各居住者は正面玄関の鍵を持っています。
+ヒント：頭文字 t","tenant"
+"415","208","Check your insurance (  ) before traveling.
+旅行前に保険の補償範囲を確認してください。
+ヒント：頭文字 c","coverage"
+"416","208","The station provides live (  ) of the election.
+その放送局は選挙の生中継を行います。
+ヒント：頭文字 c","coverage"
+"417","209","The (  ) landed safely despite the strong wind.
+その航空機は強風にもかかわらず安全に着陸しました。
+ヒント：頭文字 a","aircraft"
+"418","209","All (  ) must be inspected regularly.
+すべての航空機は定期的に点検されなければなりません。
+ヒント：頭文字 a","aircraft"
+"419","210","The city plans to (  ) the old theater.
+市は古い劇場を修復する計画です。
+ヒント：頭文字 r","restore"
+"420","210","Use this backup to (  ) the missing files.
+このバックアップを使って失われたファイルを復元してください。
+ヒント：頭文字 r","restore"
+"421","211","This room is used (  ) for training.
+この部屋は主に研修に使われます。
+ヒント：頭文字 p","primarily"
+"422","211","The charity relies (  ) on donations.
+その慈善団体は主に寄付に頼っています。
+ヒント：頭文字 p","primarily"
+"423","212","Orders (  ) arrive within three days.
+注文品は通常3日以内に届きます。
+ヒント：頭文字 t","typically"
+"424","212","The course (  ) lasts six weeks.
+その講座は通常6週間続きます。
+ヒント：頭文字 t","typically"
+"425","213","We need a (  ) supplier for this project.
+この事業には信頼できる納入業者が必要です。
+ヒント：頭文字 r","reliable"
+"426","213","The bus is a (  ) way to reach the airport.
+そのバスは空港へ行くための頼りになる交通手段です。
+ヒント：頭文字 r","reliable"
+"427","214","Could you send us a (  ) for the repairs?
+修理の見積もりを送っていただけますか。
+ヒント：頭文字 q","quote"
+"428","214","Please (  ) the author accurately.
+その著者の言葉を正確に引用してください。
+ヒント：頭文字 q","quote"
+"429","215","Staff must obtain approval before working (  ).
+職員は時間外に働く前に承認を得なければなりません。
+ヒント：頭文字 o","overtime"
+"430","215","The budget includes funds for (  ) pay.
+予算には残業手当の資金が含まれています。
+ヒント：頭文字 o","overtime"
+"431","216","The editor returned the (  ) with comments.
+編集者はコメントを付けて原稿を返しました。
+ヒント：頭文字 m","manuscript"
+"432","216","Keep a copy of your (  ) in a safe place.
+原稿のコピーを安全な場所に保管してください。
+ヒント：頭文字 m","manuscript"
+"433","217","The award (  ) will give a short speech.
+受賞者は短いスピーチを行います。
+ヒント：頭文字 r","recipient"
+"434","217","Please check the (  )'s address before sending the package.
+荷物を送る前に受取人の住所を確認してください。
+ヒント：頭文字 r","recipient"
+"435","218","Visitors must not feed the (  ).
+訪問者は野生動物に餌を与えてはいけません。
+ヒント：頭文字 w","wildlife"
+"436","218","The park is home to a variety of (  ).
+その公園にはさまざまな野生動物が生息しています。
+ヒント：頭文字 w","wildlife"
+"437","219","Our travel dates are (  ).
+私たちの旅行日程は柔軟に変更できます。
+ヒント：頭文字 f","flexible"
+"438","219","The company offers (  ) payment options.
+その会社は融通の利く支払い方法を提供しています。
+ヒント：頭文字 f","flexible"
+"439","220","Keep your receipt as a record of the (  ).
+取引の記録としてレシートを保管してください。
+ヒント：頭文字 t","transaction"
+"440","220","The bank confirmed that the (  ) was complete.
+銀行は取引が完了したことを確認しました。
+ヒント：頭文字 t","transaction"
+"441","221","The museum attracts (  ) visitors each summer.
+その博物館は毎年夏に数多くの訪問者を集めます。
+ヒント：頭文字 n","numerous"
+"442","221","We have received (  ) requests for more classes.
+私たちは授業の増設について数多くの要望を受けています。
+ヒント：頭文字 n","numerous"
+"443","222","Clear goals can (  ) a team.
+明確な目標はチームのやる気を高めることができます。
+ヒント：頭文字 m","motivate"
+"444","222","The coach knows how to (  ) each player.
+そのコーチは各選手のやる気を引き出す方法を知っています。
+ヒント：頭文字 m","motivate"
+"445","223","A (  ) team handles customer inquiries.
+専任のチームが顧客の問い合わせを担当します。
+ヒント：頭文字 d","dedicated"
+"446","223","She is a (  ) volunteer at the hospital.
+彼女はその病院の献身的なボランティアです。
+ヒント：頭文字 d","dedicated"
+"447","224","Better lighting can (  ) the appearance of the room.
+より良い照明は部屋の見た目を向上させます。
+ヒント：頭文字 e","enhance"
+"448","224","These exercises will (  ) your communication skills.
+これらの練習はコミュニケーション能力を高めます。
+ヒント：頭文字 e","enhance"
+"449","225","My morning (  ) takes about forty minutes.
+私の朝の通勤には約40分かかります。
+ヒント：頭文字 c","commute"
+"450","225","Many employees (  ) by train.
+多くの従業員は電車で通勤します。
+ヒント：頭文字 c","commute"
+"451","226","Please (  ) the delivery times with the warehouse.
+配達時刻を倉庫と調整してください。
+ヒント：頭文字 c","coordinate"
+"452","226","She will (  ) the work of several departments.
+彼女はいくつかの部署の仕事をまとめます。
+ヒント：頭文字 c","coordinate"
+"453","227","Construction has entered its final (  ).
+工事は最終段階に入りました。
+ヒント：頭文字 p","phase"
+"454","227","Each (  ) of the project has a separate budget.
+その事業の各段階には個別の予算があります。
+ヒント：頭文字 p","phase"
+"455","228","The documents are (  ) to all employees.
+その書類はすべての従業員が利用できます。
+ヒント：頭文字 a","accessible"
+"456","228","The entrance is (  ) to wheelchair users.
+その入り口は車椅子利用者も入ることができます。
+ヒント：頭文字 a","accessible"
+"457","229","The university helps students find suitable (  ).
+大学は学生が適切な宿泊施設を見つけるのを助けます。
+ヒント：頭文字 a","accommodation(s)"
+"458","229","Please book your (  ) before the conference.
+会議の前に宿泊施設を予約してください。
+ヒント：頭文字 a","accommodation(s)"
+"459","230","We will (  ) the laboratory with new instruments.
+私たちは研究室に新しい機器を備え付けます。
+ヒント：頭文字 e","equip"
+"460","230","The course will (  ) you with practical skills.
+その講座は実践的な技能を身に付けさせます。
+ヒント：頭文字 e","equip"
+"461","231","She has shown (  ) leadership.
+彼女は非常に優れた指導力を示しています。
+ヒント：頭文字 e","exceptional"
+"462","231","The restaurant is known for its (  ) food.
+そのレストランは非常に優れた料理で知られています。
+ヒント：頭文字 e","exceptional"
+"463","232","The company needs a (  ) strategy.
+その会社には長期的な戦略が必要です。
+ヒント：頭文字 l","long-term"
+"464","232","We value our (  ) relationships with customers.
+私たちは顧客との長期的な関係を大切にしています。
+ヒント：頭文字 l","long-term"
+"465","233","Leading the project will be (  ) but rewarding.
+その事業を率いることは大変ですが、やりがいがあるでしょう。
+ヒント：頭文字 c","challenging"
+"466","233","She enjoys solving (  ) problems.
+彼女は難しくやりがいのある問題を解くことを楽しんでいます。
+ヒント：頭文字 c","challenging"
+"467","234","The (  ) operates several public libraries.
+その郡はいくつかの公共図書館を運営しています。
+ヒント：頭文字 c","county"
+"468","234","Our farm is near the (  ) border.
+私たちの農場は郡の境界近くにあります。
+ヒント：頭文字 c","county"
+"469","235","Do not (  ) to ask for help.
+遠慮せず助けを求めてください。
+ヒント：頭文字 h","hesitate"
+"470","235","Customers may (  ) before making a large purchase.
+顧客は大きな買い物をする前にためらうことがあります。
+ヒント：頭文字 h","hesitate"
+"471","236","Checking email is part of my morning (  ).
+メールの確認は私の朝の日課の一部です。
+ヒント：頭文字 r","routine"
+"472","236","The machine is undergoing a (  ) inspection.
+その機械は定期点検を受けています。
+ヒント：頭文字 r","routine"
+"473","237","Workers must wear (  ) gloves.
+作業員は保護用の手袋を着用しなければなりません。
+ヒント：頭文字 p","protective"
+"474","237","Use a (  ) cover when transporting the equipment.
+機器を運ぶときは保護用のカバーを使ってください。
+ヒント：頭文字 p","protective"
+"475","238","We welcome your (  ) on the proposal.
+その提案に関するご意見を歓迎します。
+ヒント：頭文字 i","input"
+"476","238","Please (  ) your employee number.
+従業員番号を入力してください。
+ヒント：頭文字 i","input"
+"477","239","The annual (  ) attracts thousands of visitors.
+毎年の博覧会には何千人もの来場者が集まります。
+ヒント：頭文字 e","expo"
+"478","239","Our company will display new products at the (  ).
+当社はその展示会で新製品を展示します。
+ヒント：頭文字 e","expo"
+"479","240","The flight was delayed because of a (  ) fault.
+機械の故障により、その便は遅れました。
+ヒント：頭文字 m","mechanical"
+"480","240","He studied (  ) engineering at university.
+彼は大学で機械工学を学びました。
+ヒント：頭文字 m","mechanical"
+"481","241","The report provides a (  ) review of the market.
+その報告書は市場の包括的な検討結果を提供します。
+ヒント：頭文字 c","comprehensive"
+"482","241","New employees receive (  ) training.
+新入社員は総合的な研修を受けます。
+ヒント：頭文字 c","comprehensive"
+"483","242","You need a (  ) for this medicine.
+この薬には処方箋が必要です。
+ヒント：頭文字 p","prescription"
+"484","242","The pharmacist checked the (  ) carefully.
+薬剤師は処方箋を注意深く確認しました。
+ヒント：頭文字 p","prescription"
+"485","243","Please (  ) receipt of this email.
+このメールを受領したことを知らせてください。
+ヒント：頭文字 a","acknowledge"
+"486","243","We would like to (  ) everyone's contribution.
+私たちは皆さんの貢献に感謝の意を表したいと思います。
+ヒント：頭文字 a","acknowledge"
+"487","244","Only (  ) personnel may enter this area.
+許可された職員だけがこの区域に入れます。
+ヒント：頭文字 a","authorized"
+"488","244","Buy replacement parts from an (  ) dealer.
+交換部品は公認の販売店から購入してください。
+ヒント：頭文字 a","authorized"
+"489","245","The new system tracks water (  ).
+新しいシステムは水の使用量を記録します。
+ヒント：頭文字 u","usage"
+"490","245","The guide explains the correct (  ) of each term.
+そのガイドは各用語の正しい使い方を説明しています。
+ヒント：頭文字 u","usage"
+"491","246","We were (  ) by the cancellation.
+私たちは中止にがっかりしました。
+ヒント：頭文字 d","disappointed"
+"492","246","She was (  ) that the tickets had sold out.
+彼女はチケットが売り切れていたことにがっかりしました。
+ヒント：頭文字 d","disappointed"
+"493","247","The company will (  ) its new logo tomorrow.
+その会社は明日、新しいロゴを発表します。
+ヒント：頭文字 r","reveal"
+"494","247","The test may (  ) the cause of the problem.
+その検査で問題の原因が明らかになるかもしれません。
+ヒント：頭文字 r","reveal"
+"495","248","Plug the charger into an electrical (  ).
+充電器をコンセントに差し込んでください。
+ヒント：頭文字 o","outlet"
+"496","248","The company opened a new (  ) downtown.
+その会社は中心街に新しい販売店を開きました。
+ヒント：頭文字 o","outlet"
+"497","249","Contact the (  ) company if the power goes out.
+停電した場合は公共サービス会社に連絡してください。
+ヒント：頭文字 u","utility"
+"498","249","Our rent does not include (  ) costs.
+私たちの家賃には光熱費が含まれていません。
+ヒント：頭文字 u","utility"
+"499","250","The renovation requires a (  ) investment.
+その改修にはかなりの投資が必要です。
+ヒント：頭文字 s","substantial"
+"500","250","The new process produced (  ) savings.
+新しい工程によってかなりの節約が実現しました。
+ヒント：頭文字 s","substantial"
