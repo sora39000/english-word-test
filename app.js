@@ -2,7 +2,7 @@ import { displayAnswer, loadWords, rangeWords, latestRangeStart, weakWords, choo
 
 const $ = id => document.getElementById(id);
 const isSimilar = document.body.dataset.practice === 'similar';
-const key = `${isSimilar ? 'word-up:similar:v1' : 'kotoba-note:v1'}:${location.pathname.replace(/index\.html$/, '').replace(/\/$/, '')}`;
+const key = `${isSimilar ? 'word-up:similar:v1' : 'kotoba-note:v1'}:${location.pathname.replace(/(index|spelling)\.html$/, '').replace(/\/$/, '')}`;
 let words = [], hasIndex = false, progress = freshProgress(), canSave = true;
 let chooseSimilarQuestions, gradeSimilarAnswer;
 const questionCount = pool => isSimilar ? new Set(pool.map(word => word.index)).size : pool.length;

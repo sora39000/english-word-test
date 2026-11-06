@@ -1,50 +1,15 @@
 <!doctype html>
-<html lang="ja">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <meta name="theme-color" content="#246653">
-  <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-title" content="WORD UP">
-  <meta name="apple-mobile-web-app-status-bar-style" content="default">
-  <meta name="description" content="英単語を、少しずつ確かな力に。記述式テストと苦手問題の復習ができる学習ノート。">
-  <title>WORD UP | 英単語テスト</title>
-  <link rel="icon" href="./icon.svg?v=word-up" type="image/svg+xml">
-  <link rel="apple-touch-icon" href="./word-up-icon.png">
-  <link rel="manifest" href="./manifest.webmanifest?v=word-up">
-  <link rel="stylesheet" href="./styles.css?v=20261009-similar">
-  <script type="module" src="./app.js?v=20261014-answer"></script>
-</head>
-<body>
-  <header class="site-header">
-    <a href="#" class="brand" id="brand"><span class="brand-icon" aria-hidden="true">W<span>•</span></span><span>WORD UP<small>ENGLISH PRACTICE</small></span></a>
-    <nav aria-label="メインメニュー"><button id="nav-start" class="nav-button active" aria-current="page">テスト</button><button id="nav-stats" class="nav-button">学習状況</button></nav>
-  </header>
-  <main>
-    <p id="storage-warning" class="notice" role="status" hidden></p>
-    <p id="load-error" class="notice error" role="alert" hidden></p>
-    <section id="start-screen" aria-labelledby="start-title">
-      <div class="hero"><p class="eyebrow">A LITTLE PRACTICE, EVERY DAY</p><h1 id="start-title">ひとつずつ、<br>使える<span>ことば</span>に。</h1><p class="lede">思い出して、書いて、覚える。<br class="mobile-break">今日の英単語をはじめましょう。</p></div>
-      <div class="overview"><div><span>収録問題</span><strong id="total-words">—</strong><small>問</small></div><div><span>学習した問題</span><strong id="studied-words">—</strong><small>問</small></div><div><span>累計正答率</span><strong id="overall-rate">—</strong><small>%</small></div></div>
-      <div class="start-grid"><section class="card settings" aria-labelledby="settings-title"><div class="section-heading"><span class="step-number">01</span><h2 id="settings-title">今日のテスト</h2><span class="badge">記述式</span></div>
-        <label for="range">出題範囲</label><select id="range" disabled><option value="all">全範囲</option></select>
-        <p id="range-note" class="hint">CSVを読み込んでいます…</p>
-        <fieldset><legend>問題数</legend><div class="count-options" id="count-options"><label><input type="radio" name="count" value="10" checked><span>10問</span></label><label><input type="radio" name="count" value="20"><span>20問</span></label><label><input type="radio" name="count" value="30"><span>30問</span></label><label><input type="radio" name="count" value="50"><span>50問</span></label><label><input type="radio" name="count" value="all"><span>全問題</span></label></div></fieldset>
-        <button id="start-normal" class="primary wide" disabled>通常テストをはじめる <span aria-hidden="true">→</span></button>
-        <button id="start-weak" class="secondary wide" disabled>苦手問題を練習する</button><p id="weak-note" class="hint center">学習すると、苦手問題を復習できます。</p><p class="hint center"><a class="mode-link" href="./similar.html">類題で練習 →</a><br>テスト①・②・③・④・⑤：各50単語を別の文で・記録は別保存</p>
-      </section><aside class="study-note"><p class="eyebrow">MAKE IT A HABIT</p><h2>覚えるまで、<br>何度でも。</h2><ol><li><span>01</span><div><strong>英単語を思い出す</strong><p>英文と日本語をヒントに、<br>空欄に入る単語を入力。</p></div></li><li><span>02</span><div><strong>その場で答え合わせ</strong><p>採点後はEnterでも次へ。<br>間違えても、それが学びに。</p></div></li><li><span>03</span><div><strong>苦手を少しずつ減らす</strong><p>記録に合わせて復習。<br>昨日より確かな一語を。</p></div></li></ol><div class="note-bottom">YOUR OWN PACE, YOUR OWN PROGRESS.</div></aside></div>
-    </section>
-    <section id="test-screen" hidden aria-labelledby="test-title">
-      <div class="screen-heading"><div><p class="eyebrow" id="test-mode">PRACTICE</p><h1 id="test-title" tabindex="-1">今日のテスト</h1></div><button id="quit-test" class="text-button">中断する</button></div>
-      <div class="test-meta"><strong id="position"></strong><span id="live-score"></span></div><progress id="progress" value="0" max="10" aria-label="採点済みの問題数"></progress>
-      <section class="card question-card"><p class="eyebrow" id="question-index"></p><h2 id="question" class="question-text"></h2>
-        <form id="answer-form"><label for="answer">空欄に入る英単語</label><input id="answer" type="text" placeholder="英単語を入力" autocomplete="off" autocapitalize="none" autocorrect="off" spellcheck="false" inputmode="text" enterkeyhint="done" aria-describedby="answer-hint feedback"><p id="answer-hint" class="hint">大文字・小文字、前後の空白は区別しません。</p>
-        <div id="feedback" class="feedback" role="status" aria-live="polite" hidden></div><div class="test-actions"><button id="grade" type="submit" class="primary">採点する</button><button id="next" type="button" class="secondary" disabled>次へ →</button></div></form>
-      </section><p class="hint center">Enterで採点 → もう一度Enterで次へ。空欄で採点すると不正解になります。</p>
-    </section>
-    <section id="result-screen" hidden aria-labelledby="result-title"><p class="eyebrow">PRACTICE COMPLETE</p><h1 id="result-title" tabindex="-1">おつかれさまでした。</h1><p class="lede" id="result-message"></p><div class="card result-card"><div><p class="hint">今回の得点</p><p class="score"><strong id="result-score"></strong><span id="result-total"></span></p></div><div class="result-numbers"><p>正答率 <strong id="result-rate"></strong></p><p>同じ問題数の最高点 <strong id="result-best"></strong></p></div></div><div class="result-actions"><button id="retry-wrong" class="primary">間違えた問題だけ再テスト</button><button id="retry" class="secondary">もう一度</button><button id="new-test" class="text-button">新しいテスト</button></div><h2 class="list-title">間違えた問題 <span id="wrong-count" class="badge"></span></h2><div id="wrong-list" class="review-list"></div><details class="correct-review"><summary id="correct-summary">正解した問題</summary><div id="correct-list" class="review-list"></div></details></section>
-    <section id="stats-screen" hidden aria-labelledby="stats-title"><p class="eyebrow">YOUR PROGRESS</p><h1 id="stats-title" tabindex="-1">積み重ねが、力になる。</h1><p class="lede">この端末での学習記録</p><div id="stats-grid" class="stats-grid"></div><section class="card"><h2>テストの最高点</h2><p class="hint">完了したテストを、実際に出題した問題数ごとに集計。範囲・モードは共通です。</p><div id="best-list" class="best-list"></div></section><h2 class="list-title">苦手単語 <span id="weak-count" class="badge"></span></h2><p class="hint">回答済み・正答率80%未満の単語を、正答率の低い順に表示します。</p><div id="weak-list" class="review-list"></div><details class="correct-review"><summary>すべての単語の記録</summary><div id="all-records" class="review-list"></div></details><p class="storage-note">記録はこの端末・ブラウザに保存されます。PCとiPhone間の同期はありません。ブラウザのデータを削除すると記録も消えます。</p></section>
-    <noscript><p class="notice">このアプリを使うにはJavaScriptを有効にしてください。</p></noscript>
-  </main><footer><span>WORD UP</span><span>小さな積み重ねを、毎日に。</span></footer>
-  <div id="quit-dialog" class="dialog-backdrop" hidden><section class="card quit-dialog" role="dialog" aria-modal="true" aria-labelledby="quit-title" aria-describedby="quit-description"><h2 id="quit-title">テストを中断しますか？</h2><p id="quit-description" class="hint">採点済みの単語の記録は残りますが、このテストの最高点は記録されません。</p><div class="test-actions"><button id="cancel-quit" class="primary">テストを続ける</button><button id="confirm-quit" class="secondary">中断する</button></div></section></div>
-</body></html>
+<html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"><meta name="theme-color" content="#246653"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-title" content="WORD UP"><title>WORD UP | 文脈4択トレーニング</title><meta name="description" content="英文の手掛かりから選ぶ文脈4択。50単語、各5パターンで練習。"><link rel="icon" href="./icon.svg?v=word-up"><link rel="apple-touch-icon" href="./word-up-icon.png"><link rel="manifest" href="./manifest.webmanifest?v=word-up"><link rel="stylesheet" href="./styles.css?v=20261009-similar"><link rel="stylesheet" href="./context.css?v=1"><script type="module" src="./context.js?v=1"></script></head>
+<body><header class="site-header"><a class="brand" href="./index.html"><span class="brand-icon" aria-hidden="true">W<span>•</span></span><span>WORD UP<small>CONTEXT PRACTICE</small></span></a><nav aria-label="メインメニュー"><button id="nav-home" class="nav-button active">テスト</button><button id="nav-records" class="nav-button">学習状況</button></nav></header>
+<main><p id="storage-note" class="notice" role="status" hidden></p><p id="load-error" class="notice error" role="alert" hidden></p>
+<section id="home" aria-labelledby="home-title"><div class="hero"><p class="eyebrow">READ THE CLUES, FIND THE WORD</p><h1 id="home-title" tabindex="-1">文を読んで、<br><span>意味で選ぶ。</span></h1><p class="lede">英文の手掛かりから答えを選ぶ、文脈4択トレーニング。</p></div>
+<div class="overview"><div><span>出題範囲</span><strong class="range-number">551–600</strong></div><div><span>1回の出題</span><strong>50</strong><small>問</small></div><div><span>各単語の例文</span><strong>5</strong><small>種類</small></div></div>
+<div class="start-grid"><section class="card"><div class="section-heading"><h2>文脈4択トレーニング</h2><span class="badge">50単語</span></div><p class="intro">50単語から1問ずつ。毎回、英文と選択肢の順番を変えて出題します。</p><button id="start" class="primary wide" disabled>50問テストをはじめる →</button><button id="weak" class="secondary wide" disabled>苦手な単語を別の文で練習</button><p id="weak-note" class="hint center">まずは50問テストに挑戦しましょう。</p></section>
+<aside class="study-note"><p class="eyebrow">LOOK BEYOND THE BLANK</p><h2>根拠を見つけよう。</h2><ol><li><span>01</span><div><strong>英文を読む</strong><p>日本語訳・頭文字なしで、前後の意味を考える。</p></div></li><li><span>02</span><div><strong>4つから1つ選ぶ</strong><p>選択肢をタップして「採点する」。</p></div></li><li><span>03</span><div><strong>判断の根拠を確かめる</strong><p>和訳と手掛かりを読み、次は別の文で試す。</p></div></li></ol></aside></div>
+<details class="legacy"><summary>ほかの練習</summary><a href="./spelling.html">記述式テスト①〜⑤</a><a href="./similar.html">記述式の類題</a></details></section>
+<section id="quiz" hidden aria-labelledby="quiz-title"><div class="screen-heading"><div><p class="eyebrow">CONTEXT / 文脈4択</p><h1 id="quiz-title" tabindex="-1">英文から選ぼう</h1></div><button id="quit" class="text-button">中断する</button></div><div class="test-meta"><strong id="position"></strong><span id="live-score"></span></div><progress id="progress" max="50" value="0" aria-label="採点済み問題数"></progress>
+<section class="card question-card"><h2 id="sentence" class="question-text" tabindex="-1" lang="en"></h2><form id="answer-form"><fieldset id="choices"><legend>空欄に入る単語を1つ選んでください</legend><div id="options"></div></fieldset><p id="choose-note" class="hint" role="status"></p><div class="test-actions"><button id="grade" class="primary" type="submit" disabled>採点する</button><button id="next" class="secondary" type="button" disabled>次へ →</button></div></form><div id="feedback" class="feedback-panel" aria-live="polite" hidden></div></section></section>
+<section id="result" hidden aria-labelledby="result-title"><p class="eyebrow">PRACTICE COMPLETE</p><h1 id="result-title" tabindex="-1">おつかれさまでした。</h1><div class="card result-card"><p class="score"><strong id="score"></strong><span id="score-total"></span></p><div><p id="result-rate"></p><p id="best-score"></p></div></div><div class="result-actions"><button id="retry-wrong" class="primary">間違えた単語を別の文で復習</button><button id="again" class="secondary">もう一度50問</button><button id="back-home" class="text-button">スタートへ</button></div><p class="hint">復習では同じ単語を別の英文で出題します。</p><h2 class="list-title">間違えた問題</h2><div id="wrong-list" class="review-list"></div></section>
+<section id="records" hidden aria-labelledby="records-title"><p class="eyebrow">YOUR PROGRESS</p><h1 id="records-title" tabindex="-1">文脈を読む力の記録</h1><p class="lede">文脈4択だけの学習記録です。単語ごとに集計します。</p><div id="stats" class="stats-grid"></div><h2 class="list-title">単語別の正答率</h2><div id="word-records" class="word-records"></div><p class="storage-note">この端末・ブラウザに保存します。端末間の同期はありません。記述式テストの記録は別に保存されています。</p></section>
+<noscript><p class="notice">JavaScriptを有効にしてください。</p></noscript></main><footer><span>WORD UP</span><span>文を変えて、理解を深める。</span></footer>
+<dialog id="quit-dialog" class="card quit-dialog"><h2>テストを中断しますか？</h2><p>採点済みの記録は残ります。途中の問題位置は保存されません。</p><div class="test-actions"><button id="cancel-quit" class="primary">続ける</button><button id="confirm-quit" class="secondary">中断する</button></div></dialog></body></html>

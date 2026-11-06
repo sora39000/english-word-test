@@ -1,0 +1,3406 @@
+{
+  "version": 1,
+  "range": "551–600",
+  "words": [
+    {
+      "id": 551,
+      "word": "internal",
+      "pos": "形容詞",
+      "meaning": "社内の・内部の",
+      "variants": [
+        {
+          "id": "551-1",
+          "sentence": "This memo is for _____ use only; do not send it to customers.",
+          "translation": "このメモは社内使用専用です。顧客には送らないでください。",
+          "clue": "do not send it to customers が、社外に出さない情報だと示す",
+          "options": [
+            551,
+            561,
+            574,
+            586
+          ]
+        },
+        {
+          "id": "551-2",
+          "sentence": "The company filled the vacancy through an _____ transfer rather than hiring someone from outside.",
+          "translation": "会社は社外から採用する代わりに、社内異動で欠員を補いました。",
+          "clue": "rather than ... from outside と対比される社内での異動",
+          "options": [
+            551,
+            561,
+            574,
+            586
+          ]
+        },
+        {
+          "id": "551-3",
+          "sentence": "An _____ audit examined how the company's own departments were spending money.",
+          "translation": "内部監査で会社自身の各部署の支出を調べました。",
+          "clue": "the company's own departments が組織内部の調査を示す",
+          "options": [
+            551,
+            561,
+            574,
+            586
+          ]
+        },
+        {
+          "id": "551-4",
+          "sentence": "Only employees can access the _____ network; it is separate from the public website.",
+          "translation": "社員だけが内部ネットワークを利用でき、公開サイトとは分かれています。",
+          "clue": "Only employees と separate from the public website が内部限定を示す",
+          "options": [
+            551,
+            561,
+            574,
+            586
+          ]
+        },
+        {
+          "id": "551-5",
+          "sentence": "The machine looks fine outside, but an _____ part has broken.",
+          "translation": "機械の外側は正常に見えますが、内部の部品が壊れています。",
+          "clue": "outside と but の対比から、壊れた部品は内部にある",
+          "options": [
+            551,
+            561,
+            574,
+            586
+          ]
+        }
+      ]
+    },
+    {
+      "id": 552,
+      "word": "loyal",
+      "pos": "形容詞",
+      "meaning": "常連の・忠実な",
+      "variants": [
+        {
+          "id": "552-1",
+          "sentence": "The shop rewards _____ customers who have returned every month for years.",
+          "translation": "店は何年も毎月来店する常連客に特典を与えます。",
+          "clue": "returned every month for years が継続的に利用する顧客を示す",
+          "options": [
+            552,
+            574,
+            586,
+            595
+          ]
+        },
+        {
+          "id": "552-2",
+          "sentence": "Even when a competitor offered lower prices, our _____ clients stayed with us.",
+          "translation": "競合が安値を提示しても、忠実な顧客は当社を使い続けました。",
+          "clue": "lower prices にもかかわらず stayed with us とある",
+          "options": [
+            552,
+            574,
+            586,
+            595
+          ]
+        },
+        {
+          "id": "552-3",
+          "sentence": "Her dog remained _____ to her and followed her everywhere.",
+          "translation": "彼女の犬は忠実で、どこへでもついていきました。",
+          "clue": "followed her everywhere が変わらず付き従う様子を表す",
+          "options": [
+            552,
+            574,
+            586,
+            595
+          ]
+        },
+        {
+          "id": "552-4",
+          "sentence": "The team's _____ fans continued to support it through several losing seasons.",
+          "translation": "忠実なファンは何シーズンも負けが続いてもチームを応援しました。",
+          "clue": "continued to support ... losing seasons が支持を変えないことを示す",
+          "options": [
+            552,
+            574,
+            586,
+            595
+          ]
+        },
+        {
+          "id": "552-5",
+          "sentence": "We value employees who remain _____ to the organization during difficult times.",
+          "translation": "困難な時にも組織に忠実であり続ける従業員を大切にします。",
+          "clue": "remain ... during difficult times が変わらぬ忠誠を表す",
+          "options": [
+            552,
+            574,
+            586,
+            595
+          ]
+        }
+      ]
+    },
+    {
+      "id": 553,
+      "word": "cookware",
+      "pos": "名詞",
+      "meaning": "調理器具",
+      "variants": [
+        {
+          "id": "553-1",
+          "sentence": "The chef ordered new _____, including saucepans and frying pans.",
+          "translation": "料理長は鍋やフライパンなどの新しい調理器具を注文しました。",
+          "clue": "including saucepans and frying pans が具体的な調理器具を挙げる",
+          "options": [
+            553,
+            565,
+            571,
+            580
+          ]
+        },
+        {
+          "id": "553-2",
+          "sentence": "Use wooden utensils with this nonstick _____ to avoid scratching the pans.",
+          "translation": "鍋を傷つけないよう、この焦げ付きにくい調理器具には木製の道具を使ってください。",
+          "clue": "nonstick と scratching the pans が調理用の鍋類を示す",
+          "options": [
+            553,
+            565,
+            571,
+            580
+          ]
+        },
+        {
+          "id": "553-3",
+          "sentence": "The store's _____ department sells pots but no food or ingredients.",
+          "translation": "店の調理器具売り場では鍋を売っていますが、食品や食材は売っていません。",
+          "clue": "sells pots と no food が売り場の商品を特定する",
+          "options": [
+            553,
+            565,
+            571,
+            580
+          ]
+        },
+        {
+          "id": "553-4",
+          "sentence": "Before opening the restaurant, we must buy enough _____ to prepare meals for a hundred guests.",
+          "translation": "開店前に、100人分の食事を作れるだけの調理器具を買う必要があります。",
+          "clue": "prepare meals に必要な器具一式を求めている",
+          "options": [
+            553,
+            565,
+            571,
+            580
+          ]
+        },
+        {
+          "id": "553-5",
+          "sentence": "This set of _____ can be used on both gas and electric stoves.",
+          "translation": "この調理器具一式はガスコンロと電気コンロの両方で使えます。",
+          "clue": "used on ... stoves がコンロに載せる器具を示す",
+          "options": [
+            553,
+            565,
+            571,
+            580
+          ]
+        }
+      ]
+    },
+    {
+      "id": 554,
+      "word": "boost",
+      "pos": "動詞",
+      "meaning": "押し上げる・伸ばす",
+      "variants": [
+        {
+          "id": "554-1",
+          "sentence": "The advertising campaign is expected to _____ sales by attracting new customers.",
+          "translation": "広告は新規顧客を引きつけ、売上を伸ばすと期待されています。",
+          "clue": "attracting new customers が売上を増やす方向の働きを示す",
+          "options": [
+            554,
+            575,
+            588,
+            591
+          ]
+        },
+        {
+          "id": "554-2",
+          "sentence": "A short break can _____ your energy and help you work more effectively.",
+          "translation": "短い休憩は活力を高め、効率よく働く助けになります。",
+          "clue": "help you work more effectively が活力の増加を示す",
+          "options": [
+            554,
+            575,
+            588,
+            591
+          ]
+        },
+        {
+          "id": "554-3",
+          "sentence": "The government hopes the new airport will _____ the local economy.",
+          "translation": "政府は新空港が地域経済を活性化すると期待しています。",
+          "clue": "new airport が地域経済を押し上げる文脈",
+          "options": [
+            554,
+            575,
+            588,
+            591
+          ]
+        },
+        {
+          "id": "554-4",
+          "sentence": "Winning the award helped _____ the young designer's confidence.",
+          "translation": "受賞は若いデザイナーの自信を高める助けになりました。",
+          "clue": "Winning the award が confidence を強めるきっかけ",
+          "options": [
+            554,
+            575,
+            588,
+            591
+          ]
+        },
+        {
+          "id": "554-5",
+          "sentence": "The factory added another production line to _____ output.",
+          "translation": "工場は生産量を増やすため、生産ラインをもう一つ追加しました。",
+          "clue": "added another production line が output の増加を目的としている",
+          "options": [
+            554,
+            575,
+            588,
+            591
+          ]
+        }
+      ]
+    },
+    {
+      "id": 555,
+      "word": "knowledgeable",
+      "pos": "形容詞",
+      "meaning": "知識が豊富な",
+      "variants": [
+        {
+          "id": "555-1",
+          "sentence": "Our _____ guide answered detailed questions about the history of every building.",
+          "translation": "知識豊富なガイドはすべての建物の歴史について詳しい質問に答えました。",
+          "clue": "answered detailed questions ... history が豊富な知識を示す",
+          "options": [
+            555,
+            561,
+            574,
+            595
+          ]
+        },
+        {
+          "id": "555-2",
+          "sentence": "Ask someone who is _____ about tax law before completing the forms.",
+          "translation": "書類を記入する前に税法に詳しい人に尋ねてください。",
+          "clue": "about tax law と Ask someone が専門知識を持つ相手を求める",
+          "options": [
+            555,
+            561,
+            574,
+            595
+          ]
+        },
+        {
+          "id": "555-3",
+          "sentence": "Customers trust her advice because she is _____ about all the products we sell.",
+          "translation": "彼女は全商品に詳しいため、顧客は助言を信頼しています。",
+          "clue": "trust her advice と all the products が商品知識の豊富さを示す",
+          "options": [
+            555,
+            561,
+            574,
+            595
+          ]
+        },
+        {
+          "id": "555-4",
+          "sentence": "We need a _____ speaker who can explain recent advances in medicine.",
+          "translation": "医学の最近の進歩を説明できる知識豊富な講演者が必要です。",
+          "clue": "explain recent advances in medicine が専門知識を要求する",
+          "options": [
+            555,
+            561,
+            574,
+            595
+          ]
+        },
+        {
+          "id": "555-5",
+          "sentence": "He became _____ about birds after years of studying their behavior.",
+          "translation": "長年鳥の行動を研究し、彼は鳥について詳しくなりました。",
+          "clue": "years of studying が蓄積された知識を示す",
+          "options": [
+            555,
+            561,
+            574,
+            595
+          ]
+        }
+      ]
+    },
+    {
+      "id": 556,
+      "word": "committed",
+      "pos": "形容詞",
+      "meaning": "献身的な・真剣に取り組む",
+      "variants": [
+        {
+          "id": "556-1",
+          "sentence": "The charity is _____ to helping children and uses all its profits for that purpose.",
+          "translation": "慈善団体は子どもの支援に献身的に取り組み、利益をすべてそのために使います。",
+          "clue": "uses all its profits for that purpose が強い取り組み姿勢を示す",
+          "options": [
+            556,
+            561,
+            574,
+            595
+          ]
+        },
+        {
+          "id": "556-2",
+          "sentence": "Despite the setbacks, she remained _____ to finishing the project.",
+          "translation": "困難にもかかわらず、彼女は事業の完了に真剣に取り組み続けました。",
+          "clue": "Despite the setbacks と remained ... to finishing が決意の継続を示す",
+          "options": [
+            556,
+            561,
+            574,
+            595
+          ]
+        },
+        {
+          "id": "556-3",
+          "sentence": "We are _____ to reducing waste, so we have replaced all disposable cups.",
+          "translation": "廃棄物削減に真剣に取り組んでいるので、使い捨てカップをすべて置き換えました。",
+          "clue": "so 以下の具体的な行動が取り組みの本気度を示す",
+          "options": [
+            556,
+            561,
+            574,
+            595
+          ]
+        },
+        {
+          "id": "556-4",
+          "sentence": "A _____ volunteer kept returning every weekend, even in bad weather.",
+          "translation": "献身的なボランティアは悪天候でも毎週末通い続けました。",
+          "clue": "kept returning ... even in bad weather が献身的な行動を表す",
+          "options": [
+            556,
+            561,
+            574,
+            595
+          ]
+        },
+        {
+          "id": "556-5",
+          "sentence": "The company is fully _____ to honoring its promise to protect customer data.",
+          "translation": "会社は顧客情報を守る約束を果たすことに全面的に取り組んでいます。",
+          "clue": "fully と to honoring its promise が約束を守る決意を示す",
+          "options": [
+            556,
+            561,
+            574,
+            595
+          ]
+        }
+      ]
+    },
+    {
+      "id": 557,
+      "word": "commission",
+      "pos": "名詞",
+      "meaning": "委員会",
+      "variants": [
+        {
+          "id": "557-1",
+          "sentence": "The city appointed a _____ of five experts to investigate the accident.",
+          "translation": "市は事故を調査する5人の専門家からなる委員会を設置しました。",
+          "clue": "of five experts と investigate が調査組織を示す",
+          "options": [
+            557,
+            553,
+            559,
+            568
+          ]
+        },
+        {
+          "id": "557-2",
+          "sentence": "The energy _____ will vote on the proposed regulations tomorrow.",
+          "translation": "エネルギー委員会は明日、規制案について採決します。",
+          "clue": "will vote on ... regulations が審議する組織を示す",
+          "options": [
+            557,
+            553,
+            559,
+            568
+          ]
+        },
+        {
+          "id": "557-3",
+          "sentence": "Members of the _____ met to review the findings before issuing their report.",
+          "translation": "委員会のメンバーは報告書を出す前に調査結果を検討しました。",
+          "clue": "Members と their report が調査・審議する集団を示す",
+          "options": [
+            557,
+            553,
+            559,
+            568
+          ]
+        },
+        {
+          "id": "557-4",
+          "sentence": "An independent _____ was formed to examine complaints about the election.",
+          "translation": "選挙への苦情を調べる独立委員会が設けられました。",
+          "clue": "was formed to examine complaints が調査委員会の設置を示す",
+          "options": [
+            557,
+            553,
+            559,
+            568
+          ]
+        },
+        {
+          "id": "557-5",
+          "sentence": "She was selected to chair the _____ responsible for public transport policy.",
+          "translation": "彼女は公共交通政策を担当する委員会の委員長に選ばれました。",
+          "clue": "chair と responsible for ... policy が委員会を率いる役割を示す",
+          "options": [
+            557,
+            553,
+            559,
+            568
+          ]
+        }
+      ]
+    },
+    {
+      "id": 558,
+      "word": "timeline",
+      "pos": "名詞",
+      "meaning": "予定表・スケジュール表",
+      "variants": [
+        {
+          "id": "558-1",
+          "sentence": "Please update the project _____ to show the new start and completion dates.",
+          "translation": "新しい開始日と終了日を示すよう、事業の予定表を更新してください。",
+          "clue": "start and completion dates が日程を並べる表を示す",
+          "options": [
+            558,
+            553,
+            559,
+            573
+          ]
+        },
+        {
+          "id": "558-2",
+          "sentence": "The _____ lists each construction stage and the month when it should begin.",
+          "translation": "予定表には各工事段階と開始予定月が載っています。",
+          "clue": "each ... stage と month が作業の時間的な順序を示す",
+          "options": [
+            558,
+            553,
+            559,
+            573
+          ]
+        },
+        {
+          "id": "558-3",
+          "sentence": "According to the _____, testing must finish before the launch in June.",
+          "translation": "予定表によると、6月の発売前に試験を終える必要があります。",
+          "clue": "testing ... before ... June が計画された日程を参照している",
+          "options": [
+            558,
+            553,
+            559,
+            573
+          ]
+        },
+        {
+          "id": "558-4",
+          "sentence": "The client asked for a clear _____ showing when each payment would be due.",
+          "translation": "顧客は各支払期日を示す明確な予定表を求めました。",
+          "clue": "when each payment would be due が期日の一覧を求める",
+          "options": [
+            558,
+            553,
+            559,
+            573
+          ]
+        },
+        {
+          "id": "558-5",
+          "sentence": "A delay in obtaining permits forced us to extend the _____ by two months.",
+          "translation": "許可取得の遅れで、私たちは予定を2か月延ばさざるを得ませんでした。",
+          "clue": "delay と extend ... by two months が日程の変更を示す",
+          "options": [
+            558,
+            553,
+            559,
+            573
+          ]
+        }
+      ]
+    },
+    {
+      "id": 559,
+      "word": "souvenir",
+      "pos": "名詞",
+      "meaning": "土産・記念品",
+      "variants": [
+        {
+          "id": "559-1",
+          "sentence": "I bought a small _____ to remind me of my visit to Kyoto.",
+          "translation": "京都旅行を思い出すために小さな土産を買いました。",
+          "clue": "remind me of my visit が旅の記念となる物を示す",
+          "options": [
+            559,
+            565,
+            573,
+            585
+          ]
+        },
+        {
+          "id": "559-2",
+          "sentence": "The museum sells postcards and other _____ items near the exit.",
+          "translation": "博物館は出口近くで絵はがきなどの土産物を販売しています。",
+          "clue": "postcards と museum ... exit が来館記念の品を示す",
+          "options": [
+            559,
+            565,
+            573,
+            585
+          ]
+        },
+        {
+          "id": "559-3",
+          "sentence": "She brought her brother a _____ from her trip abroad.",
+          "translation": "彼女は海外旅行から弟に土産を持ち帰りました。",
+          "clue": "brought ... from her trip が旅行先で買った贈り物を示す",
+          "options": [
+            559,
+            565,
+            573,
+            585
+          ]
+        },
+        {
+          "id": "559-4",
+          "sentence": "Each guest received a commemorative coin as a _____ of the celebration.",
+          "translation": "招待客はそれぞれ祝賀会の記念品として記念硬貨を受け取りました。",
+          "clue": "commemorative coin と celebration が出来事を記念する品を示す",
+          "options": [
+            559,
+            565,
+            573,
+            585
+          ]
+        },
+        {
+          "id": "559-5",
+          "sentence": "The mug is not valuable, but I keep it as a _____ of our first holiday together.",
+          "translation": "そのマグカップは高価ではありませんが、初めて一緒に旅行した記念品として持っています。",
+          "clue": "keep it ... our first holiday が思い出のための品を示す",
+          "options": [
+            559,
+            565,
+            573,
+            585
+          ]
+        }
+      ]
+    },
+    {
+      "id": 560,
+      "word": "exclusive",
+      "pos": "形容詞",
+      "meaning": "限定の・独占的な",
+      "variants": [
+        {
+          "id": "560-1",
+          "sentence": "Members receive _____ access to the lounge; nonmembers cannot enter.",
+          "translation": "会員はラウンジを専用で利用でき、非会員は入れません。",
+          "clue": "nonmembers cannot enter が利用者を限定する",
+          "options": [
+            560,
+            574,
+            577,
+            586
+          ]
+        },
+        {
+          "id": "560-2",
+          "sentence": "The newspaper obtained an _____ interview that no other publication could print.",
+          "translation": "新聞は他の媒体では掲載できない独占インタビューを得ました。",
+          "clue": "no other publication が他者に認められない権利を示す",
+          "options": [
+            560,
+            574,
+            577,
+            586
+          ]
+        },
+        {
+          "id": "560-3",
+          "sentence": "This _____ offer is available only to customers who received the invitation.",
+          "translation": "この限定特典は招待状を受け取った顧客だけが利用できます。",
+          "clue": "only ... received the invitation が対象者の限定を示す",
+          "options": [
+            560,
+            574,
+            577,
+            586
+          ]
+        },
+        {
+          "id": "560-4",
+          "sentence": "The distributor has _____ rights to sell the product in this country.",
+          "translation": "その販売業者は国内でその商品を販売する独占権を持っています。",
+          "clue": "rights to sell が単独で扱える権利を示す",
+          "options": [
+            560,
+            574,
+            577,
+            586
+          ]
+        },
+        {
+          "id": "560-5",
+          "sentence": "The resort has an _____ beach reserved entirely for its guests.",
+          "translation": "そのリゾートには宿泊客だけのために確保された専用ビーチがあります。",
+          "clue": "reserved entirely for its guests が宿泊客限定を示す",
+          "options": [
+            560,
+            574,
+            577,
+            586
+          ]
+        }
+      ]
+    },
+    {
+      "id": 561,
+      "word": "exterior",
+      "pos": "名詞",
+      "meaning": "外面・外観",
+      "variants": [
+        {
+          "id": "561-1",
+          "sentence": "Workers will paint the building's _____ before repairing the rooms inside.",
+          "translation": "作業員は内部の部屋を修理する前に建物の外側を塗装します。",
+          "clue": "before ... inside が内側と対比される外面を示す",
+          "options": [
+            561,
+            565,
+            573,
+            585
+          ]
+        },
+        {
+          "id": "561-2",
+          "sentence": "The car's _____ was scratched, but the engine was undamaged.",
+          "translation": "車の外面は傷ついていましたが、エンジンは無傷でした。",
+          "clue": "scratched と engine was undamaged の対比が外側の損傷を示す",
+          "options": [
+            561,
+            565,
+            573,
+            585
+          ]
+        },
+        {
+          "id": "561-3",
+          "sentence": "The architect chose stone for the _____ to protect the building from rain.",
+          "translation": "建築家は雨から建物を守るため外壁に石を選びました。",
+          "clue": "protect ... from rain が建物の外面の素材を求める",
+          "options": [
+            561,
+            565,
+            573,
+            585
+          ]
+        },
+        {
+          "id": "561-4",
+          "sentence": "From the street, only the _____ of the house is visible.",
+          "translation": "通りからは家の外観だけが見えます。",
+          "clue": "From the street と visible が外から見える部分を示す",
+          "options": [
+            561,
+            565,
+            573,
+            585
+          ]
+        },
+        {
+          "id": "561-5",
+          "sentence": "The hotel has a traditional _____, although its rooms are modern.",
+          "translation": "ホテルの外観は伝統的ですが、客室は現代的です。",
+          "clue": "although its rooms are modern が室内と外観を対比する",
+          "options": [
+            561,
+            565,
+            573,
+            585
+          ]
+        }
+      ]
+    },
+    {
+      "id": 562,
+      "word": "tune",
+      "pos": "動詞",
+      "meaning": "調律する・チャンネルを合わせる",
+      "variants": [
+        {
+          "id": "562-1",
+          "sentence": "A musician will _____ the piano before the concert so every note sounds correct.",
+          "translation": "演奏前に音が正しく鳴るよう、音楽家がピアノを調律します。",
+          "clue": "every note sounds correct が楽器の音程を整える行為を示す",
+          "options": [
+            562,
+            575,
+            584,
+            591
+          ]
+        },
+        {
+          "id": "562-2",
+          "sentence": "Please _____ in to the station at noon to hear the announcement.",
+          "translation": "発表を聞くため正午にその放送局にチャンネルを合わせてください。",
+          "clue": "in to the station と hear が放送に合わせる表現を示す",
+          "options": [
+            562,
+            575,
+            584,
+            591
+          ]
+        },
+        {
+          "id": "562-3",
+          "sentence": "He learned how to _____ his guitar using an electronic device.",
+          "translation": "彼は電子機器を使ったギターの調律方法を学びました。",
+          "clue": "his guitar と electronic device が楽器の調律を示す",
+          "options": [
+            562,
+            575,
+            584,
+            591
+          ]
+        },
+        {
+          "id": "562-4",
+          "sentence": "You can _____ your radio to this frequency for local traffic reports.",
+          "translation": "地域の交通情報を聞くにはラジオをこの周波数に合わせられます。",
+          "clue": "radio と frequency が受信周波数を合わせる行為を示す",
+          "options": [
+            562,
+            575,
+            584,
+            591
+          ]
+        },
+        {
+          "id": "562-5",
+          "sentence": "The violin sounds too high, so she needs to _____ it before playing.",
+          "translation": "バイオリンの音が高すぎるため、彼女は演奏前に調律する必要があります。",
+          "clue": "sounds too high が音程の修正を必要としている",
+          "options": [
+            562,
+            575,
+            584,
+            591
+          ]
+        }
+      ]
+    },
+    {
+      "id": 563,
+      "word": "assure",
+      "pos": "動詞",
+      "meaning": "保証する・請け合う",
+      "variants": [
+        {
+          "id": "563-1",
+          "sentence": "I can _____ you that your personal information will remain confidential.",
+          "translation": "個人情報が秘密に保たれることを保証できます。",
+          "clue": "you that ... will remain が相手に保証を与える構文",
+          "options": [
+            563,
+            575,
+            584,
+            591
+          ]
+        },
+        {
+          "id": "563-2",
+          "sentence": "The manager tried to _____ worried employees that their jobs were safe.",
+          "translation": "マネージャーは心配する社員に雇用が安全だと保証しようとしました。",
+          "clue": "worried employees と jobs were safe が安心を与える保証を示す",
+          "options": [
+            563,
+            575,
+            584,
+            591
+          ]
+        },
+        {
+          "id": "563-3",
+          "sentence": "We _____ all buyers that the products have passed safety tests.",
+          "translation": "私たちは全購入者に商品が安全試験に合格したことを保証します。",
+          "clue": "buyers that ... passed safety tests が人に安全を保証する形",
+          "options": [
+            563,
+            575,
+            584,
+            591
+          ]
+        },
+        {
+          "id": "563-4",
+          "sentence": "Please _____ the client that we will meet the agreed deadline.",
+          "translation": "合意した期限を守ると顧客に保証してください。",
+          "clue": "the client that ... meet ... deadline が相手への約束を示す",
+          "options": [
+            563,
+            575,
+            584,
+            591
+          ]
+        },
+        {
+          "id": "563-5",
+          "sentence": "The guide could _____ us that there was no danger on the marked trail.",
+          "translation": "ガイドは標識のある道に危険がないと私たちに保証できました。",
+          "clue": "us that there was no danger が不安を取り除く保証を示す",
+          "options": [
+            563,
+            575,
+            584,
+            591
+          ]
+        }
+      ]
+    },
+    {
+      "id": 564,
+      "word": "recall",
+      "pos": "動詞",
+      "meaning": "思い出す",
+      "variants": [
+        {
+          "id": "564-1",
+          "sentence": "I cannot _____ the address, although I visited the office last week.",
+          "translation": "先週その事務所を訪ねましたが、住所を思い出せません。",
+          "clue": "although I visited ... last week が記憶から取り出す場面",
+          "options": [
+            564,
+            575,
+            584,
+            591
+          ]
+        },
+        {
+          "id": "564-2",
+          "sentence": "Do you _____ where you left the keys this morning?",
+          "translation": "今朝どこに鍵を置いたか思い出せますか。",
+          "clue": "where you left the keys が過去の行動の記憶を問う",
+          "options": [
+            564,
+            575,
+            584,
+            591
+          ]
+        },
+        {
+          "id": "564-3",
+          "sentence": "She can still _____ the first day she worked here.",
+          "translation": "彼女は今もここで初めて働いた日を思い出せます。",
+          "clue": "still と the first day が過去の記憶を示す",
+          "options": [
+            564,
+            575,
+            584,
+            591
+          ]
+        },
+        {
+          "id": "564-4",
+          "sentence": "The witness tried to _____ the color of the vehicle he had seen.",
+          "translation": "目撃者は見た車の色を思い出そうとしました。",
+          "clue": "witness と had seen が見た内容を記憶から取り出すことを示す",
+          "options": [
+            564,
+            575,
+            584,
+            591
+          ]
+        },
+        {
+          "id": "564-5",
+          "sentence": "Without checking my notes, I cannot _____ his exact words.",
+          "translation": "メモを確認しなければ、彼の正確な言葉を思い出せません。",
+          "clue": "Without checking my notes と exact words が記憶の再現を示す",
+          "options": [
+            564,
+            575,
+            584,
+            591
+          ]
+        }
+      ]
+    },
+    {
+      "id": 565,
+      "word": "conflict",
+      "pos": "名詞",
+      "meaning": "予定の重複・衝突",
+      "variants": [
+        {
+          "id": "565-1",
+          "sentence": "Both meetings start at ten, so I have a scheduling _____.",
+          "translation": "両方の会議が10時開始なので、予定が重複しています。",
+          "clue": "Both meetings start at ten が同時刻の予定を示す",
+          "options": [
+            565,
+            553,
+            559,
+            573
+          ]
+        },
+        {
+          "id": "565-2",
+          "sentence": "We moved the workshop to avoid a _____ with the annual conference.",
+          "translation": "年次会議との重複を避けるため講習会の日程を移しました。",
+          "clue": "moved ... to avoid と conference が日程調整の理由を示す",
+          "options": [
+            565,
+            553,
+            559,
+            573
+          ]
+        },
+        {
+          "id": "565-3",
+          "sentence": "There is a _____ between the interview and my flight, so one must be rescheduled.",
+          "translation": "面接と飛行機の予定が重なっているため、どちらかの変更が必要です。",
+          "clue": "one must be rescheduled が予定の重複を示す",
+          "options": [
+            565,
+            553,
+            559,
+            573
+          ]
+        },
+        {
+          "id": "565-4",
+          "sentence": "The booking system warns users of a _____ when two events use the same room at the same time.",
+          "translation": "予約システムは同じ時間に同じ部屋を使う二つの催しがあると重複を警告します。",
+          "clue": "same room at the same time が二重予約を示す",
+          "options": [
+            565,
+            553,
+            559,
+            573
+          ]
+        },
+        {
+          "id": "565-5",
+          "sentence": "My supervisor approved the new time after confirming there was no _____ with other appointments.",
+          "translation": "上司は他の約束と重ならないことを確認して新しい時間を承認しました。",
+          "clue": "new time と other appointments が予定の衝突の有無を示す",
+          "options": [
+            565,
+            553,
+            559,
+            573
+          ]
+        }
+      ]
+    },
+    {
+      "id": 566,
+      "word": "patience",
+      "pos": "名詞",
+      "meaning": "忍耐・辛抱",
+      "variants": [
+        {
+          "id": "566-1",
+          "sentence": "Thank you for your _____ while we repair the system; the wait may take another hour.",
+          "translation": "システム修理中のご辛抱に感謝します。待ち時間はあと1時間ほどかかる可能性があります。",
+          "clue": "wait ... another hour が待ち続ける忍耐を求める",
+          "options": [
+            566,
+            553,
+            568,
+            589
+          ]
+        },
+        {
+          "id": "566-2",
+          "sentence": "Teaching beginners requires _____ because they may need the same explanation many times.",
+          "translation": "初心者には同じ説明が何度も必要なため、教えるには忍耐が要ります。",
+          "clue": "same explanation many times が繰り返しに耐える姿勢を示す",
+          "options": [
+            566,
+            553,
+            568,
+            589
+          ]
+        },
+        {
+          "id": "566-3",
+          "sentence": "She showed great _____ by remaining calm during the long delay.",
+          "translation": "長い遅延中も落ち着きを保ち、彼女は大きな忍耐力を示しました。",
+          "clue": "remaining calm during the long delay が辛抱を示す",
+          "options": [
+            566,
+            553,
+            568,
+            589
+          ]
+        },
+        {
+          "id": "566-4",
+          "sentence": "Growing these trees takes _____; they will not bear fruit for several years.",
+          "translation": "これらの木は数年間実をつけないので、育てるには忍耐が必要です。",
+          "clue": "not ... for several years が長く待つ必要を示す",
+          "options": [
+            566,
+            553,
+            568,
+            589
+          ]
+        },
+        {
+          "id": "566-5",
+          "sentence": "He lost his _____ after waiting in the queue for three hours.",
+          "translation": "3時間列に並んだ後、彼は我慢できなくなりました。",
+          "clue": "lost his と waiting ... three hours が忍耐の限界を示す",
+          "options": [
+            566,
+            553,
+            568,
+            589
+          ]
+        }
+      ]
+    },
+    {
+      "id": 567,
+      "word": "sightseeing",
+      "pos": "名詞",
+      "meaning": "観光",
+      "variants": [
+        {
+          "id": "567-1",
+          "sentence": "After the business meetings, we spent the afternoon _____ around the city's famous temples.",
+          "translation": "商談後、午後は市内の有名な寺院を観光しました。",
+          "clue": "around ... famous temples が名所を訪ねる活動を示す",
+          "options": [
+            567,
+            557,
+            565,
+            598
+          ]
+        },
+        {
+          "id": "567-2",
+          "sentence": "The hotel offers a _____ tour that visits the castle and the old town.",
+          "translation": "ホテルは城と旧市街を訪れる観光ツアーを提供しています。",
+          "clue": "tour ... castle and old town が観光名所巡りを示す",
+          "options": [
+            567,
+            557,
+            565,
+            598
+          ]
+        },
+        {
+          "id": "567-3",
+          "sentence": "We reserved one free day for _____ rather than shopping or work.",
+          "translation": "買い物や仕事ではなく観光のために自由な日を1日確保しました。",
+          "clue": "one free day と rather than shopping or work が休暇中の活動を示す",
+          "options": [
+            567,
+            557,
+            565,
+            598
+          ]
+        },
+        {
+          "id": "567-4",
+          "sentence": "A map of local attractions is useful when you go _____.",
+          "translation": "地元の名所の地図は観光に出かけるときに役立ちます。",
+          "clue": "map of local attractions が名所巡りの手掛かり",
+          "options": [
+            567,
+            557,
+            565,
+            598
+          ]
+        },
+        {
+          "id": "567-5",
+          "sentence": "The visitors took photographs of monuments during a morning of _____.",
+          "translation": "訪問者は午前中の観光で記念碑の写真を撮りました。",
+          "clue": "photographs of monuments が観光の行動を示す",
+          "options": [
+            567,
+            557,
+            565,
+            598
+          ]
+        }
+      ]
+    },
+    {
+      "id": 568,
+      "word": "gear",
+      "pos": "名詞",
+      "meaning": "装備・用具",
+      "variants": [
+        {
+          "id": "568-1",
+          "sentence": "Climbers checked their safety _____, including ropes and helmets.",
+          "translation": "登山者はロープやヘルメットなどの安全装備を確認しました。",
+          "clue": "including ropes and helmets が活動に必要な装備を列挙する",
+          "options": [
+            568,
+            558,
+            571,
+            585
+          ]
+        },
+        {
+          "id": "568-2",
+          "sentence": "The shop rents camping _____ such as tents and sleeping bags.",
+          "translation": "その店はテントや寝袋などのキャンプ用具を貸し出します。",
+          "clue": "tents and sleeping bags がキャンプ用具を示す",
+          "options": [
+            568,
+            558,
+            571,
+            585
+          ]
+        },
+        {
+          "id": "568-3",
+          "sentence": "Firefighters must wear protective _____ before entering a burning building.",
+          "translation": "消防士は燃える建物に入る前に保護装備を着用しなければなりません。",
+          "clue": "wear ... before entering a burning building が安全装備を求める",
+          "options": [
+            568,
+            558,
+            571,
+            585
+          ]
+        },
+        {
+          "id": "568-4",
+          "sentence": "We packed our fishing _____, including rods and nets, into the truck.",
+          "translation": "釣りざおや網などの釣り道具をトラックに積み込みました。",
+          "clue": "including rods and nets が釣り道具一式を示す",
+          "options": [
+            568,
+            558,
+            571,
+            585
+          ]
+        },
+        {
+          "id": "568-5",
+          "sentence": "The laboratory keeps emergency _____ ready for chemical spills.",
+          "translation": "研究室は化学物質の流出に備え、緊急用の装備を用意しています。",
+          "clue": "ready for chemical spills が緊急対応の用具を示す",
+          "options": [
+            568,
+            558,
+            571,
+            585
+          ]
+        }
+      ]
+    },
+    {
+      "id": 569,
+      "word": "thrilled",
+      "pos": "形容詞",
+      "meaning": "大喜びして・わくわくして",
+      "variants": [
+        {
+          "id": "569-1",
+          "sentence": "She was _____ to learn that she had won the scholarship.",
+          "translation": "奨学金の獲得を知り、彼女は大喜びしました。",
+          "clue": "won the scholarship が強い喜びをもたらす知らせ",
+          "options": [
+            569,
+            574,
+            577,
+            586
+          ]
+        },
+        {
+          "id": "569-2",
+          "sentence": "The children were _____ when their favorite singer walked into the room.",
+          "translation": "好きな歌手が部屋に入ってくると子どもたちは大興奮しました。",
+          "clue": "favorite singer ... walked into the room が興奮の原因",
+          "options": [
+            569,
+            574,
+            577,
+            586
+          ]
+        },
+        {
+          "id": "569-3",
+          "sentence": "We are _____ about the opportunity to perform at the festival.",
+          "translation": "祭りで演奏する機会に私たちはわくわくしています。",
+          "clue": "about the opportunity to perform が楽しみな機会への感情",
+          "options": [
+            569,
+            574,
+            577,
+            586
+          ]
+        },
+        {
+          "id": "569-4",
+          "sentence": "He sounded _____ on the phone as he told us about his promotion.",
+          "translation": "昇進を電話で知らせる彼の声はとてもうれしそうでした。",
+          "clue": "told us about his promotion が喜びの理由",
+          "options": [
+            569,
+            574,
+            577,
+            586
+          ]
+        },
+        {
+          "id": "569-5",
+          "sentence": "The fans were _____ with the unexpected victory and cheered loudly.",
+          "translation": "ファンは予想外の勝利に大喜びし、大声で歓声を上げました。",
+          "clue": "unexpected victory と cheered loudly が強い喜びを示す",
+          "options": [
+            569,
+            574,
+            577,
+            586
+          ]
+        }
+      ]
+    },
+    {
+      "id": 570,
+      "word": "transition",
+      "pos": "名詞",
+      "meaning": "移行・切り替え",
+      "variants": [
+        {
+          "id": "570-1",
+          "sentence": "Staff received training to make the _____ from paper records to digital files easier.",
+          "translation": "紙の記録から電子ファイルへの移行を楽にするため、職員は研修を受けました。",
+          "clue": "from paper records to digital files が仕組みの切り替え",
+          "options": [
+            570,
+            553,
+            559,
+            573
+          ]
+        },
+        {
+          "id": "570-2",
+          "sentence": "The _____ to a new manager will take place gradually over three months.",
+          "translation": "新しいマネージャーへの引き継ぎは3か月かけて段階的に行われます。",
+          "clue": "to a new manager と gradually が交代への移行過程",
+          "options": [
+            570,
+            553,
+            559,
+            573
+          ]
+        },
+        {
+          "id": "570-3",
+          "sentence": "Extra support helps children during the _____ from primary to secondary school.",
+          "translation": "追加の支援は子どもの小学校から中学校への移行を助けます。",
+          "clue": "from primary to secondary school が段階の移り変わり",
+          "options": [
+            570,
+            553,
+            559,
+            573
+          ]
+        },
+        {
+          "id": "570-4",
+          "sentence": "The factory planned a smooth _____ to renewable energy without stopping production.",
+          "translation": "工場は生産を止めずに再生可能エネルギーへ円滑に移行する計画を立てました。",
+          "clue": "to renewable energy と without stopping が方式を切り替える過程",
+          "options": [
+            570,
+            553,
+            559,
+            573
+          ]
+        },
+        {
+          "id": "570-5",
+          "sentence": "During the _____ period, both the old and new payment systems will remain available.",
+          "translation": "移行期間中は、新旧両方の支払いシステムを利用できます。",
+          "clue": "both the old and new ... remain available が切り替え途中を示す",
+          "options": [
+            570,
+            553,
+            559,
+            573
+          ]
+        }
+      ]
+    },
+    {
+      "id": 571,
+      "word": "mission",
+      "pos": "名詞",
+      "meaning": "使命・任務",
+      "variants": [
+        {
+          "id": "571-1",
+          "sentence": "The charity's _____ is to provide clean water to every village in the region.",
+          "translation": "慈善団体の使命は地域のすべての村に清潔な水を届けることです。",
+          "clue": "to provide clean water が組織の存在目的を説明する",
+          "options": [
+            571,
+            553,
+            559,
+            568
+          ]
+        },
+        {
+          "id": "571-2",
+          "sentence": "The rescue team completed its _____ by bringing all the hikers home safely.",
+          "translation": "救助隊は全登山者を無事に帰還させて任務を完了しました。",
+          "clue": "rescue team と bringing ... safely が果たすべき任務を示す",
+          "options": [
+            571,
+            553,
+            559,
+            568
+          ]
+        },
+        {
+          "id": "571-3",
+          "sentence": "Our _____ statement explains why the organization exists and whom it serves.",
+          "translation": "私たちの使命についての声明は、組織の存在理由と誰に奉仕するかを説明しています。",
+          "clue": "why ... exists が組織の使命を述べる文書を示す",
+          "options": [
+            571,
+            553,
+            559,
+            568
+          ]
+        },
+        {
+          "id": "571-4",
+          "sentence": "The astronauts trained for a _____ to collect samples from the moon.",
+          "translation": "宇宙飛行士は月で試料を集める任務のために訓練しました。",
+          "clue": "astronauts と collect samples が目的のある任務を示す",
+          "options": [
+            571,
+            553,
+            559,
+            568
+          ]
+        },
+        {
+          "id": "571-5",
+          "sentence": "She considers it her _____ to make education available to disadvantaged children.",
+          "translation": "彼女は恵まれない子どもに教育を届けることを自分の使命と考えています。",
+          "clue": "her ... to make education available が本人の果たすべき役割",
+          "options": [
+            571,
+            553,
+            559,
+            568
+          ]
+        }
+      ]
+    },
+    {
+      "id": 572,
+      "word": "tailor",
+      "pos": "動詞",
+      "meaning": "目的や相手に合わせる",
+      "variants": [
+        {
+          "id": "572-1",
+          "sentence": "We can _____ the course to your skill level rather than teach everyone the same material.",
+          "translation": "全員に同じ内容を教えるのではなく、技能レベルに合わせて講座を調整できます。",
+          "clue": "to your skill level と rather than ... same が個別に合わせることを示す",
+          "options": [
+            572,
+            575,
+            584,
+            591
+          ]
+        },
+        {
+          "id": "572-2",
+          "sentence": "Please _____ your presentation to an audience with no technical background.",
+          "translation": "専門知識のない聴衆に合わせて発表内容を調整してください。",
+          "clue": "to an audience ... no technical background が相手に合わせる指示",
+          "options": [
+            572,
+            575,
+            584,
+            591
+          ]
+        },
+        {
+          "id": "572-3",
+          "sentence": "The hotel will _____ its menu to guests with special dietary needs.",
+          "translation": "ホテルは特別な食事上の要望がある客に合わせてメニューを調整します。",
+          "clue": "special dietary needs が相手の要望に合わせる必要を示す",
+          "options": [
+            572,
+            575,
+            584,
+            591
+          ]
+        },
+        {
+          "id": "572-4",
+          "sentence": "Our designers _____ each uniform to the wearer's measurements.",
+          "translation": "デザイナーは着る人の寸法に合わせて各制服を仕立てます。",
+          "clue": "each ... to ... measurements が個人に合う形にすることを示す",
+          "options": [
+            572,
+            575,
+            584,
+            591
+          ]
+        },
+        {
+          "id": "572-5",
+          "sentence": "You should _____ your application to the specific requirements of the job.",
+          "translation": "その職の具体的な要件に合わせて応募書類を調整すべきです。",
+          "clue": "to the specific requirements が目的に合わせた調整を求める",
+          "options": [
+            572,
+            575,
+            584,
+            591
+          ]
+        }
+      ]
+    },
+    {
+      "id": 573,
+      "word": "nutrition",
+      "pos": "名詞",
+      "meaning": "栄養・栄養学",
+      "variants": [
+        {
+          "id": "573-1",
+          "sentence": "The label provides _____ information, including calories and protein content.",
+          "translation": "表示にはカロリーやたんぱく質量などの栄養情報が載っています。",
+          "clue": "calories and protein content が栄養成分を示す",
+          "options": [
+            573,
+            558,
+            565,
+            589
+          ]
+        },
+        {
+          "id": "573-2",
+          "sentence": "Good _____ is essential for healthy growth, so children need a balanced diet.",
+          "translation": "健やかな成長には良い栄養摂取が不可欠なので、子どもにはバランスの良い食事が必要です。",
+          "clue": "healthy growth と balanced diet が栄養の重要性を示す",
+          "options": [
+            573,
+            558,
+            565,
+            589
+          ]
+        },
+        {
+          "id": "573-3",
+          "sentence": "She studied _____ to learn how food affects the body.",
+          "translation": "彼女は食べ物が体に与える影響を学ぶため栄養学を学びました。",
+          "clue": "how food affects the body が栄養学の対象",
+          "options": [
+            573,
+            558,
+            565,
+            589
+          ]
+        },
+        {
+          "id": "573-4",
+          "sentence": "The doctor referred him to a _____ specialist for advice on his diet.",
+          "translation": "医師は食生活の助言のため、彼を栄養の専門家に紹介しました。",
+          "clue": "specialist と advice on his diet が栄養分野を示す",
+          "options": [
+            573,
+            558,
+            565,
+            589
+          ]
+        },
+        {
+          "id": "573-5",
+          "sentence": "The program teaches athletes about _____ and the foods needed for recovery.",
+          "translation": "プログラムは選手に栄養と回復に必要な食べ物を教えます。",
+          "clue": "foods needed for recovery が栄養摂取についての内容",
+          "options": [
+            573,
+            558,
+            565,
+            589
+          ]
+        }
+      ]
+    },
+    {
+      "id": 574,
+      "word": "outdated",
+      "pos": "形容詞",
+      "meaning": "旧式の・時代遅れの",
+      "variants": [
+        {
+          "id": "574-1",
+          "sentence": "The manual is _____; it describes a software version that was replaced years ago.",
+          "translation": "説明書は古く、何年も前に置き換えられたソフトの版について書かれています。",
+          "clue": "replaced years ago が現在に合わない古さを示す",
+          "options": [
+            574,
+            552,
+            555,
+            596
+          ]
+        },
+        {
+          "id": "574-2",
+          "sentence": "Please replace these _____ maps because several new roads are missing.",
+          "translation": "新しい道路がいくつも載っていないので、これらの古い地図を交換してください。",
+          "clue": "new roads are missing が情報の古さを示す",
+          "options": [
+            574,
+            552,
+            555,
+            596
+          ]
+        },
+        {
+          "id": "574-3",
+          "sentence": "The factory's _____ equipment cannot meet modern safety standards.",
+          "translation": "工場の旧式の設備は現代の安全基準を満たせません。",
+          "clue": "cannot meet modern safety standards が設備の旧式性を示す",
+          "options": [
+            574,
+            552,
+            555,
+            596
+          ]
+        },
+        {
+          "id": "574-4",
+          "sentence": "That advice is now _____, as the regulations changed last month.",
+          "translation": "先月規則が変わったため、その助言は今では時代遅れです。",
+          "clue": "regulations changed last month が以前の助言が通用しない理由",
+          "options": [
+            574,
+            552,
+            555,
+            596
+          ]
+        },
+        {
+          "id": "574-5",
+          "sentence": "The website still displays _____ prices from five years ago.",
+          "translation": "そのサイトにはまだ5年前の古い価格が表示されています。",
+          "clue": "still ... from five years ago が更新されていない情報を示す",
+          "options": [
+            574,
+            552,
+            555,
+            596
+          ]
+        }
+      ]
+    },
+    {
+      "id": 575,
+      "word": "reject",
+      "pos": "動詞",
+      "meaning": "却下する・拒絶する",
+      "variants": [
+        {
+          "id": "575-1",
+          "sentence": "The committee may _____ the proposal because it exceeds the budget.",
+          "translation": "予算を超えているため、委員会は提案を却下するかもしれません。",
+          "clue": "because it exceeds the budget が受け入れない理由",
+          "options": [
+            575,
+            554,
+            562,
+            584
+          ]
+        },
+        {
+          "id": "575-2",
+          "sentence": "We must _____ damaged goods and ask the supplier for replacements.",
+          "translation": "破損した商品は受け取りを拒否し、納入業者に交換を頼む必要があります。",
+          "clue": "damaged goods と replacements が受け入れない判断を示す",
+          "options": [
+            575,
+            554,
+            562,
+            584
+          ]
+        },
+        {
+          "id": "575-3",
+          "sentence": "The journal will _____ articles that do not meet its publication standards.",
+          "translation": "学術誌は掲載基準を満たさない論文を不採用にします。",
+          "clue": "do not meet ... standards が不採用の条件",
+          "options": [
+            575,
+            554,
+            562,
+            584
+          ]
+        },
+        {
+          "id": "575-4",
+          "sentence": "She decided to _____ the job offer because the salary was too low.",
+          "translation": "給与が低すぎたので、彼女は内定を断ることにしました。",
+          "clue": "salary was too low が申し出を受け入れない理由",
+          "options": [
+            575,
+            554,
+            562,
+            584
+          ]
+        },
+        {
+          "id": "575-5",
+          "sentence": "The system will _____ a password that is shorter than eight characters.",
+          "translation": "システムは8文字未満のパスワードを拒否します。",
+          "clue": "shorter than eight characters が受理しない条件",
+          "options": [
+            575,
+            554,
+            562,
+            584
+          ]
+        }
+      ]
+    },
+    {
+      "id": 576,
+      "word": "component",
+      "pos": "名詞",
+      "meaning": "部品・構成要素",
+      "variants": [
+        {
+          "id": "576-1",
+          "sentence": "The technician replaced a broken _____ inside the engine.",
+          "translation": "技術者はエンジン内部の壊れた部品を交換しました。",
+          "clue": "replaced と inside the engine が機械の部品を示す",
+          "options": [
+            576,
+            565,
+            573,
+            585
+          ]
+        },
+        {
+          "id": "576-2",
+          "sentence": "A shortage of one electronic _____ stopped the assembly line.",
+          "translation": "一つの電子部品の不足で組み立てラインが停止しました。",
+          "clue": "electronic と assembly line が製品を作る部品を示す",
+          "options": [
+            576,
+            565,
+            573,
+            585
+          ]
+        },
+        {
+          "id": "576-3",
+          "sentence": "Trust is an essential _____ of a successful partnership.",
+          "translation": "信頼は成功する協力関係の不可欠な構成要素です。",
+          "clue": "of a successful partnership が全体を構成する要素を求める",
+          "options": [
+            576,
+            565,
+            573,
+            585
+          ]
+        },
+        {
+          "id": "576-4",
+          "sentence": "Each _____ of the device is tested before the parts are put together.",
+          "translation": "装置の各部品は組み立て前に検査されます。",
+          "clue": "before the parts are put together が個々の部品を示す",
+          "options": [
+            576,
+            565,
+            573,
+            585
+          ]
+        },
+        {
+          "id": "576-5",
+          "sentence": "The battery is the most expensive _____ in this small machine.",
+          "translation": "電池はこの小型機械で最も高価な部品です。",
+          "clue": "battery と in this ... machine が全体の一部分を示す",
+          "options": [
+            576,
+            565,
+            573,
+            585
+          ]
+        }
+      ]
+    },
+    {
+      "id": 577,
+      "word": "urban",
+      "pos": "形容詞",
+      "meaning": "都市の",
+      "variants": [
+        {
+          "id": "577-1",
+          "sentence": "The study compares _____ life in large cities with life in rural villages.",
+          "translation": "その研究は大都市の生活と農村の生活を比較します。",
+          "clue": "large cities と rural villages の対比から都市の生活",
+          "options": [
+            577,
+            551,
+            552,
+            560
+          ]
+        },
+        {
+          "id": "577-2",
+          "sentence": "An _____ planning team designed new parks for the crowded city center.",
+          "translation": "都市計画チームは混雑した都心に新しい公園を設計しました。",
+          "clue": "planning と city center が都市の整備を示す",
+          "options": [
+            577,
+            551,
+            552,
+            560
+          ]
+        },
+        {
+          "id": "577-3",
+          "sentence": "Air pollution is often worse in _____ areas with heavy traffic and many tall buildings.",
+          "translation": "交通量が多く高層ビルの多い都市部では大気汚染が悪化しがちです。",
+          "clue": "heavy traffic and many tall buildings が都市部の特徴",
+          "options": [
+            577,
+            551,
+            552,
+            560
+          ]
+        },
+        {
+          "id": "577-4",
+          "sentence": "The museum explores the growth of _____ communities as people moved from farms to cities.",
+          "translation": "博物館は人々が農場から都市へ移る中での都市社会の発展を扱います。",
+          "clue": "moved from farms to cities が都市の共同体を示す",
+          "options": [
+            577,
+            551,
+            552,
+            560
+          ]
+        },
+        {
+          "id": "577-5",
+          "sentence": "The architect specializes in _____ housing for densely populated neighborhoods.",
+          "translation": "建築家は人口密度の高い地区の都市型住宅を専門にしています。",
+          "clue": "densely populated neighborhoods が都市の住宅需要を示す",
+          "options": [
+            577,
+            551,
+            552,
+            560
+          ]
+        }
+      ]
+    },
+    {
+      "id": 578,
+      "word": "adjustment",
+      "pos": "名詞",
+      "meaning": "調整・変更",
+      "variants": [
+        {
+          "id": "578-1",
+          "sentence": "A small _____ to the seat height made the chair much more comfortable.",
+          "translation": "座面の高さを少し調整すると椅子がずっと快適になりました。",
+          "clue": "to the seat height が設定を少し変えることを示す",
+          "options": [
+            578,
+            553,
+            559,
+            573
+          ]
+        },
+        {
+          "id": "578-2",
+          "sentence": "We made an _____ to the schedule after the speaker's flight was delayed.",
+          "translation": "講演者の便が遅れたため、日程を調整しました。",
+          "clue": "schedule と flight was delayed が変更の必要を示す",
+          "options": [
+            578,
+            553,
+            559,
+            573
+          ]
+        },
+        {
+          "id": "578-3",
+          "sentence": "The machine needs a minor _____, not a complete replacement.",
+          "translation": "機械には全面交換ではなく小さな調整が必要です。",
+          "clue": "minor と not a complete replacement が小さな変更を示す",
+          "options": [
+            578,
+            553,
+            559,
+            573
+          ]
+        },
+        {
+          "id": "578-4",
+          "sentence": "An _____ in price may be necessary if material costs continue to rise.",
+          "translation": "材料費が上昇し続ければ価格の調整が必要かもしれません。",
+          "clue": "in price と material costs ... rise が価格変更を求める",
+          "options": [
+            578,
+            553,
+            559,
+            573
+          ]
+        },
+        {
+          "id": "578-5",
+          "sentence": "Moving abroad required an _____ to a very different daily routine.",
+          "translation": "海外への転居には大きく異なる日常生活への適応が必要でした。",
+          "clue": "to a very different daily routine が環境に合わせる変化を示す",
+          "options": [
+            578,
+            553,
+            559,
+            573
+          ]
+        }
+      ]
+    },
+    {
+      "id": 579,
+      "word": "promptly",
+      "pos": "副詞",
+      "meaning": "迅速に・時間ちょうどに",
+      "variants": [
+        {
+          "id": "579-1",
+          "sentence": "Please reply _____; we need your answer within the next ten minutes.",
+          "translation": "迅速に返信してください。10分以内に回答が必要です。",
+          "clue": "within the next ten minutes が返答の速さを要求する",
+          "options": [
+            579,
+            551,
+            586,
+            574
+          ]
+        },
+        {
+          "id": "579-2",
+          "sentence": "The receptionist answered the call _____, before it rang a second time.",
+          "translation": "受付係は2回目の呼び出し音の前にすばやく電話に出ました。",
+          "clue": "before it rang a second time が対応の速さを示す",
+          "options": [
+            579,
+            551,
+            586,
+            574
+          ]
+        },
+        {
+          "id": "579-3",
+          "sentence": "The meeting will begin _____ at nine, so please arrive early.",
+          "translation": "会議は9時ちょうどに始まるので、早めに来てください。",
+          "clue": "at nine と arrive early が定刻どおりの開始を示す",
+          "options": [
+            579,
+            551,
+            586,
+            574
+          ]
+        },
+        {
+          "id": "579-4",
+          "sentence": "Staff must report safety problems _____ rather than wait until the end of the week.",
+          "translation": "職員は週末まで待たず、安全上の問題を速やかに報告しなければなりません。",
+          "clue": "rather than wait が先延ばしせず迅速に行うことを求める",
+          "options": [
+            579,
+            551,
+            586,
+            574
+          ]
+        },
+        {
+          "id": "579-5",
+          "sentence": "The repair team arrived _____ after the emergency call and restored power quickly.",
+          "translation": "修理班は緊急連絡後すぐに到着し、素早く電力を復旧しました。",
+          "clue": "emergency call と restored power quickly が迅速な対応を示す",
+          "options": [
+            579,
+            551,
+            586,
+            574
+          ]
+        }
+      ]
+    },
+    {
+      "id": 580,
+      "word": "accomplishment",
+      "pos": "名詞",
+      "meaning": "業績・達成したこと",
+      "variants": [
+        {
+          "id": "580-1",
+          "sentence": "Completing the bridge ahead of schedule was a major _____ for the engineering team.",
+          "translation": "予定より早い橋の完成は技術チームの大きな功績でした。",
+          "clue": "Completing ... ahead of schedule が成し遂げた成果を示す",
+          "options": [
+            580,
+            553,
+            565,
+            589
+          ]
+        },
+        {
+          "id": "580-2",
+          "sentence": "She listed her greatest professional _____ as leading the successful product launch.",
+          "translation": "彼女は最大の職業上の業績として製品発売の成功を率いたことを挙げました。",
+          "clue": "leading the successful product launch が達成した仕事",
+          "options": [
+            580,
+            553,
+            565,
+            589
+          ]
+        },
+        {
+          "id": "580-3",
+          "sentence": "Finishing his first marathon gave him a strong sense of _____.",
+          "translation": "初めてのマラソンを完走し、彼は強い達成感を得ました。",
+          "clue": "Finishing his first marathon と sense of が達成感を示す",
+          "options": [
+            580,
+            553,
+            565,
+            589
+          ]
+        },
+        {
+          "id": "580-4",
+          "sentence": "The award celebrates an outstanding _____ in medical research.",
+          "translation": "その賞は医学研究における傑出した功績をたたえます。",
+          "clue": "award と celebrates が優れた成果を評価する文脈",
+          "options": [
+            580,
+            553,
+            565,
+            589
+          ]
+        },
+        {
+          "id": "580-5",
+          "sentence": "Building a library with so little funding was a remarkable _____.",
+          "translation": "少ない資金で図書館を建設したことは見事な業績でした。",
+          "clue": "Building ... with so little funding が困難を乗り越えた成果",
+          "options": [
+            580,
+            553,
+            565,
+            589
+          ]
+        }
+      ]
+    },
+    {
+      "id": 581,
+      "word": "forum",
+      "pos": "名詞",
+      "meaning": "討論会・意見交換の場",
+      "variants": [
+        {
+          "id": "581-1",
+          "sentence": "Residents attended a public _____ to discuss the proposed railway line.",
+          "translation": "住民は鉄道路線案を話し合う公開討論会に出席しました。",
+          "clue": "attended と discuss ... proposed railway が意見を交わす会を示す",
+          "options": [
+            581,
+            553,
+            568,
+            576
+          ]
+        },
+        {
+          "id": "581-2",
+          "sentence": "The online _____ allows members to post questions and exchange ideas.",
+          "translation": "オンラインのフォーラムでは会員が質問を投稿し意見を交換できます。",
+          "clue": "post questions and exchange ideas が交流の場を示す",
+          "options": [
+            581,
+            553,
+            568,
+            576
+          ]
+        },
+        {
+          "id": "581-3",
+          "sentence": "Experts from several countries spoke at a _____ on climate policy.",
+          "translation": "複数の国の専門家が気候政策の討論会で話しました。",
+          "clue": "Experts ... spoke と on climate policy が議論の場を示す",
+          "options": [
+            581,
+            553,
+            568,
+            576
+          ]
+        },
+        {
+          "id": "581-4",
+          "sentence": "The manager created a _____ where employees could openly discuss workplace concerns.",
+          "translation": "管理者は社員が職場の懸念を率直に話せる場を設けました。",
+          "clue": "where ... openly discuss が討論・意見交換の場を定義する",
+          "options": [
+            581,
+            553,
+            568,
+            576
+          ]
+        },
+        {
+          "id": "581-5",
+          "sentence": "Questions from the audience will be welcomed during the community _____.",
+          "translation": "地域の討論会では聴衆からの質問を歓迎します。",
+          "clue": "Questions from the audience が参加型の討論会を示す",
+          "options": [
+            581,
+            553,
+            568,
+            576
+          ]
+        }
+      ]
+    },
+    {
+      "id": 582,
+      "word": "domestic",
+      "pos": "形容詞",
+      "meaning": "国内の・家庭の",
+      "variants": [
+        {
+          "id": "582-1",
+          "sentence": "Passengers on _____ flights stay within the same country and do not cross an international border.",
+          "translation": "国内線の乗客は同じ国内を移動し、国境を越えません。",
+          "clue": "same country と do not cross ... border が国内の移動を示す",
+          "options": [
+            582,
+            551,
+            552,
+            560
+          ]
+        },
+        {
+          "id": "582-2",
+          "sentence": "The company sells most of its products in the _____ market rather than exporting them.",
+          "translation": "会社は輸出ではなく国内市場で製品の大半を売ります。",
+          "clue": "rather than exporting が国内での販売を示す",
+          "options": [
+            582,
+            551,
+            552,
+            560
+          ]
+        },
+        {
+          "id": "582-3",
+          "sentence": "This phone plan charges less for _____ calls than for international calls.",
+          "translation": "この電話プランは国際通話より国内通話が安くなります。",
+          "clue": "than for international calls との対比が国内通話",
+          "options": [
+            582,
+            551,
+            552,
+            560
+          ]
+        },
+        {
+          "id": "582-4",
+          "sentence": "The airport has separate terminals for _____ and international travel.",
+          "translation": "空港には国内旅行と国際旅行それぞれのターミナルがあります。",
+          "clue": "and international の対比から国内の区分",
+          "options": [
+            582,
+            551,
+            552,
+            560
+          ]
+        },
+        {
+          "id": "582-5",
+          "sentence": "The report compares _____ production with goods imported from abroad.",
+          "translation": "報告書は国内生産と海外から輸入された商品を比較します。",
+          "clue": "imported from abroad との対比が国内の生産",
+          "options": [
+            582,
+            551,
+            552,
+            560
+          ]
+        }
+      ]
+    },
+    {
+      "id": 583,
+      "word": "round-trip",
+      "pos": "形容詞",
+      "meaning": "往復の",
+      "variants": [
+        {
+          "id": "583-1",
+          "sentence": "A _____ ticket covers both the journey to Osaka and the journey back.",
+          "translation": "往復券は大阪への行きと帰りの両方を含みます。",
+          "clue": "both ... to ... and ... back が往復を明示する",
+          "options": [
+            583,
+            551,
+            555,
+            596
+          ]
+        },
+        {
+          "id": "583-2",
+          "sentence": "The quoted _____ fare includes a return flight next Sunday.",
+          "translation": "提示された往復運賃には次の日曜日の帰りの便が含まれます。",
+          "clue": "includes a return flight が復路を含む運賃を示す",
+          "options": [
+            583,
+            551,
+            555,
+            596
+          ]
+        },
+        {
+          "id": "583-3",
+          "sentence": "I need a _____ reservation because I will come home on Friday.",
+          "translation": "金曜日に帰宅するので往復の予約が必要です。",
+          "clue": "come home on Friday が帰りの予約も必要な理由",
+          "options": [
+            583,
+            551,
+            555,
+            596
+          ]
+        },
+        {
+          "id": "583-4",
+          "sentence": "The _____ bus tour leaves the hotel in the morning and brings guests back in the evening.",
+          "translation": "往復バスツアーは朝ホテルを出発し、夕方に客を戻します。",
+          "clue": "leaves ... and brings ... back が出発地に戻る旅程",
+          "options": [
+            583,
+            551,
+            555,
+            596
+          ]
+        },
+        {
+          "id": "583-5",
+          "sentence": "The price is for a _____ journey, not just a one-way ride.",
+          "translation": "料金は片道だけでなく往復の旅程のものです。",
+          "clue": "not just a one-way ride が片道との対比",
+          "options": [
+            583,
+            551,
+            555,
+            596
+          ]
+        }
+      ]
+    },
+    {
+      "id": 584,
+      "word": "calculate",
+      "pos": "動詞",
+      "meaning": "計算する",
+      "variants": [
+        {
+          "id": "584-1",
+          "sentence": "Use a spreadsheet to _____ the total cost by adding all the expenses.",
+          "translation": "表計算ソフトで全経費を足し、総費用を計算してください。",
+          "clue": "by adding all the expenses が数値を求める操作",
+          "options": [
+            584,
+            562,
+            575,
+            591
+          ]
+        },
+        {
+          "id": "584-2",
+          "sentence": "The engineer must _____ how much weight the bridge can safely support.",
+          "translation": "技師は橋が安全に支えられる重量を計算する必要があります。",
+          "clue": "how much weight が数値として求める量",
+          "options": [
+            584,
+            562,
+            575,
+            591
+          ]
+        },
+        {
+          "id": "584-3",
+          "sentence": "Please _____ the discount as ten percent of the original price.",
+          "translation": "元の価格の10パーセントとして割引額を計算してください。",
+          "clue": "ten percent of ... price が割合の計算を求める",
+          "options": [
+            584,
+            562,
+            575,
+            591
+          ]
+        },
+        {
+          "id": "584-4",
+          "sentence": "We can _____ the average by dividing the total by the number of entries.",
+          "translation": "合計を件数で割れば平均を計算できます。",
+          "clue": "dividing the total by ... number が算術操作",
+          "options": [
+            584,
+            562,
+            575,
+            591
+          ]
+        },
+        {
+          "id": "584-5",
+          "sentence": "The app will _____ your monthly payments from the loan amount and interest rate.",
+          "translation": "アプリは借入額と金利から毎月の支払額を計算します。",
+          "clue": "from the loan amount and interest rate が数値を導く条件",
+          "options": [
+            584,
+            562,
+            575,
+            591
+          ]
+        }
+      ]
+    },
+    {
+      "id": 585,
+      "word": "popularity",
+      "pos": "名詞",
+      "meaning": "人気",
+      "variants": [
+        {
+          "id": "585-1",
+          "sentence": "The product's _____ grew as more customers recommended it to friends.",
+          "translation": "多くの顧客が友人に勧めるにつれて商品の人気が高まりました。",
+          "clue": "more customers recommended it が支持の広がりを示す",
+          "options": [
+            585,
+            553,
+            576,
+            589
+          ]
+        },
+        {
+          "id": "585-2",
+          "sentence": "The singer's _____ was clear from the thousands of fans waiting outside.",
+          "translation": "外で待つ何千人ものファンから歌手の人気は明らかでした。",
+          "clue": "thousands of fans が人気の証拠",
+          "options": [
+            585,
+            553,
+            576,
+            589
+          ]
+        },
+        {
+          "id": "585-3",
+          "sentence": "The survey measures the _____ of different sports among teenagers.",
+          "translation": "調査は10代の若者の間で各スポーツがどれほど人気かを測ります。",
+          "clue": "among teenagers と different sports が好まれる程度の比較",
+          "options": [
+            585,
+            553,
+            576,
+            589
+          ]
+        },
+        {
+          "id": "585-4",
+          "sentence": "Despite its high price, the restaurant has maintained its _____ and is always full.",
+          "translation": "高額にもかかわらず、そのレストランは人気を維持して常に満席です。",
+          "clue": "always full が支持され続けていることを示す",
+          "options": [
+            585,
+            553,
+            576,
+            589
+          ]
+        },
+        {
+          "id": "585-5",
+          "sentence": "A sudden rise in _____ caused tickets for the show to sell out.",
+          "translation": "急な人気上昇により公演のチケットは売り切れました。",
+          "clue": "tickets ... sell out が需要と支持の増加を示す",
+          "options": [
+            585,
+            553,
+            576,
+            589
+          ]
+        }
+      ]
+    },
+    {
+      "id": 586,
+      "word": "remote",
+      "pos": "形容詞",
+      "meaning": "遠く離れた・リモートの",
+      "variants": [
+        {
+          "id": "586-1",
+          "sentence": "The village is so _____ that the nearest hospital is three hours away.",
+          "translation": "その村は最寄りの病院まで3時間かかるほど人里離れています。",
+          "clue": "nearest hospital is three hours away が距離の大きさ",
+          "options": [
+            586,
+            551,
+            552,
+            574
+          ]
+        },
+        {
+          "id": "586-2",
+          "sentence": "The company allows _____ work, so employees can do their jobs from home.",
+          "translation": "会社はリモートワークを認めているため、社員は自宅で仕事ができます。",
+          "clue": "do their jobs from home が離れた場所での勤務を示す",
+          "options": [
+            586,
+            551,
+            552,
+            574
+          ]
+        },
+        {
+          "id": "586-3",
+          "sentence": "Scientists set up a camp on a _____ island far from any town.",
+          "translation": "科学者は町から遠く離れた島に拠点を設けました。",
+          "clue": "far from any town が人里から離れた場所を示す",
+          "options": [
+            586,
+            551,
+            552,
+            574
+          ]
+        },
+        {
+          "id": "586-4",
+          "sentence": "The device can be operated by _____ control without anyone standing beside it.",
+          "translation": "その装置はそばに人がいなくても遠隔操作できます。",
+          "clue": "without anyone standing beside it が離れた位置からの操作",
+          "options": [
+            586,
+            551,
+            552,
+            574
+          ]
+        },
+        {
+          "id": "586-5",
+          "sentence": "A _____ consultation lets patients speak to a doctor without traveling to the clinic.",
+          "translation": "遠隔診療では患者が診療所へ行かずに医師と話せます。",
+          "clue": "without traveling to the clinic が離れた場所での相談",
+          "options": [
+            586,
+            551,
+            552,
+            574
+          ]
+        }
+      ]
+    },
+    {
+      "id": 587,
+      "word": "encounter",
+      "pos": "動詞",
+      "meaning": "遭遇する・直面する",
+      "variants": [
+        {
+          "id": "587-1",
+          "sentence": "Travelers may _____ delays when crossing the border during holidays.",
+          "translation": "旅行者は休暇中の国境通過で遅延に直面することがあります。",
+          "clue": "delays when crossing が予期し得る障害への直面",
+          "options": [
+            587,
+            562,
+            563,
+            572
+          ]
+        },
+        {
+          "id": "587-2",
+          "sentence": "If you _____ a problem during installation, contact technical support.",
+          "translation": "インストール中に問題に遭遇したら技術支援に連絡してください。",
+          "clue": "a problem during installation が困難に出くわす場面",
+          "options": [
+            587,
+            562,
+            563,
+            572
+          ]
+        },
+        {
+          "id": "587-3",
+          "sentence": "Hikers sometimes _____ wild animals on this trail.",
+          "translation": "登山者はこの道で野生動物に遭遇することがあります。",
+          "clue": "wild animals on this trail が道中での偶然の遭遇",
+          "options": [
+            587,
+            562,
+            563,
+            572
+          ]
+        },
+        {
+          "id": "587-4",
+          "sentence": "New managers often _____ situations they have never dealt with before.",
+          "translation": "新任管理者は経験のない状況に直面しがちです。",
+          "clue": "situations ... never dealt with が未知の状況との出会い",
+          "options": [
+            587,
+            562,
+            563,
+            572
+          ]
+        },
+        {
+          "id": "587-5",
+          "sentence": "We did not expect to _____ such strong opposition to the proposal.",
+          "translation": "私たちは提案にこれほど強い反対に遭うとは予想していませんでした。",
+          "clue": "did not expect と strong opposition が予想外の直面",
+          "options": [
+            587,
+            562,
+            563,
+            572
+          ]
+        }
+      ]
+    },
+    {
+      "id": 588,
+      "word": "convert",
+      "pos": "動詞",
+      "meaning": "別の形や用途に変える",
+      "variants": [
+        {
+          "id": "588-1",
+          "sentence": "They plan to _____ the empty warehouse into apartments.",
+          "translation": "彼らは空き倉庫をアパートに転用する計画です。",
+          "clue": "warehouse into apartments が用途を変えることを示す",
+          "options": [
+            588,
+            562,
+            575,
+            591
+          ]
+        },
+        {
+          "id": "588-2",
+          "sentence": "This program can _____ a text document into a PDF file.",
+          "translation": "このプログラムは文書をPDFファイルに変換できます。",
+          "clue": "document into a PDF file が形式の変更",
+          "options": [
+            588,
+            562,
+            575,
+            591
+          ]
+        },
+        {
+          "id": "588-3",
+          "sentence": "You can _____ dollars into yen at the airport exchange counter.",
+          "translation": "空港の両替窓口でドルを円に替えられます。",
+          "clue": "dollars into yen と exchange が通貨の換算・交換",
+          "options": [
+            588,
+            562,
+            575,
+            591
+          ]
+        },
+        {
+          "id": "588-4",
+          "sentence": "The solar cells _____ sunlight into electrical energy.",
+          "translation": "太陽電池は太陽光を電気エネルギーに変えます。",
+          "clue": "sunlight into electrical energy がエネルギーの変換",
+          "options": [
+            588,
+            562,
+            575,
+            591
+          ]
+        },
+        {
+          "id": "588-5",
+          "sentence": "We will _____ the spare bedroom into a home office.",
+          "translation": "予備の寝室を在宅勤務用の部屋に変えます。",
+          "clue": "bedroom into a home office が部屋の用途変更",
+          "options": [
+            588,
+            562,
+            575,
+            591
+          ]
+        }
+      ]
+    },
+    {
+      "id": 589,
+      "word": "videoconference",
+      "pos": "名詞",
+      "meaning": "ビデオ会議",
+      "variants": [
+        {
+          "id": "589-1",
+          "sentence": "We held a _____ so colleagues in Tokyo and London could see and hear one another live.",
+          "translation": "東京とロンドンの同僚が互いに映像と音声でやり取りできるようビデオ会議を開きました。",
+          "clue": "see and hear one another live と遠隔地が映像会議を示す",
+          "options": [
+            589,
+            553,
+            559,
+            576
+          ]
+        },
+        {
+          "id": "589-2",
+          "sentence": "Please test your camera and microphone before joining the _____.",
+          "translation": "ビデオ会議に参加する前にカメラとマイクを確認してください。",
+          "clue": "camera and microphone が映像と音声を使う会議を示す",
+          "options": [
+            589,
+            553,
+            559,
+            576
+          ]
+        },
+        {
+          "id": "589-3",
+          "sentence": "The interview will be a _____, so you do not need to travel to our office.",
+          "translation": "面接はビデオ会議で行うので、事務所に来る必要はありません。",
+          "clue": "interview と do not need to travel が遠隔の映像面接",
+          "options": [
+            589,
+            553,
+            559,
+            576
+          ]
+        },
+        {
+          "id": "589-4",
+          "sentence": "A poor internet connection interrupted the _____ and froze everyone's image.",
+          "translation": "通信状態が悪く、ビデオ会議が途切れて全員の映像が止まりました。",
+          "clue": "internet connection と froze ... image がオンライン映像会議",
+          "options": [
+            589,
+            553,
+            559,
+            576
+          ]
+        },
+        {
+          "id": "589-5",
+          "sentence": "During the _____, the presenter shared her screen with participants in three countries.",
+          "translation": "ビデオ会議中、発表者は3か国の参加者に画面を共有しました。",
+          "clue": "shared her screen と participants in three countries が遠隔会議",
+          "options": [
+            589,
+            553,
+            559,
+            576
+          ]
+        }
+      ]
+    },
+    {
+      "id": 590,
+      "word": "postal",
+      "pos": "形容詞",
+      "meaning": "郵便の",
+      "variants": [
+        {
+          "id": "590-1",
+          "sentence": "Write the correct _____ code on the envelope so the letter reaches the right area.",
+          "translation": "手紙が正しい地域に届くよう、封筒に正確な郵便番号を書いてください。",
+          "clue": "code on the envelope と letter が郵便の番号を示す",
+          "options": [
+            590,
+            551,
+            552,
+            596
+          ]
+        },
+        {
+          "id": "590-2",
+          "sentence": "The national _____ service delivers letters to homes throughout the country.",
+          "translation": "全国の郵便事業は国中の家庭へ手紙を届けます。",
+          "clue": "service delivers letters が郵便の業務",
+          "options": [
+            590,
+            551,
+            552,
+            596
+          ]
+        },
+        {
+          "id": "590-3",
+          "sentence": "Higher _____ charges have made sending packages more expensive.",
+          "translation": "郵便料金の値上げにより荷物の発送が高くなりました。",
+          "clue": "charges と sending packages が郵送の料金",
+          "options": [
+            590,
+            551,
+            552,
+            596
+          ]
+        },
+        {
+          "id": "590-4",
+          "sentence": "Please include your full _____ address, not just your email address.",
+          "translation": "メールアドレスだけでなく完全な郵送先住所も記入してください。",
+          "clue": "address と not just ... email が物理的な郵便の住所",
+          "options": [
+            590,
+            551,
+            552,
+            596
+          ]
+        },
+        {
+          "id": "590-5",
+          "sentence": "The _____ worker put the letters into each household's mailbox.",
+          "translation": "郵便局員は各家庭の郵便受けに手紙を入れました。",
+          "clue": "letters into ... mailbox が郵便配達の仕事を示す",
+          "options": [
+            590,
+            551,
+            552,
+            596
+          ]
+        }
+      ]
+    },
+    {
+      "id": 591,
+      "word": "prohibit",
+      "pos": "動詞",
+      "meaning": "禁止する",
+      "variants": [
+        {
+          "id": "591-1",
+          "sentence": "The rules _____ smoking anywhere inside the hospital.",
+          "translation": "規則は病院内のあらゆる場所で喫煙を禁止しています。",
+          "clue": "rules と smoking ... hospital が許可しない行為を示す",
+          "options": [
+            591,
+            554,
+            562,
+            584
+          ]
+        },
+        {
+          "id": "591-2",
+          "sentence": "To protect the exhibits, we _____ visitors from touching them.",
+          "translation": "展示品を守るため、訪問者が触ることを禁止しています。",
+          "clue": "protect the exhibits と from touching が禁止の目的と対象",
+          "options": [
+            591,
+            554,
+            562,
+            584
+          ]
+        },
+        {
+          "id": "591-3",
+          "sentence": "Safety regulations _____ the use of phones while operating this machine.",
+          "translation": "安全規則はこの機械の操作中の電話使用を禁止しています。",
+          "clue": "Safety regulations と while operating が危険行為の禁止",
+          "options": [
+            591,
+            554,
+            562,
+            584
+          ]
+        },
+        {
+          "id": "591-4",
+          "sentence": "The contract will _____ us from sharing the client's confidential information.",
+          "translation": "契約は顧客の機密情報を共有することを禁じます。",
+          "clue": "confidential information と from sharing が情報開示の禁止",
+          "options": [
+            591,
+            554,
+            562,
+            584
+          ]
+        },
+        {
+          "id": "591-5",
+          "sentence": "Local laws _____ parking in front of emergency exits.",
+          "translation": "地域の法律は非常口前の駐車を禁止しています。",
+          "clue": "laws と emergency exits が安全のための駐車禁止",
+          "options": [
+            591,
+            554,
+            562,
+            584
+          ]
+        }
+      ]
+    },
+    {
+      "id": 592,
+      "word": "assess",
+      "pos": "動詞",
+      "meaning": "評価する・査定する",
+      "variants": [
+        {
+          "id": "592-1",
+          "sentence": "An expert will _____ the damage before deciding how much insurance money to pay.",
+          "translation": "保険金額を決める前に専門家が損害を査定します。",
+          "clue": "damage と insurance money が損害の程度の評価",
+          "options": [
+            592,
+            562,
+            572,
+            591
+          ]
+        },
+        {
+          "id": "592-2",
+          "sentence": "Teachers use several activities to _____ students' speaking ability.",
+          "translation": "教師は生徒の会話力を評価するため複数の活動を使います。",
+          "clue": "speaking ability が能力を測る対象",
+          "options": [
+            592,
+            562,
+            572,
+            591
+          ]
+        },
+        {
+          "id": "592-3",
+          "sentence": "We must _____ the risks before approving the construction project.",
+          "translation": "建設事業を承認する前に危険性を評価する必要があります。",
+          "clue": "risks before approving が判断前の評価",
+          "options": [
+            592,
+            562,
+            572,
+            591
+          ]
+        },
+        {
+          "id": "592-4",
+          "sentence": "The interview panel will _____ each candidate's suitability for the role.",
+          "translation": "面接委員は各候補者がその職に適するかを評価します。",
+          "clue": "each candidate's suitability が適性の評価",
+          "options": [
+            592,
+            562,
+            572,
+            591
+          ]
+        },
+        {
+          "id": "592-5",
+          "sentence": "The survey helps us _____ how satisfied customers are with our service.",
+          "translation": "調査はサービスへの顧客満足度を評価する助けになります。",
+          "clue": "how satisfied customers are が満足度を調べる目的",
+          "options": [
+            592,
+            562,
+            572,
+            591
+          ]
+        }
+      ]
+    },
+    {
+      "id": 593,
+      "word": "clarify",
+      "pos": "動詞",
+      "meaning": "明確にする",
+      "variants": [
+        {
+          "id": "593-1",
+          "sentence": "Could you _____ what you mean by 'soon'? Do you mean today or next week?",
+          "translation": "『すぐ』の意味を明確にしてもらえますか。今日ですか、来週ですか。",
+          "clue": "today or next week が曖昧な表現を具体化する質問",
+          "options": [
+            593,
+            562,
+            575,
+            591
+          ]
+        },
+        {
+          "id": "593-2",
+          "sentence": "The diagram should _____ the instructions and make them easier to follow.",
+          "translation": "図は手順をわかりやすくし、従いやすくするはずです。",
+          "clue": "make them easier to follow が説明を明確にする働き",
+          "options": [
+            593,
+            562,
+            575,
+            591
+          ]
+        },
+        {
+          "id": "593-3",
+          "sentence": "Please _____ who is responsible for approving the final design.",
+          "translation": "最終設計の承認責任者が誰なのか明確にしてください。",
+          "clue": "who is responsible が不明な役割をはっきりさせる要求",
+          "options": [
+            593,
+            562,
+            575,
+            591
+          ]
+        },
+        {
+          "id": "593-4",
+          "sentence": "A short example can _____ a complicated rule.",
+          "translation": "短い例は複雑な規則をわかりやすくできます。",
+          "clue": "example と complicated rule が理解を助ける説明",
+          "options": [
+            593,
+            562,
+            575,
+            591
+          ]
+        },
+        {
+          "id": "593-5",
+          "sentence": "The manager called a meeting to _____ the confusing changes to the policy.",
+          "translation": "管理者は混乱を招く方針変更を明確にするため会議を招集しました。",
+          "clue": "confusing changes が曖昧さを解消する必要を示す",
+          "options": [
+            593,
+            562,
+            575,
+            591
+          ]
+        }
+      ]
+    },
+    {
+      "id": 594,
+      "word": "independent",
+      "pos": "形容詞",
+      "meaning": "独立した",
+      "variants": [
+        {
+          "id": "594-1",
+          "sentence": "The company is _____ and is not owned or controlled by a larger corporation.",
+          "translation": "その会社は独立しており、大企業に所有も支配もされていません。",
+          "clue": "not owned or controlled が独立の意味を説明する",
+          "options": [
+            594,
+            552,
+            574,
+            595
+          ]
+        },
+        {
+          "id": "594-2",
+          "sentence": "An _____ investigator with no connection to either side will examine the case.",
+          "translation": "どちらの側とも関係のない独立した調査員が事件を調べます。",
+          "clue": "no connection to either side が当事者から独立した立場",
+          "options": [
+            594,
+            552,
+            574,
+            595
+          ]
+        },
+        {
+          "id": "594-3",
+          "sentence": "The children are becoming more _____ and can prepare meals without help.",
+          "translation": "子どもたちは自立してきて、助けなしで食事を用意できます。",
+          "clue": "without help が他者に頼らない状態",
+          "options": [
+            594,
+            552,
+            574,
+            595
+          ]
+        },
+        {
+          "id": "594-4",
+          "sentence": "We asked for an _____ opinion from someone outside our organization.",
+          "translation": "組織外の人に独立した意見を求めました。",
+          "clue": "someone outside our organization が組織から独立した意見",
+          "options": [
+            594,
+            552,
+            574,
+            595
+          ]
+        },
+        {
+          "id": "594-5",
+          "sentence": "The two systems are _____; a failure in one will not affect the other.",
+          "translation": "二つのシステムは独立しており、一方の故障は他方に影響しません。",
+          "clue": "one will not affect the other が相互に依存しない関係",
+          "options": [
+            594,
+            552,
+            574,
+            595
+          ]
+        }
+      ]
+    },
+    {
+      "id": 595,
+      "word": "urgent",
+      "pos": "形容詞",
+      "meaning": "緊急の・急を要する",
+      "variants": [
+        {
+          "id": "595-1",
+          "sentence": "This is an _____ request; the patient needs the medicine within an hour.",
+          "translation": "これは緊急の依頼です。患者には1時間以内に薬が必要です。",
+          "clue": "needs ... within an hour が時間的な切迫",
+          "options": [
+            595,
+            552,
+            574,
+            583
+          ]
+        },
+        {
+          "id": "595-2",
+          "sentence": "Please mark the message as _____ so the manager reads it immediately.",
+          "translation": "管理者がすぐ読むよう、メッセージに緊急と印を付けてください。",
+          "clue": "reads it immediately がすぐの対応を求める",
+          "options": [
+            595,
+            552,
+            574,
+            583
+          ]
+        },
+        {
+          "id": "595-3",
+          "sentence": "The leak creates an _____ need for repairs before more water enters the building.",
+          "translation": "漏水で建物にさらに水が入る前の緊急修理が必要になっています。",
+          "clue": "before more water enters が待てない理由",
+          "options": [
+            595,
+            552,
+            574,
+            583
+          ]
+        },
+        {
+          "id": "595-4",
+          "sentence": "We interrupted the meeting to deal with an _____ safety issue.",
+          "translation": "緊急の安全問題に対応するため会議を中断しました。",
+          "clue": "interrupted the meeting と safety issue が即時対応の必要性",
+          "options": [
+            595,
+            552,
+            574,
+            583
+          ]
+        },
+        {
+          "id": "595-5",
+          "sentence": "The supplier arranged an _____ delivery because production would otherwise stop tomorrow.",
+          "translation": "明日生産が止まるため、納入業者は緊急配送を手配しました。",
+          "clue": "otherwise stop tomorrow が配送を急ぐ理由",
+          "options": [
+            595,
+            552,
+            574,
+            583
+          ]
+        }
+      ]
+    },
+    {
+      "id": 596,
+      "word": "skilled",
+      "pos": "形容詞",
+      "meaning": "熟練した",
+      "variants": [
+        {
+          "id": "596-1",
+          "sentence": "Only a _____ technician with years of hands-on experience can repair this delicate instrument.",
+          "translation": "この精密機器を修理できるのは長年の実務経験を持つ熟練技術者だけです。",
+          "clue": "years of hands-on experience と delicate instrument が熟練を要求する",
+          "options": [
+            596,
+            561,
+            574,
+            583
+          ]
+        },
+        {
+          "id": "596-2",
+          "sentence": "The workshop employs _____ craftspeople who make every item by hand.",
+          "translation": "工房はすべてを手作りする熟練職人を雇っています。",
+          "clue": "craftspeople と make ... by hand が技能の高さを示す",
+          "options": [
+            596,
+            561,
+            574,
+            583
+          ]
+        },
+        {
+          "id": "596-3",
+          "sentence": "She is highly _____ at negotiating and has successfully handled many difficult deals.",
+          "translation": "彼女は交渉に非常に熟練し、難しい取引を何度も成功させています。",
+          "clue": "successfully handled many difficult deals が能力の実績",
+          "options": [
+            596,
+            561,
+            574,
+            583
+          ]
+        },
+        {
+          "id": "596-4",
+          "sentence": "The hospital needs _____ surgeons capable of performing complex operations.",
+          "translation": "病院には複雑な手術ができる熟練の外科医が必要です。",
+          "clue": "capable of performing complex operations が高度な技能",
+          "options": [
+            596,
+            561,
+            574,
+            583
+          ]
+        },
+        {
+          "id": "596-5",
+          "sentence": "A _____ driver kept control of the bus on the icy road.",
+          "translation": "熟練した運転手は凍った道でバスを制御し続けました。",
+          "clue": "kept control ... icy road が巧みな運転技能を示す",
+          "options": [
+            596,
+            561,
+            574,
+            583
+          ]
+        }
+      ]
+    },
+    {
+      "id": 597,
+      "word": "remark",
+      "pos": "名詞",
+      "meaning": "発言・言葉",
+      "variants": [
+        {
+          "id": "597-1",
+          "sentence": "Her closing _____ thanked the volunteers for their hard work.",
+          "translation": "彼女の閉会の言葉はボランティアの尽力に感謝するものでした。",
+          "clue": "closing と thanked がスピーチ中の言葉を示す",
+          "options": [
+            597,
+            553,
+            568,
+            576
+          ]
+        },
+        {
+          "id": "597-2",
+          "sentence": "He made a brief _____ about the weather before beginning his speech.",
+          "translation": "彼はスピーチの前に天気について短く述べました。",
+          "clue": "made a brief ... about が短い発言の形",
+          "options": [
+            597,
+            553,
+            568,
+            576
+          ]
+        },
+        {
+          "id": "597-3",
+          "sentence": "The audience laughed at the speaker's humorous _____.",
+          "translation": "聴衆は講演者のユーモラスな発言に笑いました。",
+          "clue": "speaker's と humorous と laughed が発言の内容を示す",
+          "options": [
+            597,
+            553,
+            568,
+            576
+          ]
+        },
+        {
+          "id": "597-4",
+          "sentence": "Please keep your _____ relevant to the topic being discussed.",
+          "translation": "発言は話し合っているテーマに関連するものにしてください。",
+          "clue": "relevant to the topic being discussed が討議中の言葉への指示",
+          "options": [
+            597,
+            553,
+            568,
+            576
+          ]
+        },
+        {
+          "id": "597-5",
+          "sentence": "I was surprised by her _____ that the entire project was already complete.",
+          "translation": "事業全体がすでに完了したという彼女の発言に驚きました。",
+          "clue": "that 以下が発言の具体的な内容",
+          "options": [
+            597,
+            553,
+            568,
+            576
+          ]
+        }
+      ]
+    },
+    {
+      "id": 598,
+      "word": "weekday",
+      "pos": "名詞",
+      "meaning": "平日",
+      "variants": [
+        {
+          "id": "598-1",
+          "sentence": "The office is open every _____ but closes on Saturdays and Sundays.",
+          "translation": "事務所は平日は毎日開いていますが、土日は閉まっています。",
+          "clue": "but closes on Saturdays and Sundays が平日との区別",
+          "options": [
+            598,
+            553,
+            576,
+            589
+          ]
+        },
+        {
+          "id": "598-2",
+          "sentence": "Choose a _____ appointment, such as Tuesday, because weekend slots cost more.",
+          "translation": "週末の枠は高いので、火曜日など平日の予約を選んでください。",
+          "clue": "such as Tuesday と weekend slots の対比",
+          "options": [
+            598,
+            553,
+            576,
+            589
+          ]
+        },
+        {
+          "id": "598-3",
+          "sentence": "Trains run more frequently on a _____ to serve people traveling to work.",
+          "translation": "通勤者のため、平日は列車の運行頻度が高くなります。",
+          "clue": "people traveling to work が平日の通勤需要",
+          "options": [
+            598,
+            553,
+            576,
+            589
+          ]
+        },
+        {
+          "id": "598-4",
+          "sentence": "The discount is available on any _____ from Monday through Friday.",
+          "translation": "割引は月曜日から金曜日までのどの平日でも利用できます。",
+          "clue": "from Monday through Friday が平日を定義する",
+          "options": [
+            598,
+            553,
+            576,
+            589
+          ]
+        },
+        {
+          "id": "598-5",
+          "sentence": "She requested a _____ off work so she could visit the bank during business hours.",
+          "translation": "銀行の営業時間内に行けるよう、彼女は平日の休暇を申請しました。",
+          "clue": "off work と bank during business hours が平日に休む場面",
+          "options": [
+            598,
+            553,
+            576,
+            589
+          ]
+        }
+      ]
+    },
+    {
+      "id": 599,
+      "word": "personalized",
+      "pos": "形容詞",
+      "meaning": "個人に合わせた・名前入りの",
+      "variants": [
+        {
+          "id": "599-1",
+          "sentence": "Each guest received a _____ card with their own name printed on it.",
+          "translation": "各客は自分の名前を印刷した個人用のカードを受け取りました。",
+          "clue": "their own name printed が名前入りの品を示す",
+          "options": [
+            599,
+            574,
+            577,
+            590
+          ]
+        },
+        {
+          "id": "599-2",
+          "sentence": "The app provides _____ advice based on your individual goals and habits.",
+          "translation": "アプリは個人の目標や習慣に基づく個別の助言を提供します。",
+          "clue": "your individual goals and habits が個人に合わせた内容",
+          "options": [
+            599,
+            574,
+            577,
+            590
+          ]
+        },
+        {
+          "id": "599-3",
+          "sentence": "Instead of one standard plan, clients receive a _____ program designed for their specific needs.",
+          "translation": "一律の計画ではなく、顧客は具体的な要望に合わせた個別プログラムを受け取ります。",
+          "clue": "Instead of one standard plan と specific needs が個別化を示す",
+          "options": [
+            599,
+            574,
+            577,
+            590
+          ]
+        },
+        {
+          "id": "599-4",
+          "sentence": "The shop sells _____ gifts with the customer's initials engraved on them.",
+          "translation": "店は顧客のイニシャルを刻んだ個人仕様の贈り物を売ります。",
+          "clue": "customer's initials engraved が個人専用の加工",
+          "options": [
+            599,
+            574,
+            577,
+            590
+          ]
+        },
+        {
+          "id": "599-5",
+          "sentence": "A _____ learning schedule allows each student to work on their own weak areas.",
+          "translation": "個人に合わせた学習計画なら各生徒が自分の苦手分野に取り組めます。",
+          "clue": "each student と their own weak areas が個別対応を示す",
+          "options": [
+            599,
+            574,
+            577,
+            590
+          ]
+        }
+      ]
+    },
+    {
+      "id": 600,
+      "word": "stain",
+      "pos": "名詞",
+      "meaning": "染み",
+      "variants": [
+        {
+          "id": "600-1",
+          "sentence": "Coffee left a dark _____ on the white tablecloth.",
+          "translation": "コーヒーが白いテーブルクロスに濃い染みを残しました。",
+          "clue": "Coffee と dark ... on the white tablecloth が汚れの跡",
+          "options": [
+            600,
+            558,
+            565,
+            573
+          ]
+        },
+        {
+          "id": "600-2",
+          "sentence": "Use this detergent to remove the wine _____ from your shirt.",
+          "translation": "この洗剤でシャツのワインの染みを落としてください。",
+          "clue": "detergent と remove ... from your shirt が衣服の汚れ",
+          "options": [
+            600,
+            558,
+            565,
+            573
+          ]
+        },
+        {
+          "id": "600-3",
+          "sentence": "There is a water _____ on the ceiling where the roof leaked.",
+          "translation": "屋根の雨漏り箇所の天井に水の染みがあります。",
+          "clue": "water と roof leaked が漏水による跡を示す",
+          "options": [
+            600,
+            558,
+            565,
+            573
+          ]
+        },
+        {
+          "id": "600-4",
+          "sentence": "The cleaner could not get the ink _____ out of the carpet.",
+          "translation": "清掃員はカーペットからインクの染みを落とせませんでした。",
+          "clue": "ink と get ... out of the carpet が落とす対象の汚れ",
+          "options": [
+            600,
+            558,
+            565,
+            573
+          ]
+        },
+        {
+          "id": "600-5",
+          "sentence": "Blot the spill immediately to prevent a permanent _____.",
+          "translation": "消えない染みを防ぐため、こぼした液をすぐに吸い取ってください。",
+          "clue": "Blot the spill と permanent が残る汚れの跡を示す",
+          "options": [
+            600,
+            558,
+            565,
+            573
+          ]
+        }
+      ]
+    }
+  ]
+}

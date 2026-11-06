@@ -74,10 +74,11 @@ test('original app and variants grade, finish, retry and persist in separate sto
   assert.equal(storage.get(originalKey), originalRecord);
 });
 test('HTML pages declare all IDs used by the shared app', () => {
-  for (const path of ['../index.html', '../similar.html']) {
+  for (const path of ['../spelling.html', '../similar.html']) {
     const html = readFileSync(new URL(path, import.meta.url), 'utf8');
     const ids = [...html.matchAll(/id="([^"]+)"/g)].map(match => match[1]);
     assert.equal(new Set(ids).size, ids.length);
     for (const match of source.matchAll(/\$\('([^']+)'\)/g)) assert.ok(ids.includes(match[1]), match[1]);
   }
 });
+
