@@ -1,6 +1,11 @@
 import { validateData, freshState, readState, rate, shuffle, makeTest, chooseVariant, markShown, recordAnswer } from './context-core.js?v=1';
 const $ = id => document.getElementById(id);
-const key = 'word-up:context:v1:' + location.pathname.replace(/index\.html$/, '').replace(/\/$/, '');
+const baseKey = 'word-up:context:v1:' + location.pathname.replace(/index\.html$/, '').replace(/\/$/, '');
+const rangeKey = baseKey + ':selected-range';
+const ranges = { '551': { label: '文脈テスト①（551〜600）', file: 'context-data.json', key: baseKey }, '601': { label: '文脈テスト②（601〜650）', file: 'context-data-601-650.json', key: baseKey + ':601-650' } };
+let selectedRange = '551', key = baseKey;
+try { const saved = localStorage.getItem(rangeKey); if (ranges[saved]) selectedRange = saved; } catch {}
+key = ranges[selectedRange].key;
 let state = freshState(), canSave = true, words = [], byId = new Map(), session = null, screen = 'home', destination = 'home', quitTrigger = null;
 const warn = message => { $('storage-note').textContent = message; $('storage-note').hidden = false; };
 try { state = readState(localStorage.getItem(key)); }
@@ -13,6 +18,7 @@ function save() {
 function el(tag, text, className) { const n = document.createElement(tag); if (text !== undefined) n.textContent = text; if (className) n.className = className; return n; }
 const pct = n => n === null ? '未学習' : Math.round(n * 100) + '%';
 function updateHome() {
+  $('range-label').textContent = ranges[selectedRange].label;
   const weak = words.filter(w => rate(state.records[w.id]) !== null && rate(state.records[w.id]) < .8);
   $('start').disabled = words.length !== 50;
   $('weak').disabled = weak.length === 0;
@@ -120,6 +126,7 @@ function finish() {
   show('result');
 }
 function renderRecords() {
+  $('records-range').textContent = ranges[selectedRange].label;
   let correct=0,wrong=0,learned=0;
   for(const w of words){const r=state.records[w.id];if(r){correct+=r.correct;wrong+=r.incorrect;if(r.correct+r.incorrect)learned++;}}
   const stats=[['学習した単語',learned+' / 50'],['正解数',correct+'回'],['不正解数',wrong+'回'],['累計正答率',pct(correct+wrong?correct/(correct+wrong):null)],['完了したテスト',state.completed+'回'],['50問の最高点',(state.best[50]??'—')+' / 50']];
@@ -142,11 +149,33 @@ $('cancel-quit').addEventListener('click',()=>{$('quit-dialog').close();quitTrig
 $('confirm-quit').addEventListener('click',()=>{$('quit-dialog').close();session=null;show(destination);});
 window.addEventListener('beforeunload',e=>{if(screen==='quiz'&&session&&!session.finished){e.preventDefault();e.returnValue='';}});
 async function init() {
+  $('range-select').value = selectedRange;
+  $('range-select').disabled = true;
+  $('start').disabled = true;
+  $('weak').disabled = true;
+  $('load-error').hidden = true;
+  words = [];
   try {
-    const response=await fetch('./context-data.json?v=1',{cache:'no-store'});
-    if(!response.ok)throw Error('問題を読み込めませんでした。');
-    words=validateData(await response.json());byId=new Map(words.map(w=>[w.id,w]));
+    const response = await fetch('./' + ranges[selectedRange].file + '?v=20261112', {cache:'no-store'});
+    if (!response.ok) throw Error('問題を読み込めませんでした。');
+    words = validateData(await response.json());
+    if (words.some(w => w.id < Number(selectedRange) || w.id >= Number(selectedRange) + 50)) throw Error('出題範囲が一致しません。');
+    byId = new Map(words.map(w => [w.id,w]));
     updateHome();
-  } catch(error) { $('load-error').textContent=error.message+' ページを再読み込みしてください。';$('load-error').hidden=false; }
+  } catch(error) {
+    words = []; $('load-error').textContent = error.message + ' ページを再読み込みしてください。'; $('load-error').hidden = false;
+  } finally { $('range-select').disabled = false; }
 }
+$('range-select').addEventListener('change', () => {
+  const value = $('range-select').value;
+  if (!ranges[value]) return;
+  selectedRange = value; key = ranges[value].key;
+  session = null; state = freshState(); canSave = true;
+  $('storage-note').hidden = true;
+  try { state = readState(localStorage.getItem(key)); }
+  catch { canSave = false; warn('保存記録を読み込めませんでした。元の記録を上書きせず、今回は一時的に練習します。'); }
+  try { localStorage.setItem(rangeKey, value); }
+  catch { warn('出題範囲の選択を保存できません。この画面では引き続き練習できます。'); }
+  init();
+});
 init();
