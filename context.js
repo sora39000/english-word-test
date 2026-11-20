@@ -2,7 +2,7 @@ import { validateData, freshState, readState, rate, shuffle, makeTest, chooseVar
 const $ = id => document.getElementById(id);
 const baseKey = 'word-up:context:v1:' + location.pathname.replace(/index\.html$/, '').replace(/\/$/, '');
 const rangeKey = baseKey + ':selected-range';
-const ranges = { '551': { label: '文脈テスト①（551〜600）', file: 'context-data.json', key: baseKey }, '601': { label: '文脈テスト②（601〜650）', file: 'context-data-601-650.json', key: baseKey + ':601-650' } };
+const ranges = { '551': { label: '文脈テスト①（551〜600）', file: 'context-data.json', key: baseKey }, '601': { label: '文脈テスト②（601〜650）', file: 'context-data-601-650.json', key: baseKey + ':601-650' }, '651': { label: '文脈テスト③（651〜700）', file: 'context-data-651-700.json', key: baseKey + ':651-700' } };
 let selectedRange = '551', key = baseKey;
 try { const saved = localStorage.getItem(rangeKey); if (ranges[saved]) selectedRange = saved; } catch {}
 key = ranges[selectedRange].key;
@@ -156,7 +156,7 @@ async function init() {
   $('load-error').hidden = true;
   words = [];
   try {
-    const response = await fetch('./' + ranges[selectedRange].file + '?v=20261112', {cache:'no-store'});
+    const response = await fetch('./' + ranges[selectedRange].file + '?v=20261120', {cache:'no-store'});
     if (!response.ok) throw Error('問題を読み込めませんでした。');
     words = validateData(await response.json());
     if (words.some(w => w.id < Number(selectedRange) || w.id >= Number(selectedRange) + 50)) throw Error('出題範囲が一致しません。');

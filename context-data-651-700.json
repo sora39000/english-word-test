@@ -1,0 +1,3406 @@
+{
+  "version": 1,
+  "range": "651–700",
+  "words": [
+    {
+      "id": 651,
+      "word": "strive",
+      "pos": "動詞",
+      "meaning": "（懸命に）努力する",
+      "variants": [
+        {
+          "id": "651-1",
+          "sentence": "Even with a small budget, we _____ to give every customer excellent service.",
+          "translation": "少ない予算でも全顧客に優れたサービスを提供しようと努力する。",
+          "clue": "Even with a small budget と困難の中で努力",
+          "options": [
+            651,
+            659,
+            684,
+            665
+          ]
+        },
+        {
+          "id": "651-2",
+          "sentence": "Athletes _____ for improvement by training every morning.",
+          "translation": "選手たちは毎朝練習して上達に努める。",
+          "clue": "training every morning による努力",
+          "options": [
+            651,
+            659,
+            684,
+            665
+          ]
+        },
+        {
+          "id": "651-3",
+          "sentence": "The team will _____ to finish before Friday, despite several delays.",
+          "translation": "何度か遅れたもののチームは金曜日までの完了に努める。",
+          "clue": "despite several delays と目標への努力",
+          "options": [
+            651,
+            659,
+            684,
+            665
+          ]
+        },
+        {
+          "id": "651-4",
+          "sentence": "We must _____ for accuracy rather than accept careless mistakes.",
+          "translation": "不注意なミスを容認せず正確さを追求しなければならない。",
+          "clue": "for accuracy と正確さに向けた努力",
+          "options": [
+            651,
+            659,
+            684,
+            665
+          ]
+        },
+        {
+          "id": "651-5",
+          "sentence": "Teachers _____ to make difficult ideas understandable to beginners.",
+          "translation": "教師たちは難しい考えを初心者に分かりやすく伝えようと努力する。",
+          "clue": "難しい内容を分かるようにする努力",
+          "options": [
+            651,
+            659,
+            684,
+            665
+          ]
+        }
+      ]
+    },
+    {
+      "id": 652,
+      "word": "circumstance",
+      "pos": "名詞",
+      "meaning": "状況",
+      "variants": [
+        {
+          "id": "652-1",
+          "sentence": "The only _____ preventing the trip was the sudden closure of the airport.",
+          "translation": "旅行を妨げた唯一の事情は空港の突然の閉鎖だった。",
+          "clue": "preventing the trip の原因となった事情",
+          "options": [
+            652,
+            660,
+            686,
+            654
+          ]
+        },
+        {
+          "id": "652-2",
+          "sentence": "A family emergency was the unusual _____ that caused her absence.",
+          "translation": "家庭の緊急事態という特別な事情が彼女の欠席の原因だった。",
+          "clue": "absence を引き起こした事情",
+          "options": [
+            652,
+            660,
+            686,
+            654
+          ]
+        },
+        {
+          "id": "652-3",
+          "sentence": "The judge considered every _____ surrounding the accident before making a decision.",
+          "translation": "裁判官は判断を下す前に事故を取り巻くすべての状況を検討した。",
+          "clue": "surrounding the accident と事故の背景",
+          "options": [
+            652,
+            660,
+            686,
+            654
+          ]
+        },
+        {
+          "id": "652-4",
+          "sentence": "Losing his passport was an unexpected _____ that delayed his return.",
+          "translation": "パスポートの紛失という予期せぬ事情が彼の帰国を遅らせた。",
+          "clue": "delayed his return の原因となった事情",
+          "options": [
+            652,
+            660,
+            686,
+            654
+          ]
+        },
+        {
+          "id": "652-5",
+          "sentence": "One important _____ changed our plans: the venue became unavailable.",
+          "translation": "会場が使えなくなるという重要な事情が計画を変えた。",
+          "clue": "venue became unavailable という状況の変化",
+          "options": [
+            652,
+            660,
+            686,
+            654
+          ]
+        }
+      ]
+    },
+    {
+      "id": 653,
+      "word": "adapt",
+      "pos": "動詞",
+      "meaning": "順応する、適合させる、改作する",
+      "variants": [
+        {
+          "id": "653-1",
+          "sentence": "Employees need time to _____ to the new software after years with the old system.",
+          "translation": "旧システムを長年使った従業員には新ソフトに順応する時間が必要だ。",
+          "clue": "old system から new software への順応",
+          "options": [
+            653,
+            659,
+            665,
+            684
+          ]
+        },
+        {
+          "id": "653-2",
+          "sentence": "The director will _____ the novel for the stage, shortening several scenes.",
+          "translation": "監督は場面をいくつか短くして小説を舞台用に改作する。",
+          "clue": "novel for the stage と媒体に合わせた改作",
+          "options": [
+            653,
+            659,
+            665,
+            684
+          ]
+        },
+        {
+          "id": "653-3",
+          "sentence": "Plants in dry regions _____ to limited water by developing deep roots.",
+          "translation": "乾燥地の植物は深い根を発達させ水の少なさに適応する。",
+          "clue": "limited water に合わせた変化",
+          "options": [
+            653,
+            659,
+            665,
+            684
+          ]
+        },
+        {
+          "id": "653-4",
+          "sentence": "We can _____ the course to suit students with different levels of experience.",
+          "translation": "経験の異なる学生に合うようコースを調整できる。",
+          "clue": "to suit と対象に合わせる",
+          "options": [
+            653,
+            659,
+            665,
+            684
+          ]
+        },
+        {
+          "id": "653-5",
+          "sentence": "After moving abroad, he had to _____ to a different daily routine.",
+          "translation": "海外への移住後、彼は異なる日課に順応しなければならなかった。",
+          "clue": "different daily routine に慣れる",
+          "options": [
+            653,
+            659,
+            665,
+            684
+          ]
+        }
+      ]
+    },
+    {
+      "id": 654,
+      "word": "luxury",
+      "pos": "名詞",
+      "meaning": "高級（品）、豪華さ、ぜいたく（品）",
+      "variants": [
+        {
+          "id": "654-1",
+          "sentence": "The hotel offers a taste of _____ with marble bathrooms and private butlers.",
+          "translation": "大理石の浴室と専属執事でそのホテルは豪華さを提供する。",
+          "clue": "marble bathrooms と private butlers が豪華さ",
+          "options": [
+            654,
+            652,
+            658,
+            677
+          ]
+        },
+        {
+          "id": "654-2",
+          "sentence": "Fresh fruit was a rare _____ during the long sea voyage.",
+          "translation": "長い航海中、新鮮な果物はめったにないぜいたく品だった。",
+          "clue": "rare と航海中のぜいたく",
+          "options": [
+            654,
+            652,
+            658,
+            677
+          ]
+        },
+        {
+          "id": "654-3",
+          "sentence": "With deadlines approaching, we do not have the _____ of unlimited time.",
+          "translation": "締め切りが迫り、時間を無制限に使う余裕はない。",
+          "clue": "時間を無制限に使えるぜいたく",
+          "options": [
+            654,
+            652,
+            658,
+            677
+          ]
+        },
+        {
+          "id": "654-4",
+          "sentence": "She saved for years to buy a _____ car with hand-stitched leather seats.",
+          "translation": "手縫いの革シートを備えた高級車を買うため彼女は何年も貯金した。",
+          "clue": "hand-stitched leather seats が高級品の特徴",
+          "options": [
+            654,
+            652,
+            658,
+            677
+          ]
+        },
+        {
+          "id": "654-5",
+          "sentence": "For him, a quiet afternoon with no appointments is a real _____.",
+          "translation": "彼には予定のない静かな午後が本当のぜいたくだ。",
+          "clue": "予定に追われない時間をぜいたくと表現",
+          "options": [
+            654,
+            652,
+            658,
+            677
+          ]
+        }
+      ]
+    },
+    {
+      "id": 655,
+      "word": "surprisingly",
+      "pos": "副詞",
+      "meaning": "驚くほど",
+      "variants": [
+        {
+          "id": "655-1",
+          "sentence": "The repair was _____ cheap; we had expected it to cost ten times as much.",
+          "translation": "10倍の費用を予想していたが修理は驚くほど安かった。",
+          "clue": "expected ten times as much と予想との差",
+          "options": [
+            655,
+            693,
+            668,
+            671
+          ]
+        },
+        {
+          "id": "655-2",
+          "sentence": "Despite the freezing weather, a _____ large crowd attended the outdoor concert.",
+          "translation": "凍える天候にもかかわらず驚くほど大勢が屋外公演に来た。",
+          "clue": "Despite the freezing weather と意外な多さ",
+          "options": [
+            655,
+            693,
+            668,
+            671
+          ]
+        },
+        {
+          "id": "655-3",
+          "sentence": "The exam was _____ easy, even though everyone had warned me it was difficult.",
+          "translation": "難しいと皆に言われたのに試験は驚くほど簡単だった。",
+          "clue": "warned it was difficult と実際の簡単さの対比",
+          "options": [
+            655,
+            693,
+            668,
+            671
+          ]
+        },
+        {
+          "id": "655-4",
+          "sentence": "For a first-time speaker, she was _____ confident on stage.",
+          "translation": "初めての登壇にしては彼女は驚くほど自信に満ちていた。",
+          "clue": "first-time speaker からの予想を超える自信",
+          "options": [
+            655,
+            693,
+            668,
+            671
+          ]
+        },
+        {
+          "id": "655-5",
+          "sentence": "The tiny restaurant was _____ spacious inside, contrary to its narrow exterior.",
+          "translation": "狭い外観に反し小さな店の内部は驚くほど広かった。",
+          "clue": "contrary to its narrow exterior と意外性",
+          "options": [
+            655,
+            693,
+            668,
+            671
+          ]
+        }
+      ]
+    },
+    {
+      "id": 656,
+      "word": "suspend",
+      "pos": "動詞",
+      "meaning": "一時停止する、つるす",
+      "variants": [
+        {
+          "id": "656-1",
+          "sentence": "The factory will _____ production until the damaged machine is repaired.",
+          "translation": "故障機の修理が終わるまで工場は生産を一時停止する。",
+          "clue": "until repaired と再開を前提に停止",
+          "options": [
+            656,
+            689,
+            670,
+            682
+          ]
+        },
+        {
+          "id": "656-2",
+          "sentence": "Strong winds forced the operator to _____ ferry services for the afternoon.",
+          "translation": "強風で運航会社は午後のフェリー運航を一時停止せざるを得なかった。",
+          "clue": "for the afternoon と一時的な停止",
+          "options": [
+            656,
+            689,
+            670,
+            682
+          ]
+        },
+        {
+          "id": "656-3",
+          "sentence": "We will _____ the lamp from the ceiling using a strong chain.",
+          "translation": "丈夫な鎖で照明を天井からつるす。",
+          "clue": "from the ceiling using a chain とつるす構造",
+          "options": [
+            656,
+            689,
+            670,
+            682
+          ]
+        },
+        {
+          "id": "656-4",
+          "sentence": "The club may _____ membership privileges while an investigation is underway.",
+          "translation": "調査中クラブは会員特典を一時停止する可能性がある。",
+          "clue": "while an investigation is underway と一定期間の停止",
+          "options": [
+            656,
+            689,
+            670,
+            682
+          ]
+        },
+        {
+          "id": "656-5",
+          "sentence": "Please _____ the experiment for ten minutes; we will resume it after checking the equipment.",
+          "translation": "実験を10分間中断してください。機器を確認したら再開します。",
+          "clue": "resume it と一時停止後の再開",
+          "options": [
+            656,
+            689,
+            670,
+            682
+          ]
+        }
+      ]
+    },
+    {
+      "id": 657,
+      "word": "statistics",
+      "pos": "名詞",
+      "meaning": "統計（値）、統計学",
+      "variants": [
+        {
+          "id": "657-1",
+          "sentence": "The report uses sales _____ to show how purchases changed over five years.",
+          "translation": "報告書は販売統計で5年間の購入の変化を示す。",
+          "clue": "five years の販売数値をまとめた資料",
+          "options": [
+            657,
+            660,
+            654,
+            686
+          ]
+        },
+        {
+          "id": "657-2",
+          "sentence": "Government _____ indicate that the population is aging.",
+          "translation": "政府の統計は人口の高齢化を示している。",
+          "clue": "人口の傾向を示す数値",
+          "options": [
+            657,
+            660,
+            654,
+            686
+          ]
+        },
+        {
+          "id": "657-3",
+          "sentence": "She studies _____ to learn how to analyze data and estimate uncertainty.",
+          "translation": "データ分析と不確かさの推定を学ぶため彼女は統計学を勉強している。",
+          "clue": "analyze data and estimate uncertainty という学問",
+          "options": [
+            657,
+            660,
+            654,
+            686
+          ]
+        },
+        {
+          "id": "657-4",
+          "sentence": "Do not rely on one customer's story; examine the _____ from thousands of surveys.",
+          "translation": "1人の話に頼らず何千件もの調査の統計を確認してください。",
+          "clue": "thousands of surveys から得られる集計値",
+          "options": [
+            657,
+            660,
+            654,
+            686
+          ]
+        },
+        {
+          "id": "657-5",
+          "sentence": "The latest employment _____ show a decrease in unemployment.",
+          "translation": "最新の雇用統計は失業の減少を示す。",
+          "clue": "employment の数値と失業率の変化",
+          "options": [
+            657,
+            660,
+            654,
+            686
+          ]
+        }
+      ]
+    },
+    {
+      "id": 658,
+      "word": "poll",
+      "pos": "名詞",
+      "meaning": "世論調査、アンケート調査",
+      "variants": [
+        {
+          "id": "658-1",
+          "sentence": "A recent _____ asked voters which candidate they supported.",
+          "translation": "最近の世論調査は有権者に支持候補を尋ねた。",
+          "clue": "asked voters と意見の調査",
+          "options": [
+            658,
+            675,
+            676,
+            677
+          ]
+        },
+        {
+          "id": "658-2",
+          "sentence": "The newspaper published a _____ showing that most residents opposed the plan.",
+          "translation": "新聞は住民の大半が計画に反対するという調査結果を公表した。",
+          "clue": "residents opposed と住民の意見",
+          "options": [
+            658,
+            675,
+            676,
+            677
+          ]
+        },
+        {
+          "id": "658-3",
+          "sentence": "We conducted a staff _____ to choose the date of the company picnic.",
+          "translation": "会社のピクニックの日を決めるため職員アンケートを行った。",
+          "clue": "職員の希望を聞いて日を選ぶ",
+          "options": [
+            658,
+            675,
+            676,
+            677
+          ]
+        },
+        {
+          "id": "658-4",
+          "sentence": "According to the _____, sixty percent of customers prefer online booking.",
+          "translation": "調査によると顧客の60パーセントはオンライン予約を好む。",
+          "clue": "percent of customers prefer と好みの調査",
+          "options": [
+            658,
+            675,
+            676,
+            677
+          ]
+        },
+        {
+          "id": "658-5",
+          "sentence": "The television station ran a _____ on public attitudes toward recycling.",
+          "translation": "テレビ局はリサイクルに対する世間の考えを調査した。",
+          "clue": "public attitudes と人々の意見を調べる",
+          "options": [
+            658,
+            675,
+            676,
+            677
+          ]
+        }
+      ]
+    },
+    {
+      "id": 659,
+      "word": "resign",
+      "pos": "動詞",
+      "meaning": "辞任する、辞職する",
+      "variants": [
+        {
+          "id": "659-1",
+          "sentence": "She decided to _____ from her position after accepting a job elsewhere.",
+          "translation": "他社の仕事を受け、彼女は役職を辞任することにした。",
+          "clue": "from her position と役職を離れる",
+          "options": [
+            659,
+            689,
+            672,
+            667
+          ]
+        },
+        {
+          "id": "659-2",
+          "sentence": "The minister faced calls to _____ following the scandal.",
+          "translation": "不祥事を受け大臣は辞任要求に直面した。",
+          "clue": "scandal の後に役職を辞める要求",
+          "options": [
+            659,
+            689,
+            672,
+            667
+          ]
+        },
+        {
+          "id": "659-3",
+          "sentence": "He will _____ as chairman but remain an ordinary member of the board.",
+          "translation": "彼は会長を辞任するが一般の取締役としては残る。",
+          "clue": "as chairman but remain と職位だけを辞める",
+          "options": [
+            659,
+            689,
+            672,
+            667
+          ]
+        },
+        {
+          "id": "659-4",
+          "sentence": "If you intend to _____, submit a formal letter to human resources.",
+          "translation": "辞職するつもりなら人事に正式な書面を提出してください。",
+          "clue": "formal letter to human resources と辞職手続き",
+          "options": [
+            659,
+            689,
+            672,
+            667
+          ]
+        },
+        {
+          "id": "659-5",
+          "sentence": "The coach chose to _____ rather than renew her contract for another season.",
+          "translation": "コーチは翌シーズンの契約を更新せず辞任を選んだ。",
+          "clue": "rather than renew her contract と退任",
+          "options": [
+            659,
+            689,
+            672,
+            667
+          ]
+        }
+      ]
+    },
+    {
+      "id": 660,
+      "word": "gratitude",
+      "pos": "名詞",
+      "meaning": "感謝",
+      "variants": [
+        {
+          "id": "660-1",
+          "sentence": "She wrote a letter of _____ to the volunteers who had helped her family.",
+          "translation": "家族を助けたボランティアへ彼女は感謝の手紙を書いた。",
+          "clue": "had helped her family に対する感謝",
+          "options": [
+            660,
+            657,
+            664,
+            662
+          ]
+        },
+        {
+          "id": "660-2",
+          "sentence": "Please accept this small gift as a sign of our _____.",
+          "translation": "私たちの感謝のしるしとしてこの小さな贈り物をお受け取りください。",
+          "clue": "gift as a sign と謝意の表現",
+          "options": [
+            660,
+            657,
+            664,
+            662
+          ]
+        },
+        {
+          "id": "660-3",
+          "sentence": "The director expressed _____ for the staff's hard work during the crisis.",
+          "translation": "部長は危機の際の職員の尽力に感謝を表した。",
+          "clue": "for the staff's hard work と働きへの感謝",
+          "options": [
+            660,
+            657,
+            664,
+            662
+          ]
+        },
+        {
+          "id": "660-4",
+          "sentence": "Words cannot fully express my _____ for your kindness.",
+          "translation": "あなたの親切への感謝は言葉では言い尽くせない。",
+          "clue": "for your kindness と親切への謝意",
+          "options": [
+            660,
+            657,
+            664,
+            662
+          ]
+        },
+        {
+          "id": "660-5",
+          "sentence": "Out of _____ for his teacher's support, he returned to help at the school.",
+          "translation": "教師の支援への感謝から彼は学校に戻って手伝った。",
+          "clue": "teacher's support へのお礼として行動",
+          "options": [
+            660,
+            657,
+            664,
+            662
+          ]
+        }
+      ]
+    },
+    {
+      "id": 661,
+      "word": "exposure",
+      "pos": "名詞",
+      "meaning": "さらすこと、露出",
+      "variants": [
+        {
+          "id": "661-1",
+          "sentence": "Long _____ to direct sunlight can fade the colors of this fabric.",
+          "translation": "直射日光に長くさらすとこの布の色があせることがある。",
+          "clue": "direct sunlight にさらされる時間",
+          "options": [
+            661,
+            654,
+            676,
+            697
+          ]
+        },
+        {
+          "id": "661-2",
+          "sentence": "The exhibition gave the young artist valuable _____ to a wider audience.",
+          "translation": "展示会は若い芸術家により広い観客に知られる貴重な機会を与えた。",
+          "clue": "wider audience に作品を見てもらう機会",
+          "options": [
+            661,
+            654,
+            676,
+            697
+          ]
+        },
+        {
+          "id": "661-3",
+          "sentence": "Workers wear protective suits to reduce _____ to hazardous chemicals.",
+          "translation": "作業員は有害化学物質にさらされるのを減らすため防護服を着る。",
+          "clue": "protective suits と化学物質への接触",
+          "options": [
+            661,
+            654,
+            676,
+            697
+          ]
+        },
+        {
+          "id": "661-4",
+          "sentence": "Regular _____ to spoken English helps learners recognize natural rhythms.",
+          "translation": "話される英語に定期的に触れると自然なリズムを聞き取る助けになる。",
+          "clue": "spoken English に繰り返し触れる",
+          "options": [
+            661,
+            654,
+            676,
+            697
+          ]
+        },
+        {
+          "id": "661-5",
+          "sentence": "The photographer adjusted the _____ so the picture would not be too dark.",
+          "translation": "写真が暗すぎないよう撮影者は露出を調整した。",
+          "clue": "picture would not be too dark と光の取り込み",
+          "options": [
+            661,
+            654,
+            676,
+            697
+          ]
+        }
+      ]
+    },
+    {
+      "id": 662,
+      "word": "housekeeping",
+      "pos": "名詞",
+      "meaning": "（ホテルの）客室清掃、家事",
+      "variants": [
+        {
+          "id": "662-1",
+          "sentence": "Call _____ if you need fresh towels or your room cleaned.",
+          "translation": "新しいタオルや部屋の清掃が必要なら客室清掃係に電話してください。",
+          "clue": "fresh towels と room cleaned を担当",
+          "options": [
+            662,
+            660,
+            657,
+            681
+          ]
+        },
+        {
+          "id": "662-2",
+          "sentence": "The hotel's _____ team changes the sheets after each guest checks out.",
+          "translation": "ホテルの客室清掃チームは客の退室後にシーツを交換する。",
+          "clue": "changes the sheets と清掃業務",
+          "options": [
+            662,
+            660,
+            657,
+            681
+          ]
+        },
+        {
+          "id": "662-3",
+          "sentence": "Cooking, laundry, and other _____ tasks take much of his weekend.",
+          "translation": "料理、洗濯などの家事が彼の週末の多くを占める。",
+          "clue": "Cooking と laundry が家事の例",
+          "options": [
+            662,
+            660,
+            657,
+            681
+          ]
+        },
+        {
+          "id": "662-4",
+          "sentence": "She works in _____, preparing hotel rooms for arriving guests.",
+          "translation": "彼女は客室清掃の仕事をし、到着客のために部屋を準備する。",
+          "clue": "preparing hotel rooms という仕事",
+          "options": [
+            662,
+            660,
+            657,
+            681
+          ]
+        },
+        {
+          "id": "662-5",
+          "sentence": "The new apartment has a compact layout that makes daily _____ easier.",
+          "translation": "新しい部屋はこぢんまりした間取りで毎日の家事がしやすい。",
+          "clue": "daily と住まいの管理・家事",
+          "options": [
+            662,
+            660,
+            657,
+            681
+          ]
+        }
+      ]
+    },
+    {
+      "id": 663,
+      "word": "vacant",
+      "pos": "形容詞",
+      "meaning": "空いている",
+      "variants": [
+        {
+          "id": "663-1",
+          "sentence": "The apartment has been _____ since the last tenant moved out.",
+          "translation": "前の借主が退去して以来その部屋は空いている。",
+          "clue": "last tenant moved out と入居者がいない",
+          "options": [
+            663,
+            678,
+            683,
+            699
+          ]
+        },
+        {
+          "id": "663-2",
+          "sentence": "Is this seat _____, or is someone already sitting here?",
+          "translation": "この席は空いていますか、それとも誰かが使っていますか。",
+          "clue": "someone already sitting と空席の対比",
+          "options": [
+            663,
+            678,
+            683,
+            699
+          ]
+        },
+        {
+          "id": "663-3",
+          "sentence": "The company is advertising a _____ position following the manager's retirement.",
+          "translation": "管理者の退職に伴い会社は空いた役職の求人を出している。",
+          "clue": "retirement によって空いた職",
+          "options": [
+            663,
+            678,
+            683,
+            699
+          ]
+        },
+        {
+          "id": "663-4",
+          "sentence": "The lot remained _____ until construction began on a new store.",
+          "translation": "新しい店の建設が始まるまでその区画は空いていた。",
+          "clue": "construction began する前の未使用の土地",
+          "options": [
+            663,
+            678,
+            683,
+            699
+          ]
+        },
+        {
+          "id": "663-5",
+          "sentence": "All offices are rented except one _____ room on the top floor.",
+          "translation": "最上階の空き部屋1つを除き全事務所が賃貸済みだ。",
+          "clue": "All offices are rented except one と空室",
+          "options": [
+            663,
+            678,
+            683,
+            699
+          ]
+        }
+      ]
+    },
+    {
+      "id": 664,
+      "word": "premise",
+      "pos": "名詞",
+      "meaning": "前提",
+      "variants": [
+        {
+          "id": "664-1",
+          "sentence": "The argument rests on the _____ that demand will continue to grow.",
+          "translation": "その議論は需要が増え続けるという前提に基づく。",
+          "clue": "rests on と議論の土台となる仮定",
+          "options": [
+            664,
+            675,
+            677,
+            686
+          ]
+        },
+        {
+          "id": "664-2",
+          "sentence": "If the initial _____ is false, the conclusion may also be wrong.",
+          "translation": "最初の前提が誤っていれば結論も誤りかもしれない。",
+          "clue": "conclusion を導く出発点",
+          "options": [
+            664,
+            675,
+            677,
+            686
+          ]
+        },
+        {
+          "id": "664-3",
+          "sentence": "Our budget was built on the _____ that fuel prices would stay unchanged.",
+          "translation": "予算は燃料価格が変わらないという前提で作られた。",
+          "clue": "built on と予算作成の仮定",
+          "options": [
+            664,
+            675,
+            677,
+            686
+          ]
+        },
+        {
+          "id": "664-4",
+          "sentence": "The basic _____ of the course is that anyone can learn with enough practice.",
+          "translation": "その講座の基本的な前提は十分練習すれば誰もが学べるということだ。",
+          "clue": "basic と講座を支える考え方",
+          "options": [
+            664,
+            675,
+            677,
+            686
+          ]
+        },
+        {
+          "id": "664-5",
+          "sentence": "Before accepting his reasoning, we should question its underlying _____.",
+          "translation": "彼の推論を受け入れる前に根底の前提を疑うべきだ。",
+          "clue": "reasoning の土台を検討",
+          "options": [
+            664,
+            675,
+            677,
+            686
+          ]
+        }
+      ]
+    },
+    {
+      "id": 665,
+      "word": "owe",
+      "pos": "動詞",
+      "meaning": "おかげである、借りている",
+      "variants": [
+        {
+          "id": "665-1",
+          "sentence": "I still _____ the bank five hundred dollars from last year's loan.",
+          "translation": "去年の融資について私は銀行にまだ500ドルの借りがある。",
+          "clue": "loan の未返済額",
+          "options": [
+            665,
+            656,
+            696,
+            691
+          ]
+        },
+        {
+          "id": "665-2",
+          "sentence": "We _____ our success to the technicians who solved the problem.",
+          "translation": "私たちの成功は問題を解決した技術者のおかげだ。",
+          "clue": "our success to と成功の要因",
+          "options": [
+            665,
+            656,
+            696,
+            691
+          ]
+        },
+        {
+          "id": "665-3",
+          "sentence": "You _____ me an apology for damaging my bicycle.",
+          "translation": "自転車を壊したことについてあなたは私に謝罪すべきだ。",
+          "clue": "an apology と負っている謝罪",
+          "options": [
+            665,
+            656,
+            696,
+            691
+          ]
+        },
+        {
+          "id": "665-4",
+          "sentence": "How much do I _____ you for the tickets you bought on my behalf?",
+          "translation": "代わりに買ってくれたチケット代をいくら払えばいいですか。",
+          "clue": "on my behalf と立て替えた代金",
+          "options": [
+            665,
+            656,
+            696,
+            691
+          ]
+        },
+        {
+          "id": "665-5",
+          "sentence": "Many graduates _____ their confidence to her patient teaching.",
+          "translation": "多くの卒業生が自信を持てるのは彼女の粘り強い指導のおかげだ。",
+          "clue": "their confidence to と指導への恩",
+          "options": [
+            665,
+            656,
+            696,
+            691
+          ]
+        }
+      ]
+    },
+    {
+      "id": 666,
+      "word": "ease",
+      "pos": "名詞",
+      "meaning": "簡単さ・気楽さ",
+      "variants": [
+        {
+          "id": "666-1",
+          "sentence": "Customers praise the software's _____ of use; even beginners learn it quickly.",
+          "translation": "初心者でもすぐ覚えられるため顧客はソフトの使いやすさを評価している。",
+          "clue": "beginners learn it quickly と簡単さ",
+          "options": [
+            666,
+            658,
+            686,
+            661
+          ]
+        },
+        {
+          "id": "666-2",
+          "sentence": "The expert completed the difficult repair with remarkable _____.",
+          "translation": "専門家は難しい修理を驚くほどたやすく終えた。",
+          "clue": "difficult repair を難なく行う",
+          "options": [
+            666,
+            658,
+            686,
+            661
+          ]
+        },
+        {
+          "id": "666-3",
+          "sentence": "The lightweight design improves the _____ with which the chair can be moved.",
+          "translation": "軽い設計で椅子が動かしやすくなる。",
+          "clue": "chair can be moved と動かす簡単さ",
+          "options": [
+            666,
+            658,
+            686,
+            661
+          ]
+        },
+        {
+          "id": "666-4",
+          "sentence": "She spoke in front of the crowd with _____, showing no nervousness.",
+          "translation": "緊張を見せず彼女は大勢の前で楽々と話した。",
+          "clue": "showing no nervousness と自然な落ち着き",
+          "options": [
+            666,
+            658,
+            686,
+            661
+          ]
+        },
+        {
+          "id": "666-5",
+          "sentence": "For _____ of reference, the manual includes an alphabetical index.",
+          "translation": "参照しやすいよう説明書にはアルファベット順の索引がある。",
+          "clue": "index によって参照が簡単になる",
+          "options": [
+            666,
+            658,
+            686,
+            661
+          ]
+        }
+      ]
+    },
+    {
+      "id": 667,
+      "word": "urge",
+      "pos": "動詞",
+      "meaning": "強く勧める",
+      "variants": [
+        {
+          "id": "667-1",
+          "sentence": "Doctors _____ patients to attend regular checkups rather than wait for symptoms.",
+          "translation": "医師は症状を待たず定期健診を受けるよう患者に強く勧める。",
+          "clue": "rather than wait と健診を強く勧める",
+          "options": [
+            667,
+            691,
+            672,
+            689
+          ]
+        },
+        {
+          "id": "667-2",
+          "sentence": "We _____ all visitors to reserve tickets early because places are limited.",
+          "translation": "定員が限られるため来訪者全員に早めの予約を強く勧める。",
+          "clue": "places are limited と早期予約の勧告",
+          "options": [
+            667,
+            691,
+            672,
+            689
+          ]
+        },
+        {
+          "id": "667-3",
+          "sentence": "The notice will _____ residents to conserve water during the drought.",
+          "translation": "その通知は干ばつ中の節水を住民に強く求める。",
+          "clue": "conserve water と行動を強く勧める",
+          "options": [
+            667,
+            691,
+            672,
+            689
+          ]
+        },
+        {
+          "id": "667-4",
+          "sentence": "I _____ you to read the conditions carefully before signing.",
+          "translation": "署名する前に条件を注意深く読むよう強く勧めます。",
+          "clue": "before signing と慎重な確認の勧め",
+          "options": [
+            667,
+            691,
+            672,
+            689
+          ]
+        },
+        {
+          "id": "667-5",
+          "sentence": "Community leaders _____ the council to repair the unsafe bridge immediately.",
+          "translation": "地域指導者は危険な橋を直ちに修理するよう議会に強く求める。",
+          "clue": "immediately と修理を強く促す",
+          "options": [
+            667,
+            691,
+            672,
+            689
+          ]
+        }
+      ]
+    },
+    {
+      "id": 668,
+      "word": "kindly",
+      "pos": "副詞",
+      "meaning": "どうか、親切に",
+      "variants": [
+        {
+          "id": "668-1",
+          "sentence": "With a warm smile and great patience, the receptionist _____ helped the lost child find her parents.",
+          "translation": "受付係は温かい笑顔で根気よく、迷子の子が親を見つけるのを親切に手伝った。",
+          "clue": "warm smile and great patience と親切な対応",
+          "options": [
+            668,
+            688,
+            680,
+            693
+          ]
+        },
+        {
+          "id": "668-2",
+          "sentence": "Would you _____ close the door after entering?",
+          "translation": "どうか入ったらドアを閉めていただけますか。",
+          "clue": "Would you と丁寧な依頼",
+          "options": [
+            668,
+            688,
+            680,
+            693
+          ]
+        },
+        {
+          "id": "668-3",
+          "sentence": "She spoke _____ to the nervous applicant and offered him some water.",
+          "translation": "彼女は緊張した応募者に優しく話しかけ水を勧めた。",
+          "clue": "nervous applicant を気遣う対応",
+          "options": [
+            668,
+            688,
+            680,
+            693
+          ]
+        },
+        {
+          "id": "668-4",
+          "sentence": "Our neighbors _____ offered to collect our mail while we were away.",
+          "translation": "留守中に郵便を集めておくと近所の人が親切に申し出た。",
+          "clue": "offered to collect our mail という好意",
+          "options": [
+            668,
+            688,
+            680,
+            693
+          ]
+        },
+        {
+          "id": "668-5",
+          "sentence": "Please treat new employees _____ while they learn the procedures.",
+          "translation": "手順を覚える間、新入社員に親切に接してください。",
+          "clue": "learn the procedures の間の思いやり",
+          "options": [
+            668,
+            688,
+            680,
+            693
+          ]
+        }
+      ]
+    },
+    {
+      "id": 669,
+      "word": "artificial",
+      "pos": "形容詞",
+      "meaning": "人工の",
+      "variants": [
+        {
+          "id": "669-1",
+          "sentence": "The flowers are _____, made of plastic rather than grown in a garden.",
+          "translation": "その花は庭で育ったものではなくプラスチック製の造花だ。",
+          "clue": "made of plastic rather than grown",
+          "options": [
+            669,
+            674,
+            678,
+            699
+          ]
+        },
+        {
+          "id": "669-2",
+          "sentence": "This drink contains no _____ colors; its red shade comes from beet juice.",
+          "translation": "この飲料は人工着色料を含まず赤色はビーツの汁による。",
+          "clue": "beet juice と人工物の対比",
+          "options": [
+            669,
+            674,
+            678,
+            699
+          ]
+        },
+        {
+          "id": "669-3",
+          "sentence": "The stadium uses _____ grass because natural turf is difficult to maintain.",
+          "translation": "天然芝の維持が難しいため競技場は人工芝を使う。",
+          "clue": "natural turf の代替",
+          "options": [
+            669,
+            674,
+            678,
+            699
+          ]
+        },
+        {
+          "id": "669-4",
+          "sentence": "The researchers created an _____ environment that imitates desert conditions.",
+          "translation": "研究者は砂漠の条件を模した人工環境を作った。",
+          "clue": "created と imitates が人為的な再現",
+          "options": [
+            669,
+            674,
+            678,
+            699
+          ]
+        },
+        {
+          "id": "669-5",
+          "sentence": "The lake is _____; it was formed when engineers built a dam.",
+          "translation": "その湖は人工で、技術者がダムを建設した際にできた。",
+          "clue": "engineers built a dam と人が作った湖",
+          "options": [
+            669,
+            674,
+            678,
+            699
+          ]
+        }
+      ]
+    },
+    {
+      "id": 670,
+      "word": "illustrate",
+      "pos": "動詞",
+      "meaning": "（図表や実例で）説明する、イラストを描く、証明する",
+      "variants": [
+        {
+          "id": "670-1",
+          "sentence": "Use a diagram to _____ how the water flows through the pipes.",
+          "translation": "水が管を通る仕組みを図で説明してください。",
+          "clue": "Use a diagram と図を使った説明",
+          "options": [
+            670,
+            656,
+            665,
+            696
+          ]
+        },
+        {
+          "id": "670-2",
+          "sentence": "The teacher used a real example to _____ the principle.",
+          "translation": "教師は原理を説明するため実例を使った。",
+          "clue": "a real example で原理を示す",
+          "options": [
+            670,
+            656,
+            665,
+            696
+          ]
+        },
+        {
+          "id": "670-3",
+          "sentence": "The publisher hired an artist to _____ the children's book with colorful pictures.",
+          "translation": "出版社は児童書に色鮮やかな絵を描くため画家を雇った。",
+          "clue": "with colorful pictures と挿絵の制作",
+          "options": [
+            670,
+            656,
+            665,
+            696
+          ]
+        },
+        {
+          "id": "670-4",
+          "sentence": "These figures _____ the difference between estimated and actual costs.",
+          "translation": "これらの数値は見積費用と実費の違いを示す。",
+          "clue": "figures で差を具体的に示す",
+          "options": [
+            670,
+            656,
+            665,
+            696
+          ]
+        },
+        {
+          "id": "670-5",
+          "sentence": "A short demonstration will _____ the correct way to assemble the device.",
+          "translation": "短い実演で機器の正しい組み立て方を説明する。",
+          "clue": "demonstration で方法を見せる",
+          "options": [
+            670,
+            656,
+            665,
+            696
+          ]
+        }
+      ]
+    },
+    {
+      "id": 671,
+      "word": "accordingly",
+      "pos": "副詞",
+      "meaning": "それに応じて、したがって",
+      "variants": [
+        {
+          "id": "671-1",
+          "sentence": "The meeting has moved to Friday, so please adjust your schedule _____.",
+          "translation": "会議が金曜日に移ったので、それに合わせて予定を調整してください。",
+          "clue": "日程変更を受けた調整",
+          "options": [
+            671,
+            668,
+            694,
+            655
+          ]
+        },
+        {
+          "id": "671-2",
+          "sentence": "Demand is lower than expected, and production will be reduced _____.",
+          "translation": "需要が予想より少ないので生産もそれに応じて減らす。",
+          "clue": "需要の低下に合わせた対応",
+          "options": [
+            671,
+            668,
+            694,
+            655
+          ]
+        },
+        {
+          "id": "671-3",
+          "sentence": "The trail is muddy after the rain; dress _____ and wear waterproof boots.",
+          "translation": "雨の後で道がぬかるんでいるので、それに合う服装と防水靴にしてください。",
+          "clue": "muddy に対応した服装",
+          "options": [
+            671,
+            668,
+            694,
+            655
+          ]
+        },
+        {
+          "id": "671-4",
+          "sentence": "We have learned that several guests are vegetarian and will plan the menu _____.",
+          "translation": "数名の客が菜食主義と分かったので、それに応じて献立を考える。",
+          "clue": "vegetarian と分かったことへの対応",
+          "options": [
+            671,
+            668,
+            694,
+            655
+          ]
+        },
+        {
+          "id": "671-5",
+          "sentence": "Prices have risen, so the travel budget must be revised _____.",
+          "translation": "物価が上がったので旅費予算もそれに応じて見直さなければならない。",
+          "clue": "Prices have risen を受けた予算修正",
+          "options": [
+            671,
+            668,
+            694,
+            655
+          ]
+        }
+      ]
+    },
+    {
+      "id": 672,
+      "word": "restrict",
+      "pos": "動詞",
+      "meaning": "制限する",
+      "variants": [
+        {
+          "id": "672-1",
+          "sentence": "The library will _____ access to rare books to registered researchers.",
+          "translation": "図書館は希少本へのアクセスを登録研究者に制限する。",
+          "clue": "to registered researchers と利用者を限定",
+          "options": [
+            672,
+            691,
+            670,
+            659
+          ]
+        },
+        {
+          "id": "672-2",
+          "sentence": "Doctors advised him to _____ his salt intake to a small daily amount.",
+          "translation": "医師は毎日の塩分摂取を少量に制限するよう助言した。",
+          "clue": "to a small daily amount と量の上限",
+          "options": [
+            672,
+            691,
+            670,
+            659
+          ]
+        },
+        {
+          "id": "672-3",
+          "sentence": "The rules _____ parking to marked spaces only.",
+          "translation": "規則は駐車を指定区画だけに制限している。",
+          "clue": "marked spaces only と場所の限定",
+          "options": [
+            672,
+            691,
+            670,
+            659
+          ]
+        },
+        {
+          "id": "672-4",
+          "sentence": "To protect wildlife, officials _____ the number of visitors to the island.",
+          "translation": "野生生物を守るため当局は島への訪問者数を制限する。",
+          "clue": "the number of visitors に上限を設ける",
+          "options": [
+            672,
+            691,
+            670,
+            659
+          ]
+        },
+        {
+          "id": "672-5",
+          "sentence": "Please _____ your presentation to ten minutes so everyone has time to speak.",
+          "translation": "全員が話せるよう発表を10分に制限してください。",
+          "clue": "to ten minutes と時間の制限",
+          "options": [
+            672,
+            691,
+            670,
+            659
+          ]
+        }
+      ]
+    },
+    {
+      "id": 673,
+      "word": "substitute",
+      "pos": "動詞",
+      "meaning": "代わりをつとめる、代わりに用いる",
+      "variants": [
+        {
+          "id": "673-1",
+          "sentence": "If butter is unavailable, you can _____ oil in this recipe.",
+          "translation": "バターがなければこのレシピでは油を代わりに使える。",
+          "clue": "If butter is unavailable と代用品",
+          "options": [
+            673,
+            659,
+            689,
+            695
+          ]
+        },
+        {
+          "id": "673-2",
+          "sentence": "A trained assistant will _____ for the instructor while she is on leave.",
+          "translation": "講師の休暇中、訓練を受けた助手が代役を務める。",
+          "clue": "for the instructor と不在時の代役",
+          "options": [
+            673,
+            659,
+            689,
+            695
+          ]
+        },
+        {
+          "id": "673-3",
+          "sentence": "You may _____ a salad for the fries at no extra charge.",
+          "translation": "追加料金なしでフライドポテトをサラダに替えられる。",
+          "clue": "a salad for the fries と品物の交換",
+          "options": [
+            673,
+            659,
+            689,
+            695
+          ]
+        },
+        {
+          "id": "673-4",
+          "sentence": "We will _____ recycled paper for the standard paper we normally use.",
+          "translation": "通常の紙の代わりに再生紙を使う。",
+          "clue": "recycled paper for standard paper と置き換え",
+          "options": [
+            673,
+            659,
+            689,
+            695
+          ]
+        },
+        {
+          "id": "673-5",
+          "sentence": "The chef had to _____ lemon juice for vinegar because the bottle was empty.",
+          "translation": "瓶が空だったため料理人は酢の代わりにレモン汁を使った。",
+          "clue": "bottle was empty と代わりの材料",
+          "options": [
+            673,
+            659,
+            689,
+            695
+          ]
+        }
+      ]
+    },
+    {
+      "id": 674,
+      "word": "favorable",
+      "pos": "形容詞",
+      "meaning": "好意的な、好ましい",
+      "variants": [
+        {
+          "id": "674-1",
+          "sentence": "The product received _____ reviews, with most customers awarding five stars.",
+          "translation": "大半が星5つを付け、製品は好意的なレビューを得た。",
+          "clue": "most customers awarding five stars と高評価",
+          "options": [
+            674,
+            663,
+            683,
+            678
+          ]
+        },
+        {
+          "id": "674-2",
+          "sentence": "Sunny skies and light winds provided _____ conditions for the race.",
+          "translation": "晴天と弱い風で競走には好ましい条件が整った。",
+          "clue": "Sunny skies and light winds と適した条件",
+          "options": [
+            674,
+            663,
+            683,
+            678
+          ]
+        },
+        {
+          "id": "674-3",
+          "sentence": "The bank offered _____ loan terms, including a low interest rate.",
+          "translation": "銀行は低金利など好ましい融資条件を提示した。",
+          "clue": "low interest rate と借り手に有利な条件",
+          "options": [
+            674,
+            663,
+            683,
+            678
+          ]
+        },
+        {
+          "id": "674-4",
+          "sentence": "Her proposal made a _____ impression on the panel, which praised its clarity.",
+          "translation": "明快さを評価され、提案は審査員に好印象を与えた。",
+          "clue": "praised its clarity と好意的な評価",
+          "options": [
+            674,
+            663,
+            683,
+            678
+          ]
+        },
+        {
+          "id": "674-5",
+          "sentence": "The exchange rate is _____ for travelers buying local currency this week.",
+          "translation": "今週の為替相場は現地通貨を買う旅行者に有利だ。",
+          "clue": "for travelers と利用者に有利な条件",
+          "options": [
+            674,
+            663,
+            683,
+            678
+          ]
+        }
+      ]
+    },
+    {
+      "id": 675,
+      "word": "asset",
+      "pos": "名詞",
+      "meaning": "財産、資産",
+      "variants": [
+        {
+          "id": "675-1",
+          "sentence": "Her ability to speak five languages is a valuable _____ to our international team.",
+          "translation": "5言語を話せる能力は国際チームにとって貴重な財産だ。",
+          "clue": "valuable と役立つ能力",
+          "options": [
+            675,
+            658,
+            652,
+            662
+          ]
+        },
+        {
+          "id": "675-2",
+          "sentence": "The company lists the building as an _____ on its balance sheet.",
+          "translation": "会社は貸借対照表にその建物を資産として記載している。",
+          "clue": "balance sheet に載る財産",
+          "options": [
+            675,
+            658,
+            652,
+            662
+          ]
+        },
+        {
+          "id": "675-3",
+          "sentence": "A trusted reputation is an _____ that can take years to build.",
+          "translation": "信頼される評判は築くのに何年もかかる財産だ。",
+          "clue": "reputation という価値あるもの",
+          "options": [
+            675,
+            658,
+            652,
+            662
+          ]
+        },
+        {
+          "id": "675-4",
+          "sentence": "The new machine is a long-term _____ rather than a disposable supply.",
+          "translation": "新しい機械は使い捨ての備品ではなく長期的な資産だ。",
+          "clue": "long-term と長く保有する財産",
+          "options": [
+            675,
+            658,
+            652,
+            662
+          ]
+        },
+        {
+          "id": "675-5",
+          "sentence": "Your practical experience will be an _____ when our team faces complex problems.",
+          "translation": "複雑な問題に直面する際、あなたの実務経験はチームの財産となる。",
+          "clue": "experience が問題解決に役立つ価値",
+          "options": [
+            675,
+            658,
+            652,
+            662
+          ]
+        }
+      ]
+    },
+    {
+      "id": 676,
+      "word": "manner",
+      "pos": "名詞",
+      "meaning": "やり方、方法、態度",
+      "variants": [
+        {
+          "id": "676-1",
+          "sentence": "Please respond to complaints in a polite and professional _____.",
+          "translation": "苦情には丁寧で専門的な態度で対応してください。",
+          "clue": "in a polite and professional と対応の仕方",
+          "options": [
+            676,
+            677,
+            661,
+            697
+          ]
+        },
+        {
+          "id": "676-2",
+          "sentence": "The documents must be arranged in an orderly _____ so they are easy to find.",
+          "translation": "見つけやすいよう文書は整然とした方法で並べなければならない。",
+          "clue": "arranged と整理のやり方",
+          "options": [
+            676,
+            677,
+            661,
+            697
+          ]
+        },
+        {
+          "id": "676-3",
+          "sentence": "Her calm _____ reassured the worried passengers.",
+          "translation": "彼女の落ち着いた態度は心配する乗客を安心させた。",
+          "clue": "calm と人への接し方",
+          "options": [
+            676,
+            677,
+            661,
+            697
+          ]
+        },
+        {
+          "id": "676-4",
+          "sentence": "The two teams approached the problem in a similar _____.",
+          "translation": "2チームは似たやり方で問題に取り組んだ。",
+          "clue": "approached the problem と取り組み方",
+          "options": [
+            676,
+            677,
+            661,
+            697
+          ]
+        },
+        {
+          "id": "676-5",
+          "sentence": "Return the equipment in a timely _____ to avoid delaying the next user.",
+          "translation": "次の利用者を待たせないよう適時に機器を返却してください。",
+          "clue": "in a timely と行動のやり方",
+          "options": [
+            676,
+            677,
+            661,
+            697
+          ]
+        }
+      ]
+    },
+    {
+      "id": 677,
+      "word": "relief",
+      "pos": "名詞",
+      "meaning": "安心、安堵",
+      "variants": [
+        {
+          "id": "677-1",
+          "sentence": "We felt great _____ when the missing child was found safe.",
+          "translation": "行方不明の子が無事に見つかって私たちは大いに安心した。",
+          "clue": "missing child was found safe と心配の解消",
+          "options": [
+            677,
+            658,
+            686,
+            661
+          ]
+        },
+        {
+          "id": "677-2",
+          "sentence": "To her _____, the examination showed that nothing was wrong.",
+          "translation": "検査で異常がないと分かり彼女は安堵した。",
+          "clue": "nothing was wrong と不安の解消",
+          "options": [
+            677,
+            658,
+            686,
+            661
+          ]
+        },
+        {
+          "id": "677-3",
+          "sentence": "It was a _____ to finish the difficult project before the deadline.",
+          "translation": "締め切り前に難しい仕事を終えられてほっとした。",
+          "clue": "締め切りに間に合った安心",
+          "options": [
+            677,
+            658,
+            686,
+            661
+          ]
+        },
+        {
+          "id": "677-4",
+          "sentence": "He sighed with _____ after recovering the lost passport.",
+          "translation": "なくしたパスポートを見つけて彼は安堵のため息をついた。",
+          "clue": "recovering the lost passport と心配からの解放",
+          "options": [
+            677,
+            658,
+            686,
+            661
+          ]
+        },
+        {
+          "id": "677-5",
+          "sentence": "The news that all passengers were safe brought _____ to their families.",
+          "translation": "全乗客が無事という知らせは家族に安心をもたらした。",
+          "clue": "all passengers were safe という安心の知らせ",
+          "options": [
+            677,
+            658,
+            686,
+            661
+          ]
+        }
+      ]
+    },
+    {
+      "id": 678,
+      "word": "occupied",
+      "pos": "形容詞",
+      "meaning": "（部屋や席などが）使用中の、忙しい",
+      "variants": [
+        {
+          "id": "678-1",
+          "sentence": "The room is _____, so please wait until the current meeting ends.",
+          "translation": "部屋は使用中なので今の会議が終わるまで待ってください。",
+          "clue": "current meeting ends まで使われている",
+          "options": [
+            678,
+            663,
+            669,
+            674
+          ]
+        },
+        {
+          "id": "678-2",
+          "sentence": "Every seat was _____, and late arrivals had to stand.",
+          "translation": "全席が埋まっており遅れて来た人は立つ必要があった。",
+          "clue": "late arrivals had to stand と空席がない",
+          "options": [
+            678,
+            663,
+            669,
+            674
+          ]
+        },
+        {
+          "id": "678-3",
+          "sentence": "She was fully _____ with preparing the report and could not answer the phone.",
+          "translation": "報告書の準備で手がいっぱいで彼女は電話に出られなかった。",
+          "clue": "could not answer と仕事で忙しい",
+          "options": [
+            678,
+            663,
+            669,
+            674
+          ]
+        },
+        {
+          "id": "678-4",
+          "sentence": "The apartment remains _____ by the same tenant who moved in ten years ago.",
+          "translation": "その部屋には10年前に入った同じ借主が今も住んでいる。",
+          "clue": "by the same tenant と入居中",
+          "options": [
+            678,
+            663,
+            669,
+            674
+          ]
+        },
+        {
+          "id": "678-5",
+          "sentence": "The sign on the restroom door says _____, so someone is inside.",
+          "translation": "化粧室の札が使用中となっているので中に人がいる。",
+          "clue": "someone is inside と現在使用されている",
+          "options": [
+            678,
+            663,
+            669,
+            674
+          ]
+        }
+      ]
+    },
+    {
+      "id": 679,
+      "word": "alike",
+      "pos": "副詞・形容詞",
+      "meaning": "同様に・似ている",
+      "variants": [
+        {
+          "id": "679-1",
+          "sentence": "The free museum attracts children and adults _____.",
+          "translation": "その無料博物館は子どもにも大人にも同様に人気がある。",
+          "clue": "children and adults の両方",
+          "options": [
+            679,
+            680,
+            671,
+            694
+          ]
+        },
+        {
+          "id": "679-2",
+          "sentence": "The new rule applies to managers and junior staff _____.",
+          "translation": "新しい規則は管理職にも若手職員にも同様に適用される。",
+          "clue": "managers and junior staff に等しく適用",
+          "options": [
+            679,
+            680,
+            671,
+            694
+          ]
+        },
+        {
+          "id": "679-3",
+          "sentence": "The twins look so _____ that even their friends sometimes confuse them.",
+          "translation": "双子はとても似ていて友人でさえ時々間違える。",
+          "clue": "friends sometimes confuse them と見た目の類似",
+          "options": [
+            679,
+            680,
+            671,
+            694
+          ]
+        },
+        {
+          "id": "679-4",
+          "sentence": "Although made by different companies, the two devices function _____.",
+          "translation": "別会社製だが2つの機器は同じように動作する。",
+          "clue": "different companies でも機能が同様",
+          "options": [
+            679,
+            680,
+            671,
+            694
+          ]
+        },
+        {
+          "id": "679-5",
+          "sentence": "Tourists and local residents _____ enjoy the annual festival.",
+          "translation": "観光客も地元住民も同様に毎年の祭りを楽しむ。",
+          "clue": "Tourists and local residents の両方",
+          "options": [
+            679,
+            680,
+            671,
+            694
+          ]
+        }
+      ]
+    },
+    {
+      "id": 680,
+      "word": "heavily",
+      "pos": "副詞",
+      "meaning": "大量に、大いに、激しく",
+      "variants": [
+        {
+          "id": "680-1",
+          "sentence": "The company invested _____ in new machinery, spending most of its budget.",
+          "translation": "会社は予算の大半を使い新しい機械に多額の投資をした。",
+          "clue": "spending most of its budget と多額",
+          "options": [
+            680,
+            668,
+            693,
+            679
+          ]
+        },
+        {
+          "id": "680-2",
+          "sentence": "It rained _____ all night, leaving the streets flooded.",
+          "translation": "一晩中激しく雨が降り道路が冠水した。",
+          "clue": "streets flooded と雨量の多さ",
+          "options": [
+            680,
+            668,
+            693,
+            679
+          ]
+        },
+        {
+          "id": "680-3",
+          "sentence": "This region relies _____ on tourism for jobs and income.",
+          "translation": "この地域は雇用と収入を観光に大きく頼っている。",
+          "clue": "relies と依存の程度",
+          "options": [
+            680,
+            668,
+            693,
+            679
+          ]
+        },
+        {
+          "id": "680-4",
+          "sentence": "The shelves were _____ loaded with books and began to bend.",
+          "translation": "棚には本が大量に載り、たわみ始めた。",
+          "clue": "began to bend と荷重の大きさ",
+          "options": [
+            680,
+            668,
+            693,
+            679
+          ]
+        },
+        {
+          "id": "680-5",
+          "sentence": "The old factory was _____ damaged in the fire and needs major repairs.",
+          "translation": "古い工場は火災で大きな損害を受け大規模修理が必要だ。",
+          "clue": "needs major repairs と損害の大きさ",
+          "options": [
+            680,
+            668,
+            693,
+            679
+          ]
+        }
+      ]
+    },
+    {
+      "id": 681,
+      "word": "outcome",
+      "pos": "名詞",
+      "meaning": "結果、成果",
+      "variants": [
+        {
+          "id": "681-1",
+          "sentence": "We will announce the _____ of the negotiations once both sides have reached a decision.",
+          "translation": "双方が判断に達したら交渉の結果を発表する。",
+          "clue": "negotiations が終わった後の結果",
+          "options": [
+            681,
+            664,
+            686,
+            654
+          ]
+        },
+        {
+          "id": "681-2",
+          "sentence": "The final _____ of the experiment was different from what the scientists predicted.",
+          "translation": "実験の最終結果は科学者の予測と異なった。",
+          "clue": "experiment の最終的な結果",
+          "options": [
+            681,
+            664,
+            686,
+            654
+          ]
+        },
+        {
+          "id": "681-3",
+          "sentence": "No one can guarantee the _____ of the election before the votes are counted.",
+          "translation": "開票前に選挙の結果を保証できる人はいない。",
+          "clue": "votes are counted の後に分かる結果",
+          "options": [
+            681,
+            664,
+            686,
+            654
+          ]
+        },
+        {
+          "id": "681-4",
+          "sentence": "The team reviewed the _____ of the project to see whether its goals were met.",
+          "translation": "目標が達成されたか確認するためチームは計画の成果を検討した。",
+          "clue": "whether its goals were met と実際の成果",
+          "options": [
+            681,
+            664,
+            686,
+            654
+          ]
+        },
+        {
+          "id": "681-5",
+          "sentence": "A peaceful agreement was the best possible _____ of the dispute.",
+          "translation": "平和的な合意はその争いで望める最善の結末だった。",
+          "clue": "agreement と争いの結末",
+          "options": [
+            681,
+            664,
+            686,
+            654
+          ]
+        }
+      ]
+    },
+    {
+      "id": 682,
+      "word": "persuade",
+      "pos": "動詞",
+      "meaning": "説得する、説得して～させる、納得させる",
+      "variants": [
+        {
+          "id": "682-1",
+          "sentence": "She used clear evidence to _____ the committee to approve the proposal.",
+          "translation": "彼女は明確な証拠を使い提案を承認するよう委員会を説得した。",
+          "clue": "clear evidence で相手を納得させる",
+          "options": [
+            682,
+            672,
+            691,
+            665
+          ]
+        },
+        {
+          "id": "682-2",
+          "sentence": "It took several meetings to _____ him to change his mind.",
+          "translation": "彼を説得して考えを変えさせるのに何度も会合が必要だった。",
+          "clue": "change his mind と説得による変化",
+          "options": [
+            682,
+            672,
+            691,
+            665
+          ]
+        },
+        {
+          "id": "682-3",
+          "sentence": "Can you _____ the landlord to allow us to keep a cat?",
+          "translation": "猫を飼うのを認めるよう家主を説得できますか。",
+          "clue": "landlord の同意を得ようとする",
+          "options": [
+            682,
+            672,
+            691,
+            665
+          ]
+        },
+        {
+          "id": "682-4",
+          "sentence": "The salesperson tried to _____ us that the more expensive model was worth the cost.",
+          "translation": "販売員は高い機種に費用に見合う価値があると私たちを納得させようとした。",
+          "clue": "that 以下の価値を納得させる",
+          "options": [
+            682,
+            672,
+            691,
+            665
+          ]
+        },
+        {
+          "id": "682-5",
+          "sentence": "Her arguments helped _____ the board that the investment was necessary.",
+          "translation": "彼女の論拠は投資が必要だと取締役会を説得する助けとなった。",
+          "clue": "arguments と that 以下を納得させる",
+          "options": [
+            682,
+            672,
+            691,
+            665
+          ]
+        }
+      ]
+    },
+    {
+      "id": 683,
+      "word": "confusing",
+      "pos": "形容詞",
+      "meaning": "わかりにくい、紛らわしい、混乱させるような",
+      "variants": [
+        {
+          "id": "683-1",
+          "sentence": "The map is _____ because several roads have the same label.",
+          "translation": "複数の道に同じ名前が付き、その地図は紛らわしい。",
+          "clue": "several roads have the same label と区別の難しさ",
+          "options": [
+            683,
+            674,
+            663,
+            687
+          ]
+        },
+        {
+          "id": "683-2",
+          "sentence": "These instructions are _____; they seem to contradict each other.",
+          "translation": "この説明は互いに矛盾しているようで分かりにくい。",
+          "clue": "contradict each other と混乱の原因",
+          "options": [
+            683,
+            674,
+            663,
+            687
+          ]
+        },
+        {
+          "id": "683-3",
+          "sentence": "The website's _____ layout makes it hard to find the payment button.",
+          "translation": "ウェブサイトは分かりにくい配置で支払ボタンを見つけにくい。",
+          "clue": "hard to find と分かりにくさ",
+          "options": [
+            683,
+            674,
+            663,
+            687
+          ]
+        },
+        {
+          "id": "683-4",
+          "sentence": "Having two employees with identical names can be _____ for new staff.",
+          "translation": "同姓同名の社員が2人いると新入社員には紛らわしいことがある。",
+          "clue": "identical names と取り違える可能性",
+          "options": [
+            683,
+            674,
+            663,
+            687
+          ]
+        },
+        {
+          "id": "683-5",
+          "sentence": "The explanation was so _____ that we asked for a simpler version.",
+          "translation": "説明が非常に分かりにくかったので簡単なものを頼んだ。",
+          "clue": "asked for a simpler version と理解の難しさ",
+          "options": [
+            683,
+            674,
+            663,
+            687
+          ]
+        }
+      ]
+    },
+    {
+      "id": 684,
+      "word": "dispose",
+      "pos": "動詞",
+      "meaning": "処分する",
+      "variants": [
+        {
+          "id": "684-1",
+          "sentence": "Please _____ of used batteries at a designated collection point.",
+          "translation": "使用済み電池は指定の回収場所で処分してください。",
+          "clue": "of used batteries と不要物の処分",
+          "options": [
+            684,
+            670,
+            665,
+            691
+          ]
+        },
+        {
+          "id": "684-2",
+          "sentence": "The laboratory must _____ of chemical waste safely.",
+          "translation": "研究所は化学廃棄物を安全に処分しなければならない。",
+          "clue": "of chemical waste と廃棄物の処理",
+          "options": [
+            684,
+            670,
+            665,
+            691
+          ]
+        },
+        {
+          "id": "684-3",
+          "sentence": "Do not _____ of old paint by pouring it down the drain.",
+          "translation": "古い塗料を排水口に流して処分してはいけない。",
+          "clue": "of old paint と捨て方の注意",
+          "options": [
+            684,
+            670,
+            665,
+            691
+          ]
+        },
+        {
+          "id": "684-4",
+          "sentence": "The contractor will _____ of the broken furniture after clearing the room.",
+          "translation": "部屋を片付けた後、業者は壊れた家具を処分する。",
+          "clue": "of broken furniture と不要品を捨てる",
+          "options": [
+            684,
+            670,
+            665,
+            691
+          ]
+        },
+        {
+          "id": "684-5",
+          "sentence": "We need a legal way to _____ of confidential papers without exposing their contents.",
+          "translation": "内容を漏らさず機密書類を適法に処分する方法が必要だ。",
+          "clue": "of confidential papers と書類の廃棄",
+          "options": [
+            684,
+            670,
+            665,
+            691
+          ]
+        }
+      ]
+    },
+    {
+      "id": 685,
+      "word": "prominent",
+      "pos": "形容詞",
+      "meaning": "有名な、目立った、傑出した",
+      "variants": [
+        {
+          "id": "685-1",
+          "sentence": "A _____ scientist known worldwide will deliver the opening lecture.",
+          "translation": "世界的に知られた著名な科学者が開会講演を行う。",
+          "clue": "known worldwide と広く知られた人物",
+          "options": [
+            685,
+            663,
+            698,
+            683
+          ]
+        },
+        {
+          "id": "685-2",
+          "sentence": "Place the emergency number in a _____ position where everyone can see it.",
+          "translation": "全員が見える目立つ場所に緊急連絡先を掲示してください。",
+          "clue": "where everyone can see it と目立つ位置",
+          "options": [
+            685,
+            663,
+            698,
+            683
+          ]
+        },
+        {
+          "id": "685-3",
+          "sentence": "The main finding appears in a _____ headline at the top of the page.",
+          "translation": "主な発見はページ上部の目立つ見出しに載っている。",
+          "clue": "at the top of the page と目立つ表示",
+          "options": [
+            685,
+            663,
+            698,
+            683
+          ]
+        },
+        {
+          "id": "685-4",
+          "sentence": "She became a _____ figure in local politics after years of public service.",
+          "translation": "長年の公務を経て彼女は地方政治で著名な人物になった。",
+          "clue": "figure in local politics と広く知られる人物",
+          "options": [
+            685,
+            663,
+            698,
+            683
+          ]
+        },
+        {
+          "id": "685-5",
+          "sentence": "The tower is the most _____ feature of the skyline, visible from miles away.",
+          "translation": "遠くから見えるその塔は街の輪郭で最も目立つ特徴だ。",
+          "clue": "visible from miles away と目立つ存在",
+          "options": [
+            685,
+            663,
+            698,
+            683
+          ]
+        }
+      ]
+    },
+    {
+      "id": 686,
+      "word": "faculty",
+      "pos": "名詞",
+      "meaning": "（大学の）教員、学部",
+      "variants": [
+        {
+          "id": "686-1",
+          "sentence": "All members of the university _____ are expected to advise students as well as teach.",
+          "translation": "大学教員全員が授業に加え学生への助言を期待されている。",
+          "clue": "advise students as well as teach と教員の役割",
+          "options": [
+            686,
+            660,
+            654,
+            677
+          ]
+        },
+        {
+          "id": "686-2",
+          "sentence": "The meeting is open to students and _____, including professors and lecturers.",
+          "translation": "教授や講師を含む教員と学生は会合に参加できる。",
+          "clue": "professors and lecturers が教員の例",
+          "options": [
+            686,
+            660,
+            654,
+            677
+          ]
+        },
+        {
+          "id": "686-3",
+          "sentence": "The university hired five new _____ members to teach engineering courses.",
+          "translation": "大学は工学の授業を担当する教員を新たに5人雇った。",
+          "clue": "to teach engineering courses と教員採用",
+          "options": [
+            686,
+            660,
+            654,
+            677
+          ]
+        },
+        {
+          "id": "686-4",
+          "sentence": "She joined the _____ of law to study legal systems and public policy.",
+          "translation": "法制度と公共政策を学ぶため彼女は法学部に入った。",
+          "clue": "of law と大学の学部",
+          "options": [
+            686,
+            660,
+            654,
+            677
+          ]
+        },
+        {
+          "id": "686-5",
+          "sentence": "The dean asked the _____ to review the curriculum before the new semester.",
+          "translation": "学部長は新学期前に教員へ教育課程の見直しを求めた。",
+          "clue": "dean と curriculum を見直す教員",
+          "options": [
+            686,
+            660,
+            654,
+            677
+          ]
+        }
+      ]
+    },
+    {
+      "id": 687,
+      "word": "in-house",
+      "pos": "形容詞・副詞",
+      "meaning": "社内の・組織内の／社内で・組織内で",
+      "variants": [
+        {
+          "id": "687-1",
+          "sentence": "Our _____ designers work for this company rather than an outside agency.",
+          "translation": "当社の社内デザイナーは外部の代理店でなく当社に所属する。",
+          "clue": "rather than an outside agency と社内",
+          "options": [
+            687,
+            669,
+            678,
+            698
+          ]
+        },
+        {
+          "id": "687-2",
+          "sentence": "We produce the newsletter _____ instead of paying a separate publisher.",
+          "translation": "別の出版社に支払わずニュースレターを社内で制作する。",
+          "clue": "instead of paying a separate publisher と内部制作",
+          "options": [
+            687,
+            669,
+            678,
+            698
+          ]
+        },
+        {
+          "id": "687-3",
+          "sentence": "The firm offers _____ training led by its own experienced staff.",
+          "translation": "会社は自社の熟練職員による社内研修を提供する。",
+          "clue": "its own experienced staff が担当",
+          "options": [
+            687,
+            669,
+            678,
+            698
+          ]
+        },
+        {
+          "id": "687-4",
+          "sentence": "Legal questions are handled by our _____ lawyer, who is a permanent employee.",
+          "translation": "法的な質問は正社員である社内弁護士が扱う。",
+          "clue": "a permanent employee と社内所属",
+          "options": [
+            687,
+            669,
+            678,
+            698
+          ]
+        },
+        {
+          "id": "687-5",
+          "sentence": "The company decided to repair equipment _____ using its own maintenance team.",
+          "translation": "会社は自前の保守チームで機器を社内修理すると決めた。",
+          "clue": "its own maintenance team と組織内の作業",
+          "options": [
+            687,
+            669,
+            678,
+            698
+          ]
+        }
+      ]
+    },
+    {
+      "id": 688,
+      "word": "rapidly",
+      "pos": "副詞",
+      "meaning": "急速に",
+      "variants": [
+        {
+          "id": "688-1",
+          "sentence": "The fire spread _____, reaching the next building in less than a minute.",
+          "translation": "火は急速に広がり1分足らずで隣の建物に達した。",
+          "clue": "in less than a minute と短時間",
+          "options": [
+            688,
+            694,
+            668,
+            693
+          ]
+        },
+        {
+          "id": "688-2",
+          "sentence": "Technology is changing so _____ that last year's devices already seem outdated.",
+          "translation": "技術は非常に急速に変化し去年の機器も既に古く見える。",
+          "clue": "last year's devices already outdated と変化の速さ",
+          "options": [
+            688,
+            694,
+            668,
+            693
+          ]
+        },
+        {
+          "id": "688-3",
+          "sentence": "The patient's condition improved _____ within just a few hours.",
+          "translation": "患者の状態はわずか数時間で急速に改善した。",
+          "clue": "within just a few hours と速い変化",
+          "options": [
+            688,
+            694,
+            668,
+            693
+          ]
+        },
+        {
+          "id": "688-4",
+          "sentence": "The startup grew _____, doubling its staff in three months.",
+          "translation": "新興企業は急成長し3か月で職員数を倍増させた。",
+          "clue": "doubling in three months と成長速度",
+          "options": [
+            688,
+            694,
+            668,
+            693
+          ]
+        },
+        {
+          "id": "688-5",
+          "sentence": "Temperatures fell _____ after sunset, dropping ten degrees in an hour.",
+          "translation": "日没後気温は急低下し1時間で10度下がった。",
+          "clue": "ten degrees in an hour と低下の速さ",
+          "options": [
+            688,
+            694,
+            668,
+            693
+          ]
+        }
+      ]
+    },
+    {
+      "id": 689,
+      "word": "investigate",
+      "pos": "動詞",
+      "meaning": "調査する、研究する",
+      "variants": [
+        {
+          "id": "689-1",
+          "sentence": "The engineers will _____ why the bridge developed cracks.",
+          "translation": "技術者たちは橋にひびが生じた原因を調査する。",
+          "clue": "why と原因を調べる",
+          "options": [
+            689,
+            696,
+            665,
+            656
+          ]
+        },
+        {
+          "id": "689-2",
+          "sentence": "Police are working to _____ the reported theft.",
+          "translation": "警察は通報された盗難を捜査している。",
+          "clue": "reported theft と事件の調査",
+          "options": [
+            689,
+            696,
+            665,
+            656
+          ]
+        },
+        {
+          "id": "689-3",
+          "sentence": "We need to _____ the complaint before deciding whether a refund is justified.",
+          "translation": "返金の妥当性を判断する前に苦情を調べる必要がある。",
+          "clue": "before deciding と事実を調べる",
+          "options": [
+            689,
+            696,
+            665,
+            656
+          ]
+        },
+        {
+          "id": "689-4",
+          "sentence": "Scientists will _____ the effects of the new material under extreme heat.",
+          "translation": "科学者は極度の高温で新素材の効果を調査する。",
+          "clue": "effects under extreme heat と実験的な検討",
+          "options": [
+            689,
+            696,
+            665,
+            656
+          ]
+        },
+        {
+          "id": "689-5",
+          "sentence": "The auditor asked to _____ the unexplained difference in the accounts.",
+          "translation": "監査人は帳簿の説明できない差を調査したいと求めた。",
+          "clue": "unexplained difference と原因不明の数値を調べる",
+          "options": [
+            689,
+            696,
+            665,
+            656
+          ]
+        }
+      ]
+    },
+    {
+      "id": 690,
+      "word": "apparently",
+      "pos": "副詞",
+      "meaning": "どうやら～らしい、多分、見たところ",
+      "variants": [
+        {
+          "id": "690-1",
+          "sentence": "The office is dark and the doors are locked; _____, everyone has gone home.",
+          "translation": "事務所は暗く施錠されているので、どうやら全員帰宅したらしい。",
+          "clue": "dark and locked という状況からの推測",
+          "options": [
+            690,
+            693,
+            680,
+            679
+          ]
+        },
+        {
+          "id": "690-2",
+          "sentence": "I have not confirmed it, but _____ the conference has been canceled.",
+          "translation": "未確認だが、どうやら会議は中止になったらしい。",
+          "clue": "I have not confirmed it と伝聞・推測",
+          "options": [
+            690,
+            693,
+            680,
+            679
+          ]
+        },
+        {
+          "id": "690-3",
+          "sentence": "The ground is wet; _____, it rained while we were asleep.",
+          "translation": "地面が濡れているので、どうやら寝ている間に雨が降ったらしい。",
+          "clue": "ground is wet という証拠からの推測",
+          "options": [
+            690,
+            693,
+            680,
+            679
+          ]
+        },
+        {
+          "id": "690-4",
+          "sentence": "According to a colleague, the director is _____ considering retirement.",
+          "translation": "同僚の話では部長はどうやら退職を検討しているらしい。",
+          "clue": "According to a colleague と伝聞",
+          "options": [
+            690,
+            693,
+            680,
+            679
+          ]
+        },
+        {
+          "id": "690-5",
+          "sentence": "The package was _____ delivered yesterday, although I have not seen it myself.",
+          "translation": "自分では見ていないが荷物はどうやら昨日配達されたらしい。",
+          "clue": "have not seen it myself と未確認の情報",
+          "options": [
+            690,
+            693,
+            680,
+            679
+          ]
+        }
+      ]
+    },
+    {
+      "id": 691,
+      "word": "capture",
+      "pos": "動詞",
+      "meaning": "とらえる",
+      "variants": [
+        {
+          "id": "691-1",
+          "sentence": "The opening sentence must _____ the reader's attention immediately.",
+          "translation": "冒頭の文はすぐ読者の注意を引かなければならない。",
+          "clue": "reader's attention を引きつける",
+          "options": [
+            691,
+            665,
+            659,
+            684
+          ]
+        },
+        {
+          "id": "691-2",
+          "sentence": "Use a fast shutter speed to _____ the bird in flight.",
+          "translation": "飛んでいる鳥を捉えるため速いシャッター速度を使ってください。",
+          "clue": "shutter speed と動く鳥の撮影",
+          "options": [
+            691,
+            665,
+            659,
+            684
+          ]
+        },
+        {
+          "id": "691-3",
+          "sentence": "The recording failed to _____ the quiet voices at the back of the room.",
+          "translation": "録音は部屋の奥の小さな声を捉えられなかった。",
+          "clue": "recording と声を記録する",
+          "options": [
+            691,
+            665,
+            659,
+            684
+          ]
+        },
+        {
+          "id": "691-4",
+          "sentence": "A good summary should _____ the main ideas without repeating every detail.",
+          "translation": "良い要約は細部を繰り返さず主要な考えを捉えるべきだ。",
+          "clue": "main ideas と要点を捉える",
+          "options": [
+            691,
+            665,
+            659,
+            684
+          ]
+        },
+        {
+          "id": "691-5",
+          "sentence": "The team used a net to _____ the injured animal for treatment.",
+          "translation": "チームは治療のため網でけがをした動物を捕らえた。",
+          "clue": "used a net と動物の捕獲",
+          "options": [
+            691,
+            665,
+            659,
+            684
+          ]
+        }
+      ]
+    },
+    {
+      "id": 692,
+      "word": "adequate",
+      "pos": "形容詞",
+      "meaning": "十分な",
+      "variants": [
+        {
+          "id": "692-1",
+          "sentence": "We have _____ supplies to last the whole week, so no extra order is needed.",
+          "translation": "1週間もつ十分な物資があるので追加注文は不要だ。",
+          "clue": "no extra order is needed と必要量を満たす",
+          "options": [
+            692,
+            669,
+            678,
+            683
+          ]
+        },
+        {
+          "id": "692-2",
+          "sentence": "The room is small but _____ for a meeting of four people.",
+          "translation": "部屋は小さいが4人の会議には十分だ。",
+          "clue": "for four people と用途に足りる",
+          "options": [
+            692,
+            669,
+            678,
+            683
+          ]
+        },
+        {
+          "id": "692-3",
+          "sentence": "Employees must receive _____ training before operating the machine safely.",
+          "translation": "安全に機械を操作するには職員が十分な研修を受ける必要がある。",
+          "clue": "operating safely に必要な研修量",
+          "options": [
+            692,
+            669,
+            678,
+            683
+          ]
+        },
+        {
+          "id": "692-4",
+          "sentence": "The current evidence is not _____ to support such a strong claim.",
+          "translation": "現在の証拠はそのような強い主張を裏付けるには不十分だ。",
+          "clue": "not と主張を支える証拠の不足",
+          "options": [
+            692,
+            669,
+            678,
+            683
+          ]
+        },
+        {
+          "id": "692-5",
+          "sentence": "Allow _____ time for security checks; five minutes will not be enough.",
+          "translation": "保安検査には十分な時間を確保してください。5分では足りません。",
+          "clue": "five minutes will not be enough と必要時間",
+          "options": [
+            692,
+            669,
+            678,
+            683
+          ]
+        }
+      ]
+    },
+    {
+      "id": 693,
+      "word": "separately",
+      "pos": "副詞",
+      "meaning": "別々に、個別に",
+      "variants": [
+        {
+          "id": "693-1",
+          "sentence": "The two orders will arrive _____, each in its own box.",
+          "translation": "2つの注文はそれぞれ別の箱で別々に届く。",
+          "clue": "each in its own box と分離",
+          "options": [
+            693,
+            668,
+            688,
+            655
+          ]
+        },
+        {
+          "id": "693-2",
+          "sentence": "Please wash dark and white clothes _____ to prevent color transfer.",
+          "translation": "色移りを防ぐため濃色と白い衣服は別々に洗ってください。",
+          "clue": "prevent color transfer と分ける理由",
+          "options": [
+            693,
+            668,
+            688,
+            655
+          ]
+        },
+        {
+          "id": "693-3",
+          "sentence": "We interviewed the witnesses _____ so they could not influence one another.",
+          "translation": "互いに影響しないよう証人を個別に聞き取った。",
+          "clue": "could not influence one another と個別",
+          "options": [
+            693,
+            668,
+            688,
+            655
+          ]
+        },
+        {
+          "id": "693-4",
+          "sentence": "The price covers the printer, but ink cartridges are sold _____.",
+          "translation": "価格は本体分でインクは別売りだ。",
+          "clue": "price covers the printer と別の商品",
+          "options": [
+            693,
+            668,
+            688,
+            655
+          ]
+        },
+        {
+          "id": "693-5",
+          "sentence": "Each department submitted its budget _____ rather than as a combined document.",
+          "translation": "各部署は一括文書でなく個別に予算を提出した。",
+          "clue": "rather than as a combined document と別々",
+          "options": [
+            693,
+            668,
+            688,
+            655
+          ]
+        }
+      ]
+    },
+    {
+      "id": 694,
+      "word": "rarely",
+      "pos": "副詞",
+      "meaning": "めったに～ない",
+      "variants": [
+        {
+          "id": "694-1",
+          "sentence": "She is _____ late; in ten years she has missed the start only once.",
+          "translation": "10年間で始業に一度しか遅れず、彼女はめったに遅刻しない。",
+          "clue": "only once in ten years と低頻度",
+          "options": [
+            694,
+            688,
+            671,
+            668
+          ]
+        },
+        {
+          "id": "694-2",
+          "sentence": "Snow _____ falls here, with most winters passing without any.",
+          "translation": "冬の大半は雪がなく、ここではめったに降らない。",
+          "clue": "most winters without any と低頻度",
+          "options": [
+            694,
+            688,
+            671,
+            668
+          ]
+        },
+        {
+          "id": "694-3",
+          "sentence": "He _____ eats out because he cooks almost every meal at home.",
+          "translation": "ほぼ毎食自炊するので彼はめったに外食しない。",
+          "clue": "almost every meal at home と外食の少なさ",
+          "options": [
+            694,
+            688,
+            671,
+            668
+          ]
+        },
+        {
+          "id": "694-4",
+          "sentence": "The machine _____ breaks down; it has needed repair only twice in twenty years.",
+          "translation": "20年間で修理は2回だけで機械はめったに故障しない。",
+          "clue": "only twice in twenty years とまれな故障",
+          "options": [
+            694,
+            688,
+            671,
+            668
+          ]
+        },
+        {
+          "id": "694-5",
+          "sentence": "We _____ receive complaints, as nearly all customers report being satisfied.",
+          "translation": "ほぼ全顧客が満足しており苦情はめったに来ない。",
+          "clue": "nearly all customers satisfied と苦情の少なさ",
+          "options": [
+            694,
+            688,
+            671,
+            668
+          ]
+        }
+      ]
+    },
+    {
+      "id": 695,
+      "word": "concentrate",
+      "pos": "動詞",
+      "meaning": "集中する",
+      "variants": [
+        {
+          "id": "695-1",
+          "sentence": "Please turn down the music so I can _____ on my work.",
+          "translation": "仕事に集中できるよう音楽を小さくしてください。",
+          "clue": "音楽の邪魔なく仕事に注意を向ける",
+          "options": [
+            695,
+            659,
+            665,
+            682
+          ]
+        },
+        {
+          "id": "695-2",
+          "sentence": "During the final exam, students must _____ without checking their phones.",
+          "translation": "最終試験中、学生は携帯を見ずに集中しなければならない。",
+          "clue": "without checking phones と注意をそらさない",
+          "options": [
+            695,
+            659,
+            665,
+            682
+          ]
+        },
+        {
+          "id": "695-3",
+          "sentence": "We should _____ on the most urgent issue instead of discussing everything at once.",
+          "translation": "一度にすべて話さず最も緊急の問題に集中すべきだ。",
+          "clue": "most urgent issue に注意を絞る",
+          "options": [
+            695,
+            659,
+            665,
+            682
+          ]
+        },
+        {
+          "id": "695-4",
+          "sentence": "It is difficult to _____ when people keep interrupting you.",
+          "translation": "人に何度も遮られると集中するのは難しい。",
+          "clue": "keep interrupting と注意を妨げるもの",
+          "options": [
+            695,
+            659,
+            665,
+            682
+          ]
+        },
+        {
+          "id": "695-5",
+          "sentence": "For the next hour, _____ on finishing the report and ignore other tasks.",
+          "translation": "次の1時間は他の作業を置き、報告書の完成に集中してください。",
+          "clue": "ignore other tasks と対象を絞る",
+          "options": [
+            695,
+            659,
+            665,
+            682
+          ]
+        }
+      ]
+    },
+    {
+      "id": 696,
+      "word": "abandon",
+      "pos": "動詞",
+      "meaning": "断念する、放棄する、見捨てる",
+      "variants": [
+        {
+          "id": "696-1",
+          "sentence": "The company decided to _____ the project because it was no longer financially viable.",
+          "translation": "採算が取れなくなったため会社は計画の断念を決めた。",
+          "clue": "no longer financially viable と継続の断念",
+          "options": [
+            696,
+            670,
+            665,
+            682
+          ]
+        },
+        {
+          "id": "696-2",
+          "sentence": "The captain ordered everyone to _____ the sinking ship.",
+          "translation": "船長は全員に沈む船から退避するよう命じた。",
+          "clue": "sinking ship と船を離れる",
+          "options": [
+            696,
+            670,
+            665,
+            682
+          ]
+        },
+        {
+          "id": "696-3",
+          "sentence": "Do not _____ the animal when you move; arrange a suitable new home.",
+          "translation": "引っ越す際に動物を見捨てず適切な新しい家を手配してください。",
+          "clue": "arrange a suitable new home と見捨てない",
+          "options": [
+            696,
+            670,
+            665,
+            682
+          ]
+        },
+        {
+          "id": "696-4",
+          "sentence": "After repeated failures, they chose to _____ the old approach and start again.",
+          "translation": "失敗を繰り返した後、彼らは古い方法を放棄してやり直すことを選んだ。",
+          "clue": "start again と従来の方法を捨てる",
+          "options": [
+            696,
+            670,
+            665,
+            682
+          ]
+        },
+        {
+          "id": "696-5",
+          "sentence": "Bad weather forced the climbers to _____ their attempt to reach the summit.",
+          "translation": "悪天候で登山者は登頂の試みを断念せざるを得なかった。",
+          "clue": "Bad weather が試みをやめる原因",
+          "options": [
+            696,
+            670,
+            665,
+            682
+          ]
+        }
+      ]
+    },
+    {
+      "id": 697,
+      "word": "objective",
+      "pos": "名詞",
+      "meaning": "目的、目標",
+      "variants": [
+        {
+          "id": "697-1",
+          "sentence": "The main _____ of the campaign is to increase public awareness.",
+          "translation": "キャンペーンの主な目的は社会の認知を高めることだ。",
+          "clue": "is to increase と達成したい目的",
+          "options": [
+            697,
+            660,
+            686,
+            654
+          ]
+        },
+        {
+          "id": "697-2",
+          "sentence": "Each team must set a clear _____ before deciding how to use its budget.",
+          "translation": "予算の使い方を決める前に各チームは明確な目標を設定しなければならない。",
+          "clue": "set a clear と達成する目標",
+          "options": [
+            697,
+            660,
+            686,
+            654
+          ]
+        },
+        {
+          "id": "697-3",
+          "sentence": "Reducing delivery times is our primary _____ for this year.",
+          "translation": "配送時間の短縮が今年の主な目標だ。",
+          "clue": "for this year と今年達成したいこと",
+          "options": [
+            697,
+            660,
+            686,
+            654
+          ]
+        },
+        {
+          "id": "697-4",
+          "sentence": "The training program achieved its _____ of helping beginners work independently.",
+          "translation": "研修は初心者が自立して働くのを助けるという目的を達成した。",
+          "clue": "achieved と達成された目的",
+          "options": [
+            697,
+            660,
+            686,
+            654
+          ]
+        },
+        {
+          "id": "697-5",
+          "sentence": "Before measuring success, define the _____ you want the project to achieve.",
+          "translation": "成功を測る前に計画で達成したい目標を定めてください。",
+          "clue": "want the project to achieve と目指す成果",
+          "options": [
+            697,
+            660,
+            686,
+            654
+          ]
+        }
+      ]
+    },
+    {
+      "id": 698,
+      "word": "partial",
+      "pos": "形容詞",
+      "meaning": "一部（分）の、部分的な",
+      "variants": [
+        {
+          "id": "698-1",
+          "sentence": "The store offered a _____ refund, returning half the purchase price.",
+          "translation": "店は購入額の半分を返す一部返金を提示した。",
+          "clue": "half the purchase price と全額ではない",
+          "options": [
+            698,
+            663,
+            678,
+            683
+          ]
+        },
+        {
+          "id": "698-2",
+          "sentence": "Only three pages survived, giving us a _____ record of the event.",
+          "translation": "3ページだけ残り、出来事の記録は部分的なものになった。",
+          "clue": "Only three pages survived と一部分",
+          "options": [
+            698,
+            663,
+            678,
+            683
+          ]
+        },
+        {
+          "id": "698-3",
+          "sentence": "The repairs provided only a _____ solution; several problems remain.",
+          "translation": "修理は部分的な解決にとどまり問題がいくつか残っている。",
+          "clue": "several problems remain と未解決部分",
+          "options": [
+            698,
+            663,
+            678,
+            683
+          ]
+        },
+        {
+          "id": "698-4",
+          "sentence": "A _____ payment was made today, and the remaining balance is due next month.",
+          "translation": "今日は一部を払い、残額の期限は来月だ。",
+          "clue": "remaining balance と支払いの残り",
+          "options": [
+            698,
+            663,
+            678,
+            683
+          ]
+        },
+        {
+          "id": "698-5",
+          "sentence": "The office will have a _____ closure, with only the west wing unavailable.",
+          "translation": "西棟だけが使えない部分閉鎖を事務所は行う。",
+          "clue": "only the west wing と一部の閉鎖",
+          "options": [
+            698,
+            663,
+            678,
+            683
+          ]
+        }
+      ]
+    },
+    {
+      "id": 699,
+      "word": "ambitious",
+      "pos": "形容詞",
+      "meaning": "野心的な",
+      "variants": [
+        {
+          "id": "699-1",
+          "sentence": "The startup set an _____ goal of opening fifty stores in its first year.",
+          "translation": "新興企業は初年度に50店舗を開く野心的な目標を掲げた。",
+          "clue": "fifty stores in its first year と大きな目標",
+          "options": [
+            699,
+            678,
+            663,
+            698
+          ]
+        },
+        {
+          "id": "699-2",
+          "sentence": "Her _____ plan would turn a small library into a nationwide learning network.",
+          "translation": "彼女の野心的な計画は小図書館を全国的な学習網に変えるものだ。",
+          "clue": "small library into a nationwide network と大構想",
+          "options": [
+            699,
+            678,
+            663,
+            698
+          ]
+        },
+        {
+          "id": "699-3",
+          "sentence": "He is _____ and hopes to lead the entire organization one day.",
+          "translation": "彼は野心的でいつか組織全体を率いたいと願っている。",
+          "clue": "lead the entire organization と高い志",
+          "options": [
+            699,
+            678,
+            663,
+            698
+          ]
+        },
+        {
+          "id": "699-4",
+          "sentence": "The project is too _____ for our limited budget; it includes three new factories.",
+          "translation": "新工場3つを含む計画は限られた予算には野心的すぎる。",
+          "clue": "three new factories と資金に対する規模",
+          "options": [
+            699,
+            678,
+            663,
+            698
+          ]
+        },
+        {
+          "id": "699-5",
+          "sentence": "An _____ researcher, she aims to solve a problem that has challenged experts for decades.",
+          "translation": "野心的な研究者として彼女は専門家を何十年も悩ませた問題の解決を目指す。",
+          "clue": "solve a problem challenging experts と高い目標",
+          "options": [
+            699,
+            678,
+            663,
+            698
+          ]
+        }
+      ]
+    },
+    {
+      "id": 700,
+      "word": "caution",
+      "pos": "名詞",
+      "meaning": "用心、注意、警告",
+      "variants": [
+        {
+          "id": "700-1",
+          "sentence": "Use _____ when walking on the icy steps, as they are very slippery.",
+          "translation": "階段は凍って非常に滑るので注意して歩いてください。",
+          "clue": "icy と slippery が危険への注意",
+          "options": [
+            700,
+            657,
+            686,
+            660
+          ]
+        },
+        {
+          "id": "700-2",
+          "sentence": "The label advises _____ when opening the container because its contents are hot.",
+          "translation": "中身が熱いためラベルは開封時の注意を促している。",
+          "clue": "contents are hot とやけどへの用心",
+          "options": [
+            700,
+            657,
+            686,
+            660
+          ]
+        },
+        {
+          "id": "700-3",
+          "sentence": "We approached the unfamiliar animal with _____, keeping a safe distance.",
+          "translation": "安全な距離を保ち、知らない動物に用心して近づいた。",
+          "clue": "keeping a safe distance と慎重さ",
+          "options": [
+            700,
+            657,
+            686,
+            660
+          ]
+        },
+        {
+          "id": "700-4",
+          "sentence": "Exercise _____ before clicking links from an unknown sender.",
+          "translation": "知らない送信者のリンクを押す前に用心してください。",
+          "clue": "unknown sender と慎重な判断",
+          "options": [
+            700,
+            657,
+            686,
+            660
+          ]
+        },
+        {
+          "id": "700-5",
+          "sentence": "A word of _____: the final train leaves earlier on Sundays.",
+          "translation": "注意点として、日曜日の終電は早く出ます。",
+          "clue": "A word of と相手に知らせる注意",
+          "options": [
+            700,
+            657,
+            686,
+            660
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -2,7 +2,7 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
 import {validateData,freshState,makeTest,chooseVariant,markShown} from '../context-core.js';
-for(const [start,file] of [[551,'context-data.json'],[601,'context-data-601-650.json']]){
+for(const [start,file] of [[551,'context-data.json'],[601,'context-data-601-650.json'],[651,'context-data-651-700.json']]){
  const data=JSON.parse(readFileSync(new URL('../'+file,import.meta.url)));
  test('context range '+start+': 50 words, 250 sentences, choices stay in range',()=>{
   const words=validateData(data);
